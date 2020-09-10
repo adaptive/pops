@@ -1,0 +1,59 @@
+{
+  "name": "@adaptivelink/pops",
+  "version": "0.1.1",
+  "description": "Points of Presence geolocation",
+  "main": "dist/bundle.js",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaptive/pops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adaptive/pops/issues"
+  },
+  "author": "Hugo Romano <adaptive@hey.com>",
+  "license": "MIT",
+  "keywords": [
+    "pops",
+    "cdn",
+    "alibaba",
+    "arubacloud",
+    "atlanticnet",
+    "azurecdn",
+    "bunnycdn",
+    "cloudflare",
+    "cloudfront",
+    "digitalocean",
+    "fastly",
+    "googlecdn",
+    "hetzner",
+    "imperva",
+    "ionos",
+    "keycdn",
+    "leapswitch",
+    "lightsail",
+    "linode",
+    "mnx",
+    "ovh",
+    "scaleaway",
+    "stackpath",
+    "upcloud",
+    "vultr"
+  ],
+  "private": false,
+  "devDependencies": {
+    "lodash": "4.17.20",
+    "prettier": "2.1.1",
+    "rollup": "2.26.11",
+    "rollup-plugin-terser": "7.0.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prebuild": "prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
+    "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
+    "validate": "node ./tools/validator.js"
+  }
+}
