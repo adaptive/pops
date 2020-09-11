@@ -1,5 +1,10 @@
-import PoPs from "../dist/bundle.min.js";
+import PoPs from "../dist/bundle.js";
 
-// const cloudflare = PoPs.all.length;
+/* Geolocation of Cloudflare PoPs */
+console.log(PoPs.cloudflare.geo);
 
-console.dir(JSON.stringify(PoPs.digitalocean.code));
+/* IATA code of Fastly PoPs */
+console.log(PoPs.fastly.code);
+
+/* Total of locations for AWS Lightsail Datacenters */
+console.log(PoPs.fastly.code.length);
