@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -40,6 +40,7 @@
     "lightsail",
     "linode",
     "mnx",
+    "netlify",
     "ovh",
     "scaleaway",
     "stackpath",

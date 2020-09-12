@@ -20,6 +20,7 @@ import leapswitch from "./providers/leapswitch.js";
 import lightsail from "./providers/lightsail.js";
 import linode from "./providers/linode.js";
 import mnx from "./providers/mnx.js";
+import netlify from "./providers/netlify.js";
 import ovh from "./providers/ovh.js";
 import scaleaway from "./providers/scaleaway.js";
 import stackpath from "./providers/stackpath.js";
@@ -49,6 +50,7 @@ const providers = {
   lightsail,
   linode,
   mnx,
+  netlify,
   ovh,
   scaleaway,
   stackpath,
