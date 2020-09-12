@@ -13,6 +13,7 @@ import googlecdn from "./providers/googlecdn.js";
 import hetzner from "./providers/hetzner.js";
 import imperva from "./providers/imperva.js";
 import ionos from "./providers/ionos.js";
+import kamatera from "./providers/kamatera.js";
 import keycdn from "./providers/keycdn.js";
 import leapswitch from "./providers/leapswitch.js";
 import lightsail from "./providers/lightsail.js";
@@ -39,6 +40,7 @@ const providers = {
   hetzner,
   imperva,
   ionos,
+  kamatera,
   keycdn,
   leapswitch,
   lightsail,
