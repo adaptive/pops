@@ -11,6 +11,7 @@ import cloudsigma from "./providers/cloudsigma.js";
 import digitalocean from "./providers/digitalocean.js";
 import fastly from "./providers/fastly.js";
 import googlecdn from "./providers/googlecdn.js";
+import heroku from "./providers/heroku.js";
 import hetzner from "./providers/hetzner.js";
 import imperva from "./providers/imperva.js";
 import ionos from "./providers/ionos.js";
@@ -41,6 +42,7 @@ const providers = {
   digitalocean,
   fastly,
   googlecdn,
+  heroku,
   hetzner,
   imperva,
   ionos,

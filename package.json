@@ -31,6 +31,7 @@
     "digitalocean",
     "fastly",
     "googlecdn",
+    "heroku",
     "hetzner",
     "imperva",
     "ionos",

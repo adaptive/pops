@@ -31,9 +31,9 @@ console.log(PoPs.fastly.code.length);
 
 /* Providers */
 ["adaptive", "alibaba", "arubacloud", "atlanticnet", "azurecdn", "bunnycdn", "cloudflare",
-"cloudfront", "cloudsigma", "digitalocean", "fastly", "googlecdn", "hetzner", "imperva", "ionos",
-"kamatera", "keycdn", "leapswitch", "lightsail", "linode", "mnx", "netlify", "ovh", "scaleaway",
-"stackpath", "upcloud", "vercel", "vultr"];
+"cloudfront", "cloudsigma", "digitalocean", "fastly", "googlecdn", "heroku", "hetzner", "imperva",
+"ionos", "kamatera", "keycdn", "leapswitch", "lightsail", "linode", "mnx", "netlify", "ovh",
+"scaleaway", "stackpath", "upcloud", "vercel", "vultr"];
 ```
 
 ### Supported CDNs and Hosting Providers
@@ -50,6 +50,7 @@ console.log(PoPs.fastly.code.length);
 *   DigitalOcean ```digitalocean```
 *   Fastly ```fastly```
 *   GoogleCDN ```googlecdn```
+*   Heroku ```heroku```
 *   Hetzner ```hetzner```
 *   Imperva ```imperva```
 *   Ionos ```ionos```
