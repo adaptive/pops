@@ -33,7 +33,7 @@ console.log(PoPs.fastly.code.length);
 ["adaptive", "alibaba", "arubacloud", "atlanticnet", "azurecdn", "bunnycdn", "cloudflare",
 "cloudfront", "cloudsigma", "digitalocean", "fastly", "googlecdn", "hetzner", "imperva", "ionos",
 "kamatera", "keycdn", "leapswitch", "lightsail", "linode", "mnx", "ovh", "scaleaway", "stackpath",
-"upcloud", "vultr"];
+"upcloud", "vercel", "vultr"];
 ```
 
 ### Supported CDNs and Hosting Providers
@@ -46,13 +46,15 @@ console.log(PoPs.fastly.code.length);
 *   Azurecdn ```azurecdn```
 *   Bunnycdn ```bunnycdn```
 *   Cloudflare ```cloudflare```
+*   CloudSigma ```cloudsigma```
 *   DigitalOcean ```digitalocean```
 *   Fastly ```fastly```
 *   GoogleCDN ```googlecdn```
 *   Hetzner ```hetzner```
 *   Imperva ```imperva```
 *   Ionos ```ionos```
-*   Keycdn ```keycdn```
+*   Kamatera ```kamatera```
+*   KeyCDN ```keycdn```
 *   LeapSwitch ```leapswitch```
 *   Linode ```linode```
 *   MNX ```mnx```
@@ -60,6 +62,7 @@ console.log(PoPs.fastly.code.length);
 *   Scaleaway ```scaleaway```
 *   Stackpath ```stackpath```
 *   Upcloud ```upcloud```
+*   Vercel ```vercel```
 *   Vultr ```vultr```
 
 ### Contribution

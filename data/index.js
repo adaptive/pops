@@ -24,6 +24,7 @@ import ovh from "./providers/ovh.js";
 import scaleaway from "./providers/scaleaway.js";
 import stackpath from "./providers/stackpath.js";
 import upcloud from "./providers/upcloud.js";
+import vercel from "./providers/vercel.js";
 import vultr from "./providers/vultr.js";
 
 const providers = {
@@ -52,6 +53,7 @@ const providers = {
   scaleaway,
   stackpath,
   upcloud,
+  vercel,
   vultr
 };
 
