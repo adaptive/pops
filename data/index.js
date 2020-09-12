@@ -7,6 +7,7 @@ import azurecdn from "./providers/azurecdn.js";
 import bunnycdn from "./providers/bunnycdn.js";
 import cloudflare from "./providers/cloudflare.js";
 import cloudfront from "./providers/cloudfront.js";
+import cloudsigma from "./providers/cloudsigma.js";
 import digitalocean from "./providers/digitalocean.js";
 import fastly from "./providers/fastly.js";
 import googlecdn from "./providers/googlecdn.js";
@@ -34,6 +35,7 @@ const providers = {
   bunnycdn,
   cloudflare,
   cloudfront,
+  cloudsigma,
   digitalocean,
   fastly,
   googlecdn,
