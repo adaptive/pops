@@ -6,7 +6,7 @@ updates:
     interval: daily
     time: "07:24"
   open-pull-requests-limit: 10
-  target-branch: master
+  target-branch: main
   assignees:
   - adaptive
 - package-ecosystem: "github-actions"
@@ -15,6 +15,6 @@ updates:
     interval: "daily"
     time: "07:24"
   open-pull-requests-limit: 10
-  target-branch: master
+  target-branch: main
   assignees:
   - adaptive
