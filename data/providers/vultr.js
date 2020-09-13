@@ -1,7 +1,6 @@
-/** Vultr
- *  https://www.vultr.com/
- */
 const vultr = {
+  name: "Vultr",
+  url: "https://www.vultr.com/",
   pops: [
     "AMS",
     "ATL",

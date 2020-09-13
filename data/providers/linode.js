@@ -1,7 +1,6 @@
-/** Linode
- *  https://www.linode.com/
- */
 const linode = {
+  name: "Linode",
+  url: "https://www.linode.com/",
   pops: [
     "ATL",
     "BOM",

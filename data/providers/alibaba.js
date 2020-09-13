@@ -1,7 +1,6 @@
-/** Alibaba Cloud
- *  https://www.alibabacloud.com/
- */
 const alibaba = {
+  name: "Alibaba Cloud",
+  url: "https://www.alibabacloud.com/",
   pops: [
     "BOM",
     "CGK",

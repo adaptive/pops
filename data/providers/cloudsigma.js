@@ -1,7 +1,6 @@
-/** CloudSigma
- *  https://www.cloudsigma.com
- */
 const cloudsigma = {
+  name: "CloudSigma",
+  url: "https://www.cloudsigma.com",
   pops: [
     "CRK",
     "DUB",

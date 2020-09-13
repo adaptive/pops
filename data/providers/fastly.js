@@ -1,7 +1,6 @@
-/** Fastly PoPs
- *  https://www.fastly.com
- */
 const fastly = {
+  name: "Fastly",
+  url: "https://www.fastly.com",
   pops: [
     "AKL",
     "AMS",

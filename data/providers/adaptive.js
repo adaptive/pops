@@ -1,7 +1,6 @@
-/** Adaptive Link Probes
- *  https://adaptive.link
- */
 const adaptive = {
+  name: "Adaptive Link",
+  url: "https://adaptive.link",
   pops: [
     "AMS",
     "BCN",

@@ -1,7 +1,6 @@
-/** AWS Cloudfront
- *  https://www.hetzner.com/cloud
- */
 const cloudfront = {
+  name: "AWS Cloudfront",
+  url: "https://aws.amazon.com/cloudfront/",
   pops: [
     "AMS",
     "ARN",

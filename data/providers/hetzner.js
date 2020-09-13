@@ -1,6 +1,7 @@
-/** Hetzner Cloud Service
- *  https://www.hetzner.com/cloud
- */
-const hetzner = { pops: ["HEL", "NUE", "ZPM"] };
+const hetzner = {
+  name: "Hetzner Cloud",
+  url: "https://www.hetzner.com/cloud",
+  pops: ["HEL", "NUE", "ZPM"]
+};
 
 export default hetzner;

@@ -1,7 +1,6 @@
-/** KeyCDN PoPs
- *  https://www.keycdn.com
- */
 const keycdn = {
+  name: "KeyCDN",
+  url: "https://www.keycdn.com/",
   pops: [
     "AKL",
     "AMS",

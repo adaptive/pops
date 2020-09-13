@@ -1,7 +1,6 @@
-/** Heroku
- *  https://www.heroku.com/
- */
 const heroku = {
+  name: "Heroku",
+  url: "https://www.heroku.com/",
   pops: ["DUB", "FRA", "IAD", "NRT", "PDX", "SYD"]
 };
 

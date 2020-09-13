@@ -1,7 +1,9 @@
-/** Google Cloud CDN
+/**
  *  https://cloud.google.com/cdn/docs/locations
  */
 const googlecdn = {
+  name: "Google Cloud CDN",
+  url: "https://cloud.google.com/cdn/",
   pops: [
     "AMS",
     "ARN",

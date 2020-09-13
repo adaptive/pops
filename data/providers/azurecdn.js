@@ -1,7 +1,6 @@
-/** Azure CDN
- *  https://adaptive.link
- */
 const azurecdn = {
+  name: "Azure CDN",
+  url: "https://azure.microsoft.com/en-us/services/cdn/",
   pops: [
     "AKL",
     "AMS",

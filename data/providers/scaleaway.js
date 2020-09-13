@@ -1,7 +1,6 @@
-/** Scaleway
- * https://www.scaleway.com/
- */
 const scaleaway = {
+  name: "Scaleway",
+  url: "https://www.scaleway.com/",
   pops: ["AMS", "CDG"]
 };
 

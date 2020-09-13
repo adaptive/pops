@@ -1,7 +1,6 @@
-/** Imperva PoPs
- *  https://www.imperva.com/
- */
 const imperva = {
+  name: "Imperva",
+  url: "https://www.imperva.com/",
   pops: [
     "AKL",
     "AMS",

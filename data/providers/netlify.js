@@ -1,8 +1,9 @@
-/** Netlify
- *  https://www.netlify.com/
+/**
  *  source: https://community.netlify.com/t/is-there-a-list-of-where-netlifys-cdn-pops-are-located/855
  */
 const netlify = {
+  name: "Netlify",
+  url: "https://www.netlify.com/",
   pops: [
     "BOM",
     "CMH",

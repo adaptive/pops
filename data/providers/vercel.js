@@ -1,7 +1,6 @@
-/** Vercel
- *  https://vercel.com/
- */
 const vercel = {
+  name: "Vercel",
+  url: "https://vercel.com/",
   pops: [
     "ARN",
     "BOM",

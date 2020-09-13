@@ -1,7 +1,6 @@
-/** Cloudflare PoPs
- *  https://www.cloudflare.com
- */
 const cloudflare = {
+  name: "Cloudflare",
+  url: "https://www.cloudflare.com",
   pops: [
     "ADL",
     "AKL",

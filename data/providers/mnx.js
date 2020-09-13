@@ -1,6 +1,3 @@
-/** MNX.io
- *  https://mnx.io/
- */
-const mnx = { pops: ["ORD"] };
+const mnx = { name: "MNX.io", url: "https://mnx.io/", pops: ["ORD"] };
 
 export default mnx;

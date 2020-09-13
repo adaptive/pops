@@ -1,7 +1,6 @@
-/** Aruba Cloud
- *  https://www.arubacloud.com/
- */
 const arubacloud = {
+  name: "Aruba Cloud",
+  url: "https://www.arubacloud.com/",
   pops: ["CDG", "FRA", "LHR", "MXP", "PRG", "QZO", "WAW"]
 };
 

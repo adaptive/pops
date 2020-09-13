@@ -1,7 +1,6 @@
-/** StackPath
- * https://www.stackpath.com/
- */
 const stackpath = {
+  name: "StackPath",
+  url: "https://www.stackpath.com/",
   pops: [
     "AMS",
     "ARN",

@@ -1,7 +1,6 @@
-/** CDN77
- *  https://www.cdn77.com/
- */
 const cdn77 = {
+  name: "CDN77",
+  url: "https://www.cdn77.com/",
   pops: [
     "AMS",
     "ARN",

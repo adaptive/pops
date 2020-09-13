@@ -1,7 +1,6 @@
-/** BunnyCDN
- *  https://bunnycdn.com/
- */
 const bunnycdn = {
+  name: "BunnyCDN",
+  url: "https://bunnycdn.com/",
   pops: [
     "ADL",
     "AKL",

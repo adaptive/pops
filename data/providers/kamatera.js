@@ -1,7 +1,6 @@
-/** Kamatera Express
- *  https://www.kamatera.com/express/
- */
 const kamatera = {
+  name: "Kamatera Express",
+  url: "https://www.kamatera.com/express/",
   pops: [
     "AMS",
     "DFW",

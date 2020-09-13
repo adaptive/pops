@@ -1,7 +1,6 @@
-/** AWS Lightsail
- * https://aws.amazon.com/lightsail/
- */
 const lightsail = {
+  name: "AWS Lightsail",
+  url: "https://aws.amazon.com/lightsail/",
   pops: [
     "BOM",
     "CDG",
