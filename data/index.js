@@ -5,6 +5,7 @@ import arubacloud from "./providers/arubacloud.js";
 import atlanticnet from "./providers/atlanticnet.js";
 import azurecdn from "./providers/azurecdn.js";
 import bunnycdn from "./providers/bunnycdn.js";
+import cdn77 from "./providers/cdn77.js";
 import cloudflare from "./providers/cloudflare.js";
 import cloudfront from "./providers/cloudfront.js";
 import cloudsigma from "./providers/cloudsigma.js";
@@ -37,6 +38,7 @@ const providers = {
   atlanticnet,
   azurecdn,
   bunnycdn,
+  cdn77,
   cloudflare,
   cloudfront,
   cloudsigma,
