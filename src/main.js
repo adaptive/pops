@@ -1,36 +1,29 @@
 import popsData from "../data/index.js";
 
 const PoPs = (() => {
-  const PoPs = { all: { code: [], geo: [] } };
+  const Output = {
+    all: {
+      code: Array.from(popsData.iata.keys()),
+      geo: Array.from(popsData.iata.values())
+    }
+  };
   const keys = Object.keys(popsData.providers);
   for (const key of keys) {
-    const map1 = new Map(
+    const map = new Map(
       [...popsData.iata].filter(([k]) =>
         popsData.providers[key].pops.includes(k)
       )
     );
-    PoPs[key] = { code: [], geo: [] };
-    for (let value of map1.values()) {
-      PoPs[key].geo.push(value);
+    Output[key] = { code: [], geo: [] };
+    for (let value of map.values()) {
+      Output[key].geo.push(value);
     }
-
-    for (let e of map1.keys()) {
-      PoPs[key].code.push(e);
-      PoPs.all.code.push(e);
+    for (let e of map.keys()) {
+      Output[key].code.push(e);
     }
-    PoPs[key].code = [...new Set(PoPs[key].code)].sort();
+    Output[key].code = [...new Set(Output[key].code)].sort();
   }
-
-  PoPs.all.code = [...new Set(PoPs.all.code)].sort();
-
-  const map2 = new Map(
-    [...popsData.iata].filter(([k]) => PoPs.all.code.includes(k))
-  );
-
-  for (let value of map2.values()) {
-    PoPs.all.geo.push(value);
-  }
-  return PoPs;
+  return Output;
 })();
 
 export default PoPs;
