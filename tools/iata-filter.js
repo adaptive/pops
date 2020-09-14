@@ -1,6 +1,5 @@
 import data from "../data/index.js";
 import iata from "../data/iata-unfiltered.js";
-//import _ from "lodash";
 
 const keys = Object.keys(data.providers);
 let pops = [];
