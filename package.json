@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -48,6 +48,7 @@
     "scaleaway",
     "stackpath",
     "upcloud",
+    "verizonmedia",
     "vercel",
     "vultr"
   ],

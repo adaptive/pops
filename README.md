@@ -35,7 +35,7 @@ console.log(PoPs.fastly.code.length);
 "cloudsigma", "digitalocean", "fastly", "gcore", "googlecdn", "heroku",
 "hetzner", "hostwinds", "imperva", "ionos", "kamatera", "keycdn",
 "leapswitch", "lightsail", "linode", "mnx", "netlify", "ovh","scaleaway",
-"stackpath", "upcloud", "vercel", "vultr"];
+"stackpath", "upcloud", "verizonmedia", "vercel", "vultr"];
 ```
 
 ### Supported CDNs and Hosting Providers
@@ -70,6 +70,7 @@ console.log(PoPs.fastly.code.length);
 *   Scaleaway ```scaleaway```
 *   Stackpath ```stackpath```
 *   Upcloud ```upcloud```
+*   Verizon Media ```verizonmedia```
 *   Vercel ```vercel```
 *   Vultr ```vultr```
 
