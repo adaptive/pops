@@ -3,3 +3,5 @@ data
 src
 examples
 rollup.config.js
+.github
+test
