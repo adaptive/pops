@@ -23,6 +23,7 @@ import kamatera from "./providers/kamatera.js";
 import keycdn from "./providers/keycdn.js";
 import leapswitch from "./providers/leapswitch.js";
 import lightsail from "./providers/lightsail.js";
+import limelight from "./providers/limelight.js";
 import linode from "./providers/linode.js";
 import mnx from "./providers/mnx.js";
 import netlify from "./providers/netlify.js";
@@ -59,6 +60,7 @@ const providers = {
   keycdn,
   leapswitch,
   lightsail,
+  limelight,
   linode,
   mnx,
   netlify,

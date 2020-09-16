@@ -34,8 +34,8 @@ console.log(PoPs.fastly.code.length);
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
 "cloudsigma", "digitalocean", "fastly", "gcore", "googlecdn", "heroku",
 "hetzner", "hostwinds", "imperva", "ionos", "kamatera", "keycdn",
-"leapswitch", "lightsail", "linode", "mnx", "netlify", "ovh","scaleaway",
-"stackpath", "upcloud", "verizonmedia", "vercel", "vultr"];
+"leapswitch", "lightsail", "limelight", "linode", "mnx", "netlify", "ovh",
+"scaleaway", "stackpath", "upcloud", "verizonmedia", "vercel", "vultr"];
 ```
 
 ### Supported CDNs and Hosting Providers
@@ -63,6 +63,7 @@ console.log(PoPs.fastly.code.length);
 *   Kamatera ```kamatera```
 *   KeyCDN ```keycdn```
 *   LeapSwitch ```leapswitch```
+*   Limelight Networks ```limelight```
 *   Linode ```linode```
 *   MNX ```mnx```
 *   Netlify ```netlify```
