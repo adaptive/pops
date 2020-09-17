@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -55,6 +55,7 @@
   ],
   "private": false,
   "devDependencies": {
+    "@adaptivelink/iata": "0.0.2",
     "lodash": "4.17.20",
     "prettier": "2.1.2",
     "rollup": "2.27.0",
