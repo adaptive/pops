@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/adaptive/pops/issues"
   },
+  "homepage": "https://github.com/adaptive/pops#readme",
   "author": "Hugo Romano <adaptive@hey.com>",
   "license": "MIT",
   "keywords": [
