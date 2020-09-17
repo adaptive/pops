@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@adaptivelink/iata@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@adaptivelink/iata/-/iata-0.0.2.tgz#19c3b3c0f901374fd747fe1be016a3017363ea36"
-  integrity sha512-6I91LB9r50RjdS9vZaJMXb+bxwUQKt93M2zzoGugfKe9a2wzNIloovAUIrI++Z84rxOBOuk9eGD0RlsdZ/cyjg==
+"@adaptivelink/iata@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@adaptivelink/iata/-/iata-0.0.3.tgz#d4b18e29d2e5dc8bac4f3cf90c84fb06fcd4d0cb"
+  integrity sha512-ji0g7Lol5zno6b0hsxdNPyzrFPYtfBBWKqDmkaL9yXOr1HTiXDifelpj0N5OwkVvLLkqbn6EfVNbYiWyG9fmPg==
 
 "@babel/code-frame@^7.10.4":
   version "7.10.4"
