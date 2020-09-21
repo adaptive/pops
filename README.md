@@ -32,10 +32,11 @@ console.log(PoPs.fastly.code.length);
 /* Providers */
 ["adaptive", "alibaba", "arubacloud", "atlanticnet", "azurecdn",
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
-"cloudsigma", "digitalocean", "fastly", "gcore", "googlecdn", "heroku",
-"hetzner", "hostwinds", "imperva", "ionos", "kamatera", "keycdn",
-"leapswitch", "lightsail", "limelight", "linode", "mnx", "netlify", "ovh",
-"scaleaway", "stackpath", "upcloud", "verizonmedia", "vercel", "vultr"];
+"cloudsigma", "digitalocean", "equinix", "fastly", "gcore", "googlecdn",
+"heroku", "hetzner", "hostwinds", "imperva", "ionos", "kamatera",
+"keycdn", "leapswitch", "lightsail", "limelight", "linode", "mnx",
+"netlify", "ovh", "packet", "scaleaway", "stackpath", "upcloud",
+"verizonmedia", "vercel", "vultr"];
 ```
 
 ### Supported CDNs and Hosting Providers
@@ -52,6 +53,7 @@ console.log(PoPs.fastly.code.length);
 *   Cloudflare ```cloudflare```
 *   CloudSigma ```cloudsigma```
 *   DigitalOcean ```digitalocean```
+*   Equinix ```equinix```
 *   Fastly ```fastly```
 *   G-Core Labs ```gcore```
 *   GoogleCDN ```googlecdn```
@@ -68,6 +70,7 @@ console.log(PoPs.fastly.code.length);
 *   MNX ```mnx```
 *   Netlify ```netlify```
 *   OVH ```ovh```
+*   Packet ```packet```
 *   Scaleaway ```scaleaway```
 *   Stackpath ```stackpath```
 *   Upcloud ```upcloud```

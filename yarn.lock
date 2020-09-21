@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@adaptivelink/iata@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@adaptivelink/iata/-/iata-0.0.3.tgz#d4b18e29d2e5dc8bac4f3cf90c84fb06fcd4d0cb"
-  integrity sha512-ji0g7Lol5zno6b0hsxdNPyzrFPYtfBBWKqDmkaL9yXOr1HTiXDifelpj0N5OwkVvLLkqbn6EfVNbYiWyG9fmPg==
+"@adaptivelink/iata@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@adaptivelink/iata/-/iata-0.0.4.tgz#0778d9ec9ba6ab4c60030b1d3eb128461ff4cafe"
+  integrity sha512-2QPkSKzbmr3rF2fjpDhBq4YYmufkMUj4BZDTEqXDfFQAMQu3nUBS7RiNLLH06K1DZdn8alguixVMK6njI1MO5g==
 
 "@babel/code-frame@^7.10.4":
   version "7.10.4"
@@ -29,9 +29,9 @@
     js-tokens "^4.0.0"
 
 "@types/node@*":
-  version "14.10.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.10.3.tgz#5ae1f119c96643fc9b19b2d1a83bfa2ec3dbb7ea"
-  integrity sha512-zdN0hor7TLkjAdKTnYW+Y22oIhUUpil5ZD1V1OFq0CR0CLKw+NdR6dkziTfkWRLo6sKzisayoj/GNpNbe4LY9Q==
+  version "14.11.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.1.tgz#56af902ad157e763f9ba63d671c39cda3193c835"
+  integrity sha512-oTQgnd0hblfLsJ6BvJzzSL+Inogp3lq9fGgqRkMB/ziKMgEUaFl801OncOzUmalfzt14N0oPHMK47ipl+wbTIw==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -184,9 +184,9 @@ supports-color@^7.0.0:
     has-flag "^4.0.0"
 
 terser@^5.0.0:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.1.tgz#f50fe20ab48b15234fe9bdd86b10148ad5fca787"
-  integrity sha512-yD80f4hdwCWTH5mojzxe1q8bN1oJbsK/vfJGLcPZM/fl+/jItIVNKhFIHqqR71OipFWMLgj3Kc+GIp6CeIqfnA==
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.2.tgz#f4bea90eb92945b2a028ceef79181b9bb586e7af"
+  integrity sha512-H67sydwBz5jCUA32ZRL319ULu+Su1cAoZnnc+lXnenGRYWyLE3Scgkt8mNoAsMx0h5kdo758zdoS0LG9rYZXDQ==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"

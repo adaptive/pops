@@ -11,6 +11,7 @@ import cloudflare from "./providers/cloudflare.js";
 import cloudfront from "./providers/cloudfront.js";
 import cloudsigma from "./providers/cloudsigma.js";
 import digitalocean from "./providers/digitalocean.js";
+import equinix from "./providers/equinix.js";
 import fastly from "./providers/fastly.js";
 import gcore from "./providers/gcore.js";
 import googlecdn from "./providers/googlecdn.js";
@@ -49,6 +50,7 @@ const providers = {
   cloudfront,
   cloudsigma,
   digitalocean,
+  equinix,
   fastly,
   gcore,
   googlecdn,
