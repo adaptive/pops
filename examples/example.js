@@ -8,3 +8,6 @@ console.log(PoPs.fastly.code);
 
 /* Total of locations for AWS Lightsail Datacenters */
 console.log(PoPs.fastly.code.length);
+
+/* Providers in Madrid */
+console.log(PoPs.MAD);

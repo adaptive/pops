@@ -20,6 +20,10 @@ const PoPs = (() => {
     }
     for (let e of map.keys()) {
       Output[key].code.push(e);
+      if (Output[e] === undefined) {
+        Output[e] = [];
+      }
+      Output[e].push(key);
     }
     Output[key].code = [...new Set(Output[key].code)].sort();
   }
