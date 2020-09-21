@@ -29,6 +29,9 @@ console.log(PoPs.fastly.code);
 /* Total of locations for AWS Lightsail Datacenters */
 console.log(PoPs.fastly.code.length);
 
+/* Providers in Madrid */
+console.log(PoPs.MAD);
+
 /* Providers */
 ["adaptive", "alibaba", "arubacloud", "atlanticnet", "azurecdn",
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
