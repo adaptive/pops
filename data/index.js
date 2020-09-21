@@ -28,6 +28,7 @@ import linode from "./providers/linode.js";
 import mnx from "./providers/mnx.js";
 import netlify from "./providers/netlify.js";
 import ovh from "./providers/ovh.js";
+import packet from "./providers/packet.js";
 import scaleaway from "./providers/scaleaway.js";
 import stackpath from "./providers/stackpath.js";
 import upcloud from "./providers/upcloud.js";
@@ -65,6 +66,7 @@ const providers = {
   mnx,
   netlify,
   ovh,
+  packet,
   scaleaway,
   stackpath,
   upcloud,
