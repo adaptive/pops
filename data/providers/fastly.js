@@ -4,7 +4,6 @@ const fastly = {
   pops: [
     "AKL",
     "AMS",
-    "ATL",
     "BMA",
     "BNE",
     "BOG",
@@ -39,7 +38,6 @@ const fastly = {
     "IAH",
     "ITM",
     "JAX",
-    "JFK",
     "JNB",
     "LAX",
     "LCY",
