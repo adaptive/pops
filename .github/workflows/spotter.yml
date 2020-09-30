@@ -37,3 +37,5 @@ jobs:
       run: node tools/spotters/stackpath.js
     - name: Engage Packet
       run: node tools/spotters/packet.js
+    - name: Engage KeyCDN
+      run: node tools/spotters/keycdn.js
