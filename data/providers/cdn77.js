@@ -27,7 +27,6 @@ const cdn77 = {
     "MXP",
     "NRT",
     "ORD",
-    "OTP",
     "PRG",
     "SEA",
     "SIN",
