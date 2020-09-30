@@ -78,7 +78,7 @@ console.log(PoPs.MAD);
 *   Stackpath ```stackpath```
 *   Upcloud ```upcloud```
 *   Verizon Media ```verizonmedia```
-*   Vercel ```vercel```
+*   Vercel ```vercel``` 🕵️
 *   Vultr ```vultr```
 
 ### Spotters 🕵️
