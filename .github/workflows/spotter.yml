@@ -35,3 +35,5 @@ jobs:
       run: node tools/spotters/upcloud.js
     - name: Engage StackPath
       run: node tools/spotters/stackpath.js
+    - name: Engage Packet
+      run: node tools/spotters/packet.js
