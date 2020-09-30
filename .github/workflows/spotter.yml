@@ -31,3 +31,5 @@ jobs:
       run: node tools/spotters/fastly.js
     - name: Engage Vercel
       run: node tools/spotters/vercel.js
+    - name: Engage UpCloud
+      run: node tools/spotters/upcloud.js
