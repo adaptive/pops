@@ -53,11 +53,11 @@ console.log(PoPs.MAD);
 *   Bunnycdn ```bunnycdn```
 *   CacheFly ```cachefly```
 *   CDN77 ```cdn77```
-*   Cloudflare ```cloudflare```
+*   Cloudflare ```cloudflare``` 🕵️
 *   CloudSigma ```cloudsigma```
 *   DigitalOcean ```digitalocean```
 *   Equinix ```equinix```
-*   Fastly ```fastly```
+*   Fastly ```fastly``` 🕵️
 *   G-Core Labs ```gcore```
 *   GoogleCDN ```googlecdn```
 *   Heroku ```heroku```
@@ -80,6 +80,10 @@ console.log(PoPs.MAD);
 *   Verizon Media ```verizonmedia```
 *   Vercel ```vercel```
 *   Vultr ```vultr```
+
+### Spotters 🕵️
+
+Spotters are scheduled GitHub Actions that continuously monitor CDNs and Hosting Providers points of presence locations and cross-reference with this module data.
 
 ### Contribution
 
