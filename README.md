@@ -75,7 +75,7 @@ console.log(PoPs.MAD);
 *   OVH ```ovh```
 *   Packet ```packet```
 *   Scaleaway ```scaleaway```
-*   Stackpath ```stackpath```
+*   Stackpath ```stackpath``` 🕵️
 *   Upcloud ```upcloud``` 🕵️
 *   Verizon Media ```verizonmedia```
 *   Vercel ```vercel``` 🕵️

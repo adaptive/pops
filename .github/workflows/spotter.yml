@@ -33,3 +33,5 @@ jobs:
       run: node tools/spotters/vercel.js
     - name: Engage UpCloud
       run: node tools/spotters/upcloud.js
+    - name: Engage StackPath
+      run: node tools/spotters/stackpath.js
