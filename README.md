@@ -52,7 +52,7 @@ console.log(PoPs.MAD);
 *   Azurecdn ```azurecdn```
 *   Bunnycdn ```bunnycdn```
 *   CacheFly ```cachefly```
-*   CDN77 ```cdn77```
+*   CDN77 ```cdn77``` 🕵️
 *   Cloudflare ```cloudflare``` 🕵️
 *   CloudSigma ```cloudsigma```
 *   DigitalOcean ```digitalocean``` 🕵️
