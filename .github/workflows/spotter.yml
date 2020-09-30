@@ -26,6 +26,6 @@ jobs:
     - name: Yarn Install
       run: yarn
     - name: Engage Cloudflare
-      run: node tools/spotter-cloudflare.js
+      run: node tools/spotters/cloudflare.js
     - name: Engage Fastly
-      run: node tools/spotter-fastly.js
+      run: node tools/spotters/fastly.js
