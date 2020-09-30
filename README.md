@@ -55,7 +55,7 @@ console.log(PoPs.MAD);
 *   CDN77 ```cdn77```
 *   Cloudflare ```cloudflare``` 🕵️
 *   CloudSigma ```cloudsigma```
-*   DigitalOcean ```digitalocean```
+*   DigitalOcean ```digitalocean``` 🕵️
 *   Equinix ```equinix```
 *   Fastly ```fastly``` 🕵️
 *   G-Core Labs ```gcore```

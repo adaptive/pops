@@ -39,3 +39,5 @@ jobs:
       run: node tools/spotters/packet.js
     - name: Engage KeyCDN
       run: node tools/spotters/keycdn.js
+    - name: Engage DigitalOcean
+      run: node tools/spotters/digitalocean.js
