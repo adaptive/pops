@@ -47,7 +47,7 @@ console.log(PoPs.MAD);
 *   Alibaba ```alibaba```
 *   Arubacloud ```arubacloud```
 *   AWS Cloudfront ```cloudfront```
-*   AWS Lightsail ```lightsail```
+*   AWS Lightsail ```lightsail``` 🕵️
 *   Atlanticnet ```atlanticnet```
 *   Azurecdn ```azurecdn```
 *   Bunnycdn ```bunnycdn```
