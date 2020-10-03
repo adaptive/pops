@@ -45,3 +45,5 @@ jobs:
       run: node tools/spotters/cdn77.js
     - name: Engage AWS LightSail
       run: node tools/spotters/lightsail.js
+    - name: Engage AWS EC2
+      run: node tools/spotters/ec2.js

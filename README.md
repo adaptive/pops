@@ -35,10 +35,10 @@ console.log(PoPs.MAD);
 /* Providers */
 ["adaptive", "alibaba", "arubacloud", "atlanticnet", "azurecdn",
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
-"cloudsigma", "digitalocean", "equinix", "fastly", "gcore", "googlecdn",
-"heroku", "hetzner", "hostwinds", "imperva", "ionos", "kamatera",
-"keycdn", "leapswitch", "lightsail", "limelight", "linode", "mnx",
-"netlify", "ovh", "packet", "scaleaway", "stackpath", "upcloud",
+"cloudsigma", "digitalocean", "equinix", "ec2", "fastly", "gcore",
+"googlecdn", "heroku", "hetzner", "hostwinds", "imperva", "ionos",
+"kamatera", "keycdn", "leapswitch", "lightsail", "limelight", "linode",
+"mnx", "netlify", "ovh", "packet", "scaleaway", "stackpath", "upcloud",
 "verizonmedia", "vercel", "vultr"];
 ```
 
@@ -47,6 +47,7 @@ console.log(PoPs.MAD);
 *   Alibaba ```alibaba```
 *   Arubacloud ```arubacloud```
 *   AWS Cloudfront ```cloudfront```
+*   AWS EC2 ```ec2``` 🕵️
 *   AWS Lightsail ```lightsail``` 🕵️
 *   Atlanticnet ```atlanticnet```
 *   Azurecdn ```azurecdn```
