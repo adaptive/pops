@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import upcloud from "../../data/providers/upcloud.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/upcloud.js";
+
+const asset = "upcloud";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -46,13 +49,13 @@ spotter()
     })
   )
   .then(extracted => {
-    if (_.isEqual(extracted.sort(), upcloud.pops)) {
-      console.log("upcloud:success", extracted.length - upcloud.pops.length);
+    if (_.isEqual(extracted.sort(), provider.pops)) {
+      console.log(`${asset}:success`, extracted.length - provider.pops.length);
     } else {
+      toTelegram(asset);
       console.log(
-        "upcloud:error",
-        extracted.filter(e => !upcloud.pops.includes(e))
+        `${asset}:fail`,
+        extracted.filter(e => !provider.pops.includes(e))
       );
-      throw new Error("Possible new PoP");
     }
   });

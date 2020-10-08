@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import keycdn from "../../data/providers/keycdn.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/keycdn.js";
+
+const asset = "keycdn";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -18,10 +21,10 @@ spotter()
   .then(value => value.match(/\b[a-z]{4}\b/gm))
   .then(x => x.filter(e => !["span", "code", "text"].includes(e)))
   .then(x => {
-    if (x.length === keycdn.pops.length) {
-      console.log("keycdn:success");
+    if (x.length === provider.pops.length) {
+      console.log("provider:success");
     } else {
-      console.log("keycdn:error");
-      throw new Error("Possible new PoP");
+      toTelegram(asset);
+      console.log("provider:error");
     }
   });

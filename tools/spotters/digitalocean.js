@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import digitalocean from "../../data/providers/digitalocean.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/digitalocean.js";
+
+const asset = "digitalocean";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -46,16 +49,16 @@ spotter()
     })
   )
   .then(extracted => {
-    if (_.isEqual(extracted.sort(), digitalocean.pops)) {
-      console.log("digitalocean:success");
+    if (_.isEqual(extracted.sort(), provider.pops)) {
+      console.log(`${asset}:success`);
     } else {
+      toTelegram(asset);
       console.log(
-        "digitalocean:error",
+        `${asset}:fail`,
         extracted.filter(
-          e => !digitalocean.pops.includes(e),
-          digitalocean.pops.filter(e => !extracted.includes(e))
+          e => !provider.pops.includes(e),
+          provider.pops.filter(e => !extracted.includes(e))
         )
       );
-      throw new Error("Possible new PoP");
     }
   });

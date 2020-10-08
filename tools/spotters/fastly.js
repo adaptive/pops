@@ -1,10 +1,9 @@
 import _ from "lodash";
-import fetch from "isomorphic-fetch";
 import puppeteer from "puppeteer";
-import fastly from "../../data/providers/fastly.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/fastly.js";
 
-const user = process.env.TELEGRAM_USER
-const token = process.env.TELEGRAM_TOKEN;
+const asset = "fastly";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -23,7 +22,7 @@ spotter()
   .then(a =>
     a.map(x => {
       // hardcoding LON to LGW
-      if (x === "LON") return "LGWA";
+      if (x === "LON") return "LGW";
       else return x;
     })
   )
@@ -35,22 +34,13 @@ spotter()
     })
   )
   .then(extracted => {
-    if (_.isEqual(extracted.sort(), fastly.pops)) {
-      console.log("fastly:success", extracted.length - fastly.pops.length);
+    if (_.isEqual(extracted.sort(), provider.pops)) {
+      console.log(`${asset}:success`, extracted.length - provider.pops.length);
     } else {
-      fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          chat_id: user,
-          text: `🕵️ fastly`
-        })
-      });
+      toTelegram(asset);
       console.log(
-        "fastly:error",
-        extracted.filter(e => !fastly.pops.includes(e))
+        `${asset}:fail`,
+        extracted.filter(e => !provider.pops.includes(e))
       );
     }
   });

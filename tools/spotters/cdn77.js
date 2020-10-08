@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import cdn77 from "../../data/providers/cdn77.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/cdn77.js";
+
+const asset = "cdn77";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -13,10 +16,10 @@ const spotter = async () => {
 spotter()
   .then(value => value.match(/\bbox-status__item\b/gm))
   .then(extracted => {
-    if (extracted.length === cdn77.pops.length) {
-      console.log("cdn77:success");
+    if (extracted.length === provider.pops.length) {
+      console.log(`${asset}:success`);
     } else {
-      console.log("cdn77:error");
-      throw new Error("Possible new PoP");
+      toTelegram(asset);
+      console.log(`${asset}:fail`);
     }
   });

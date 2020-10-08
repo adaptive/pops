@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import lightsail from "../../data/providers/lightsail.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/lightsail.js";
+
+const asset = "lightsail";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -17,10 +20,10 @@ spotter()
   .then(value => value.match(/[a-z]{2}-[a-z]+-[1-9]{1}/gm))
   .then(x => _.uniq(x))
   .then(extracted => {
-    if (extracted.length === lightsail.pops.length) {
-      console.log("lightsail:success");
+    if (extracted.length === provider.pops.length) {
+      console.log(`${asset}:success`);
     } else {
-      console.log("lightsail:error");
-      throw new Error("Possible new PoP");
+      toTelegram(asset);
+      console.log(`${asset}:fail`);
     }
   });

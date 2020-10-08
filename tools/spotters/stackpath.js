@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import stackpath from "../../data/providers/stackpath.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/stackpath.js";
+
+const asset = "stackpath";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -17,10 +20,10 @@ const spotter = async () => {
 spotter()
   .then(value => value.match(/\b[A-Z]{2}\s[-]/gm))
   .then(x => {
-    if (x.length - 2 === stackpath.pops.length) {
-      console.log("stackpath:success");
+    if (x.length - 2 === provider.pops.length) {
+      console.log(`${asset}:success`);
     } else {
-      console.log("stackpath:error");
-      throw new Error("Possible new PoP");
+      toTelegram(asset);
+      console.log(`${asset}:fail`);
     }
   });

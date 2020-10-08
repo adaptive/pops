@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import ec2 from "../../data/providers/ec2.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/ec2.js";
+
+const asset = "ec2";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -20,10 +23,10 @@ spotter()
   .then(value => value.match(/[a-z]{2}-[a-z]+-[1-9]{1}/gm))
   .then(x => _.uniq(x))
   .then(extracted => {
-    if (extracted.length === ec2.pops.length) {
-      console.log("ec2:success");
+    if (extracted.length === provider.pops.length) {
+      console.log(`${asset}:success`);
     } else {
-      console.log("ec2:error");
-      throw new Error("Possible new PoP");
+      toTelegram(asset);
+      console.log(`${asset}:fail`);
     }
   });

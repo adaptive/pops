@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import packet from "../../data/providers/packet.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/packet.js";
+
+const asset = "packet";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -20,16 +23,16 @@ spotter()
   .then(x => x.concat(["MRS"]))
   .then(x => _.uniq(x).sort())
   .then(extracted => {
-    if (_.isEqual(extracted, packet.pops)) {
-      console.log("packet:success");
+    if (_.isEqual(extracted, provider.pops)) {
+      console.log(`${asset}:success`);
     } else {
+      toTelegram(asset);
       console.log(
-        "packet:error",
+        `${asset}:fail`,
         extracted.filter(
-          e => !packet.pops.includes(e),
-          packet.pops.filter(e => !extracted.includes(e))
+          e => !provider.pops.includes(e),
+          provider.pops.filter(e => !extracted.includes(e))
         )
       );
-      throw new Error("Possible new PoP");
     }
   });

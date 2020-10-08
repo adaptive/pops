@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import vercel from "../../data/providers/vercel.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/vercel.js";
+
+const asset = "vercel";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -19,13 +22,13 @@ spotter()
   .then(a => a.map(x => x.toUpperCase()))
   .then(a => a.filter(x => x !== "DEV"))
   .then(extracted => {
-    if (_.isEqual(extracted.sort(), vercel.pops)) {
-      console.log("vercel:success", extracted.length - vercel.pops.length);
+    if (_.isEqual(extracted.sort(), provider.pops)) {
+      console.log(`${asset}:success`, extracted.length - provider.pops.length);
     } else {
+      toTelegram(asset);
       console.log(
-        "vercel:error",
-        extracted.filter(e => !vercel.pops.includes(e))
+        `${asset}:fail`,
+        extracted.filter(e => !provider.pops.includes(e))
       );
-      throw new Error("Possible new PoP");
     }
   });

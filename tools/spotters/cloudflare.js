@@ -1,6 +1,9 @@
 import _ from "lodash";
 import puppeteer from "puppeteer";
-import cloudflare from "../../data/providers/cloudflare.js";
+import toTelegram from "./lib/telegram.js";
+import provider from "../../data/providers/cloudflare.js";
+
+const asset = "cloudflare";
 
 const spotter = async () => {
   const browser = await puppeteer.launch();
@@ -24,16 +27,13 @@ spotter()
     })
   )
   .then(extracted => {
-    if (_.isEqual(extracted.sort(), cloudflare.pops)) {
-      console.log(
-        "Cloudflare:success",
-        extracted.length - cloudflare.pops.length
-      );
+    if (_.isEqual(extracted.sort(), provider.pops)) {
+      console.log(`${asset}:success`, extracted.length - provider.pops.length);
     } else {
+      toTelegram(asset);
       console.log(
-        "Cloudflare:error",
-        extracted.filter(e => !cloudflare.pops.includes(e))
+        `${asset}:fail`,
+        extracted.filter(e => !provider.pops.includes(e))
       );
-      throw new Error("Possible new PoP");
     }
   });
