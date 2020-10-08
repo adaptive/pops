@@ -59,7 +59,7 @@
   "private": false,
   "devDependencies": {
     "@adaptivelink/iata": "0.0.4",
-    "isomorphic-fetch": "^3.0.0",
+    "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.20",
     "prettier": "2.1.2",
     "puppeteer": "5.3.1",
@@ -71,6 +71,6 @@
     "prebuild": "prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
     "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "node ./tools/validator.js",
-    "test": "node test/index.test.js"
+    "test": "node ./test/index.test.js"
   }
 }
