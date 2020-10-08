@@ -27,6 +27,9 @@ jobs:
       run: yarn
     - name: Engage Cloudflare
       run: node tools/spotters/cloudflare.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage Fastly
       run: node tools/spotters/fastly.js
       env:
@@ -34,19 +37,46 @@ jobs:
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage Vercel
       run: node tools/spotters/vercel.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage UpCloud
       run: node tools/spotters/upcloud.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage StackPath
       run: node tools/spotters/stackpath.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage Packet
       run: node tools/spotters/packet.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage KeyCDN
       run: node tools/spotters/keycdn.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage DigitalOcean
       run: node tools/spotters/digitalocean.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage CDN77
       run: node tools/spotters/cdn77.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage AWS LightSail
       run: node tools/spotters/lightsail.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage AWS EC2
       run: node tools/spotters/ec2.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
