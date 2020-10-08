@@ -29,6 +29,9 @@ jobs:
       run: node tools/spotters/cloudflare.js
     - name: Engage Fastly
       run: node tools/spotters/fastly.js
+      env:
+        TELEGRAM_USER: ${{ secrets.TELEGRAM_USER }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     - name: Engage Vercel
       run: node tools/spotters/vercel.js
     - name: Engage UpCloud
