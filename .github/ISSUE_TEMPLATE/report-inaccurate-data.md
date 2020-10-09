@@ -3,7 +3,7 @@ name: "\U0001F50D Report Inaccurate Data"
 about: Create a report for inaccurate data
 title: "[DATA]"
 labels: ''
-assignees: ''
+assignees: 'adaptive'
 
 ---
 
