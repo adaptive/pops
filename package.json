@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -71,6 +71,7 @@
     "prebuild": "prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
     "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "node ./tools/validator.js",
-    "test": "node ./test/index.test.js"
+    "test": "node ./test/index.test.js",
+    "spotters": "cd ./tools/spotters/ && node cdn77.js && node cloudflare.js && node digitalocean.js && node ec2.js && node fastly.js && node keycdn.js && node lightsail.js && node packet.js && node stackpath.js && node upcloud.js && node vercel.js"
   }
 }
