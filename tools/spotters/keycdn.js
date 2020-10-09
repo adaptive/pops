@@ -22,9 +22,9 @@ spotter()
   .then(x => x.filter(e => !["span", "code", "text"].includes(e)))
   .then(x => {
     if (x.length === provider.pops.length) {
-      console.log("provider:success");
+      console.log(`${asset}:success`);
     } else {
       toTelegram(asset);
-      console.log("provider:error");
+      console.log(`${asset}:fail`);
     }
   });
