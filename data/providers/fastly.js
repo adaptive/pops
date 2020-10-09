@@ -43,6 +43,7 @@ const fastly = {
     "LCY",
     "LEE",
     "LGA",
+    "LGB",
     "LGW",
     "LHR",
     "MAA",
