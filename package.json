@@ -59,6 +59,7 @@
   "private": false,
   "devDependencies": {
     "@adaptivelink/iata": "0.0.4",
+    "concurrently": "5.3.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.20",
     "prettier": "2.1.2",
@@ -72,6 +73,17 @@
     "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "node ./tools/validator.js",
     "test": "node ./test/index.test.js",
-    "spotters": "cd ./tools/spotters/ && node cdn77.js && node cloudflare.js && node digitalocean.js && node ec2.js && node fastly.js && node keycdn.js && node lightsail.js && node packet.js && node stackpath.js && node upcloud.js && node vercel.js"
+    "spotter-cdn77": "node ./tools/spotters/cdn77.js",
+    "spotter-cloudflare": "node ./tools/spotters/cloudflare.js",
+    "spotter-digitalocean": "node ./tools/spotters/digitalocean.js",
+    "spotter-ec2": "node ./tools/spotters/ec2.js",
+    "spotter-fastly": "node ./tools/spotters/fastly.js",
+    "spotter-keycdn": "node ./tools/spotters/keycdn.js",
+    "spotter-lightsail": "node ./tools/spotters/lightsail.js",
+    "spotter-packet": "node ./tools/spotters/packet.js",
+    "spotter-stackpath": "node ./tools/spotters/stackpath.js",
+    "spotter-upcloud": "node ./tools/spotters/upcloud.js",
+    "spotter-vercel": "node ./tools/spotters/vercel.js",
+    "spotters": "concurrently \"yarn:spotter-*\""
   }
 }
