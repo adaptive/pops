@@ -10,6 +10,7 @@ const adaptive = {
     "CMH",
     "DUB",
     "FRA",
+    "GRU",
     "HEL",
     "ICN",
     "JFK",
