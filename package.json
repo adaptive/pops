@@ -78,6 +78,7 @@
     "spotter-digitalocean": "node ./tools/spotters/digitalocean.js",
     "spotter-ec2": "node ./tools/spotters/ec2.js",
     "spotter-fastly": "node ./tools/spotters/fastly.js",
+    "spotter-imperva": "node ./tools/spotters/imperva.js",
     "spotter-keycdn": "node ./tools/spotters/keycdn.js",
     "spotter-lightsail": "node ./tools/spotters/lightsail.js",
     "spotter-packet": "node ./tools/spotters/packet.js",
