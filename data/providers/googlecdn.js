@@ -3,7 +3,7 @@
  */
 const googlecdn = {
   name: "Google Cloud CDN",
-  url: "https://cloud.google.com/cdn/",
+  url: "https://cloud.google.com/cdn",
   pops: [
     "AMS",
     "ARN",

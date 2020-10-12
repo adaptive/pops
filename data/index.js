@@ -16,6 +16,7 @@ import ec2 from "./providers/ec2.js";
 import fastly from "./providers/fastly.js";
 import gcore from "./providers/gcore.js";
 import googlecdn from "./providers/googlecdn.js";
+import googlecompute from "./providers/googlecompute.js";
 import heroku from "./providers/heroku.js";
 import hetzner from "./providers/hetzner.js";
 import hostwinds from "./providers/hostwinds.js";
@@ -56,6 +57,7 @@ const providers = {
   fastly,
   gcore,
   googlecdn,
+  googlecompute,
   heroku,
   hetzner,
   hostwinds,

@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -34,7 +34,7 @@
     "digitalocean",
     "equinix",
     "fastly",
-    "googlecdn",
+    "google",
     "heroku",
     "hetzner",
     "hostwinds",

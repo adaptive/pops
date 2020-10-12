@@ -36,10 +36,10 @@ console.log(PoPs.MAD);
 ["adaptive", "alibaba", "arubacloud", "atlanticnet", "azurecdn",
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
 "cloudsigma", "digitalocean", "equinix", "ec2", "fastly", "gcore",
-"googlecdn", "heroku", "hetzner", "hostwinds", "imperva", "ionos",
-"kamatera", "keycdn", "leapswitch", "lightsail", "limelight", "linode",
-"mnx", "netlify", "ovh", "packet", "scaleaway", "stackpath", "upcloud",
-"verizonmedia", "vercel", "vultr"];
+"googlecdn", "googlecompute", "heroku", "hetzner", "hostwinds",
+"imperva", "ionos", "kamatera", "keycdn", "leapswitch", "lightsail",
+"limelight", "linode", "mnx", "netlify", "ovh", "packet", "scaleaway",
+"stackpath", "upcloud", "verizonmedia", "vercel", "vultr"];
 ```
 
 ### Supported CDNs and Hosting Providers
@@ -60,7 +60,8 @@ console.log(PoPs.MAD);
 *   Equinix ```equinix```
 *   Fastly ```fastly``` 🕵️
 *   G-Core Labs ```gcore```
-*   GoogleCDN ```googlecdn```
+*   Google Cloud CDN ```googlecdn```
+*   Google Compute Engine ```googlecompute```
 *   Heroku ```heroku```
 *   Hetzner ```hetzner```
 *   Hostwinds ```hostwinds```
