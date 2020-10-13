@@ -71,7 +71,7 @@ console.log(PoPs.MAD);
 *   KeyCDN ```keycdn``` 🕵️
 *   LeapSwitch ```leapswitch```
 *   Limelight Networks ```limelight```
-*   Linode ```linode```
+*   Linode ```linode``` 🕵️
 *   MNX ```mnx```
 *   Netlify ```netlify```
 *   OVH ```ovh```

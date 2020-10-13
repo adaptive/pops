@@ -81,6 +81,7 @@
     "spotter-imperva": "node ./tools/spotters/imperva.js",
     "spotter-keycdn": "node ./tools/spotters/keycdn.js",
     "spotter-lightsail": "node ./tools/spotters/lightsail.js",
+    "spotter-linode": "node ./tools/spotters/linode.js",
     "spotter-packet": "node ./tools/spotters/packet.js",
     "spotter-stackpath": "node ./tools/spotters/stackpath.js",
     "spotter-upcloud": "node ./tools/spotters/upcloud.js",
