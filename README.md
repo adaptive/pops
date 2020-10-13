@@ -49,7 +49,7 @@ console.log(PoPs.MAD);
 *   AWS Cloudfront ```cloudfront```
 *   AWS EC2 ```ec2``` 🕵️
 *   AWS Lightsail ```lightsail``` 🕵️
-*   Atlanticnet ```atlanticnet```
+*   Atlanticnet ```atlanticnet``` 🕵️
 *   Azurecdn ```azurecdn```
 *   Bunnycdn ```bunnycdn```
 *   CacheFly ```cachefly```
