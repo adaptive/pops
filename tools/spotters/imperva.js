@@ -8,11 +8,9 @@ const asset = "imperva";
 const spotter = async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(
-    "https://docs.imperva.com/bundle/cloud-application-security/page/more/pops.htm"
-  );
+  await page.goto("https://status.imperva.com/");
   const data = await page.$eval(
-    "#root > div.layout > main > div",
+    "body > div.layout-content.status.status-index.starter > div.container > div.components-section.font-regular",
     e => e.innerHTML
   );
   browser.close();
@@ -20,9 +18,9 @@ const spotter = async () => {
 };
 
 spotter()
-  .then(value => value.match(/>[A-Z]{3}</gm))
-  .then(x => {
-    if (x.length === provider.pops.length) {
+  .then(value => value.match(/\((.{3})\)/gm).map(x => x.slice(1, -1)))
+  .then(extracted => {
+    if ((extracted.length, provider.pops.length)) {
       console.log(`${asset}:success`);
     } else {
       toTelegram(asset);
