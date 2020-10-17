@@ -1,7 +1,8 @@
 # Points of Presence for CDNs
 
 
-[![npm](https://img.shields.io/npm/v/@adaptivelink/pops.svg)](https://www.npmjs.com/package/@adaptivelink/pops) &nbsp; ![Test](https://github.com/adaptive/pops/workflows/Test/badge.svg?branch=main)
+[![npm](https://img.shields.io/npm/v/@adaptivelink/pops.svg)](https://www.npmjs.com/package/@adaptivelink/pops) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fadaptive%2Fpops.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fadaptive%2Fpops?ref=badge_shield)
+&nbsp; ![Test](https://github.com/adaptive/pops/workflows/Test/badge.svg?branch=main)
 
 ES Module with geolocation and IATA codes of Content Delivery Networks and hosting companies  points of presence. Useful for plotting, planning and network measurements.
 
@@ -90,3 +91,6 @@ Spotters are scheduled GitHub Actions that continuously monitor CDNs and Hosting
 ### Contribution
 
 Feel free to suggest or PR more networks and PoPs locations.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fadaptive%2Fpops.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fadaptive%2Fpops?ref=badge_large)
