@@ -2,16 +2,19 @@ name: NPM Publish
 
 on:
     release:
-      types: [published]
+      types: [created]
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
     - uses: actions/checkout@v2.3.3
     - uses: actions/setup-node@v2.1.2
       with:
-        node-version: 14
+        node-version: 12
+        registry-url: https://registry.npmjs.org/
+        scope: "@adaptivelink"
     - name: Get yarn cache dir-path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -24,11 +27,7 @@ jobs:
           ${{ runner.os }}-yarn-
     - name: Yarn Install
       run: yarn
-    - name: Pack and Unpack
-      run: npm pack && tar -xvzf *.tgz
-    - name: Test
-      run: yarn test
     - name: Publish
-    - run: npm publish
+      run: npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
