@@ -56,12 +56,14 @@ const translate = new Map([
   ]
 ]);
 
+const transalted = [];
+
 spotter()
   .then(value => value.match(/\b[A-Z]{2}\s[-]/gm))
   .then(x => x.map(x => x.slice(0, 2)))
-  //.then(x => console.log(x));
+  .then(x => x.filter(x => !["NA", "EU"].includes(x)))
   .then(x => {
-    if (x.length - 2 === provider.pops.length) {
+    if (x.length === provider.pops.length) {
       console.log(`${asset}:success`);
     } else {
       toTelegram(asset);
