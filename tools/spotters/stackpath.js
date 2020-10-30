@@ -17,13 +17,54 @@ const spotter = async () => {
   return data;
 };
 
+const translate = new Map([
+  [
+    ["AM", "AMS"],
+    ["SK", "ARN"],
+    ["AT", "ATL"],
+    ["BO", "BOG"],
+    ["BR", "BRU"],
+    ["PA", "CDG"],
+    ["DC", "DCA"],
+    ["DE", "DEN"],
+    ["DA", "DFW"],
+    ["FR", "FRA"],
+    ["GI", "GIG"],
+    ["SP", "GRU"],
+    ["HK", "HKG"],
+    ["ST", "IAD"],
+    ["SL", "ICN"],
+    ["NY", "JFK"],
+    ["LA", "LAX"],
+    ["LI", "LIM"],
+    ["LO", "LHR"],
+    ["MA", "MAD"],
+    ["ME", "MEL"],
+    ["MI", "MIA"],
+    ["ML", "MXP"],
+    ["TK", "NRT"],
+    ["CH", "ORD"],
+    ["PH", "PHX"],
+    ["SC", "SCL"],
+    ["SE", "SEA"],
+    ["SF", "SFO"],
+    ["SI", "SIN"],
+    ["SJ", "SJC"],
+    ["SY", "SYD"],
+    ["WA", "WAW"],
+    ["TR", "YYZ"]
+  ]
+]);
+
 spotter()
   .then(value => value.match(/\b[A-Z]{2}\s[-]/gm))
+  .then(x => x.map(x => x.slice(0, 2)))
+  //.then(x => console.log(x));
   .then(x => {
     if (x.length - 2 === provider.pops.length) {
       console.log(`${asset}:success`);
     } else {
       toTelegram(asset);
-      console.log(`${asset}:fail`);
+      console.log(`${asset}:fail`, x.length, provider.pops.length);
     }
   });
