@@ -92,6 +92,7 @@ const cloudflare = {
     "JHB",
     "JIB",
     "JNB",
+    "JSR",
     "KBP",
     "KEF",
     "KGL",
