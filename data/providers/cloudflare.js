@@ -187,7 +187,6 @@ const cloudflare = {
     "SYD",
     "SZV",
     "SZX",
-    "TAO",
     "TBS",
     "TGU",
     "TLH",
