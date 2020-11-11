@@ -40,6 +40,7 @@ const fastly = {
     "JAX",
     "JNB",
     "LAX",
+    "LCK",
     "LCY",
     "LEE",
     "LGA",
