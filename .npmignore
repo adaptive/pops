@@ -4,5 +4,6 @@ src
 examples
 rollup.config.js
 .github
+.devcontainer
 test
 CODE_OF_CONDUCT.md

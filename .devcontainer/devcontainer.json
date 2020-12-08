@@ -1,0 +1,21 @@
+{
+  "name": "Node.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "14" }
+  },
+
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "bungcip.better-toml",
+    "coenraads.bracket-pair-colorizer",
+    "mkxml.vscode-filesize"
+  ]
+}

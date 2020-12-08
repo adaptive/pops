@@ -87,6 +87,10 @@ console.log(PoPs.MAD);
 
 Spotters are scheduled GitHub Actions that continuously monitor CDNs and Hosting Providers points of presence locations and cross-reference with this module data.
 
-### Contribution
+### Contribution 🥰
 
 Feel free to suggest or PR more networks and PoPs locations.
+
+### Codespaces 💻
+
+This repo is configured for GitHub Codespaces.
