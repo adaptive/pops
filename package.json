@@ -68,8 +68,8 @@
     "rollup-plugin-terser": "7.0.2"
   },
   "scripts": {
-    "build": "rollup -c",
-    "prebuild": "prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
+    "build": "npx rollup -c",
+    "prebuild": "npx prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
     "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "node ./tools/validator.js",
     "test": "node ./test/index.test.js",
