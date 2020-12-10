@@ -1,10 +1,4 @@
 {
-  "name": "Node.js",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "args": { "VARIANT": "14" }
-  },
-  // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "dbaeumer.vscode-eslint",
     "eg2.vscode-npm-script",
