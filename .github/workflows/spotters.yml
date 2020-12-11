@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 5
     steps:
     - uses: actions/checkout@v2.3.4
-    - uses: actions/setup-node@v2.1.2
+    - uses: actions/setup-node@v2.1.3
       with:
         node-version: 12
     - name: Get yarn cache dir-path
