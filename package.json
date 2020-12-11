@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -54,11 +54,12 @@
     "upcloud",
     "verizonmedia",
     "vercel",
-    "vultr"
+    "vultr",
+    "wasabi"
   ],
   "private": false,
   "devDependencies": {
-    "@adaptivelink/iata": "0.0.5",
+    "@adaptivelink/iata": "0.0.6",
     "concurrently": "5.3.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.20",

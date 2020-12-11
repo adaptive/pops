@@ -38,6 +38,7 @@ import upcloud from "./providers/upcloud.js";
 import verizonmedia from "./providers/verizonmedia.js";
 import vercel from "./providers/vercel.js";
 import vultr from "./providers/vultr.js";
+import wasabi from "./providers/wasabi.js";
 
 const providers = {
   adaptive,
@@ -78,7 +79,8 @@ const providers = {
   upcloud,
   verizonmedia,
   vercel,
-  vultr
+  vultr,
+  wasabi
 };
 
 const popsData = {

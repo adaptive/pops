@@ -82,6 +82,7 @@ console.log(PoPs.MAD);
 *   Verizon Media ```verizonmedia```
 *   Vercel ```vercel``` 🕵️
 *   Vultr ```vultr```
+*   Wasabi ```wasabi```
 
 ### Spotters 🕵️
 
