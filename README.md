@@ -5,7 +5,7 @@
 
 ES Module with geolocation and IATA codes of Content Delivery Networks and hosting companies  points of presence. Useful for plotting, planning and network measurements.
 
-### Install with `yarn` or `npm`
+## 🔨 Install with `yarn` or `npm`
 
 ```bash
 yarn add @adaptivelink/pops
@@ -15,7 +15,7 @@ yarn add @adaptivelink/pops
 npm i @adaptivelink/pops
 ```
 
-### Usage
+## 🛠️ Usage
 
 ```javascript
 import PoPs from "@adaptivelink/pops";
@@ -43,7 +43,7 @@ console.log(PoPs.MAD);
 "vultr", "wasabi"]
 ```
 
-### Supported CDNs and Hosting Providers
+## 🌐 Supported CDNs and Hosting Providers
 
 *   Alibaba ```alibaba```
 *   Arubacloud ```arubacloud```
@@ -85,14 +85,14 @@ console.log(PoPs.MAD);
 *   Vultr ```vultr```
 *   Wasabi ```wasabi```
 
-### Spotters 🕵️
+## 🕵️ Spotters
 
 Spotters are scheduled GitHub Actions that continuously monitor CDNs and Hosting Providers points of presence locations and cross-reference with this module data.
 
-### Contribution 🥰
+## 🥰 Contribution
 
 Feel free to suggest or PR more networks and PoP locations.
 
-### Codespaces 💻
+## 💻 Codespaces
 
 This repo is configured for GitHub Codespaces.
