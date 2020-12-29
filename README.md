@@ -33,11 +33,11 @@ console.log(PoPs.fastly.code.length);
 console.log(PoPs.MAD);
 
 /* Providers */
-["alibaba", "arubacloud", "atlanticnet", "azurecdn", "bunnycdn",
-"cachefly", "cdn77", "cloudflare", "cloudfront", "cloudsigma",
-"digitalocean", "equinix", "ec2", "fastly", "gcore", "googlecdn",
-"googlecompute", "heroku", "hetzner", "hostwinds", "imperva",
-"ionos", "kamatera", "keycdn", "leapswitch", "lightsail",
+["alibaba", "arubacloud", "atlanticnet", "azurecdn", "backblaze",
+"bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
+"cloudsigma", "digitalocean", "equinix", "ec2", "fastly", "gcore",
+"googlecdn", "googlecompute", "heroku", "hetzner", "hostwinds",
+"imperva", "ionos", "kamatera", "keycdn", "leapswitch", "lightsail",
 "limelight", "linode", "mnx", "netlify", "ovh", "packet",
 "scaleaway", "stackpath", "upcloud", "verizonmedia", "vercel",
 "vultr", "wasabi"]
@@ -52,6 +52,7 @@ console.log(PoPs.MAD);
 *   AWS Lightsail ```lightsail``` 🕵️
 *   Atlanticnet ```atlanticnet``` 🕵️
 *   Azurecdn ```azurecdn```
+*   Backblaze ```backblaze```
 *   Bunnycdn ```bunnycdn```
 *   CacheFly ```cachefly```
 *   CDN77 ```cdn77``` 🕵️

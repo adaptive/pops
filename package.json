@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -25,6 +25,7 @@
     "atlanticnet",
     "aws",
     "azurecdn",
+    "backblaze",
     "bunnycdn",
     "cachefly",
     "cdn77",

@@ -4,6 +4,7 @@ import alibaba from "./providers/alibaba.js";
 import arubacloud from "./providers/arubacloud.js";
 import atlanticnet from "./providers/atlanticnet.js";
 import azurecdn from "./providers/azurecdn.js";
+import backblaze from "./providers/backblaze.js";
 import bunnycdn from "./providers/bunnycdn.js";
 import cachefly from "./providers/cachefly.js";
 import cdn77 from "./providers/cdn77.js";
@@ -46,6 +47,7 @@ const providers = {
   arubacloud,
   atlanticnet,
   azurecdn,
+  backblaze,
   bunnycdn,
   cachefly,
   cdn77,
