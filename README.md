@@ -35,12 +35,12 @@ console.log(PoPs.MAD);
 /* Providers */
 ["alibaba", "arubacloud", "atlanticnet", "azurecdn", "backblaze",
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
-"cloudsigma", "digitalocean", "equinix", "ec2", "fastly", "gcore",
-"googlecdn", "googlecompute", "heroku", "hetzner", "hostwinds",
-"imperva", "ionos", "kamatera", "keycdn", "leapswitch", "lightsail",
-"limelight", "linode", "mnx", "netlify", "ovh", "packet",
-"scaleaway", "stackpath", "upcloud", "verizonmedia", "vercel",
-"vultr", "wasabi"]
+"cloudsigma", "digitalocean", "equinix", "ec2", "fastly", "flexential",
+"gcore", "googlecdn", "googlecompute", "heroku", "hetzner",
+"hostwinds", "imperva", "ionos", "kamatera", "keycdn", "leapswitch",
+"lightsail", "limelight", "linode", "mnx", "netlify", "ovh", "packet",
+"scaleaway", "stackpath", "upcloud", "verizonmedia", "vercel", "vultr",
+"wasabi"]
 ```
 
 ## 🌐 Supported CDNs and Hosting Providers
@@ -61,6 +61,7 @@ console.log(PoPs.MAD);
 *   DigitalOcean ```digitalocean``` 🕵️
 *   Equinix ```equinix```
 *   Fastly ```fastly``` 🕵️
+*   Flexential ```flexential```
 *   G-Core Labs ```gcore```
 *   Google Cloud CDN ```googlecdn```
 *   Google Compute Engine ```googlecompute```

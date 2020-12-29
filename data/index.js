@@ -15,6 +15,7 @@ import digitalocean from "./providers/digitalocean.js";
 import equinix from "./providers/equinix.js";
 import ec2 from "./providers/ec2.js";
 import fastly from "./providers/fastly.js";
+import flexential from "./providers/flexential.js";
 import gcore from "./providers/gcore.js";
 import googlecdn from "./providers/googlecdn.js";
 import googlecompute from "./providers/googlecompute.js";
@@ -58,6 +59,7 @@ const providers = {
   equinix,
   ec2,
   fastly,
+  flexential,
   gcore,
   googlecdn,
   googlecompute,
