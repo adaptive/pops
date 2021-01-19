@@ -12,6 +12,7 @@ const fastly = {
     "BUR",
     "BWI",
     "CDG",
+    "CGH",
     "CHI",
     "CMH",
     "CPH",
