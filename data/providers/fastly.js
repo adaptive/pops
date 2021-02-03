@@ -63,6 +63,7 @@ const fastly = {
     "PAO",
     "PDK",
     "PER",
+    "PHX",
     "PWK",
     "SCL",
     "SEA",
