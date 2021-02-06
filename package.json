@@ -90,6 +90,7 @@
     "spotter-stackpath": "node ./tools/spotters/stackpath.js",
     "spotter-upcloud": "node ./tools/spotters/upcloud.js",
     "spotter-vercel": "node ./tools/spotters/vercel.js",
+    "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   }
 }
