@@ -5,5 +5,15 @@
     "bungcip.better-toml",
     "coenraads.bracket-pair-colorizer",
     "mkxml.vscode-filesize"
-  ]
+  ],
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "14"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "remoteUser": "node"
 }
