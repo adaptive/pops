@@ -36,6 +36,7 @@ import ovh from "./providers/ovh.js";
 import packet from "./providers/packet.js";
 import scaleaway from "./providers/scaleaway.js";
 import stackpath from "./providers/stackpath.js";
+import sucuri from "./providers/sucuri.js";
 import upcloud from "./providers/upcloud.js";
 import verizonmedia from "./providers/verizonmedia.js";
 import vercel from "./providers/vercel.js";
@@ -80,6 +81,7 @@ const providers = {
   packet,
   scaleaway,
   stackpath,
+  sucuri,
   upcloud,
   verizonmedia,
   vercel,
