@@ -17,7 +17,6 @@ const keycdn = {
     "GRU",
     "HEL",
     "HKG",
-    "ICN",
     "IST",
     "JFK",
     "JNB",
