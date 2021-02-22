@@ -1,12 +1,12 @@
 import _ from "lodash";
-import puppeteer from "puppeteer";
+import { chromium, firefox, webkit } from "playwright";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/atlanticnet.js";
 
 const asset = "atlanticnet";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await webkit.launch();
   const page = await browser.newPage();
   await page.goto("https://status.atlantic.net/");
   const data = await page.$eval(

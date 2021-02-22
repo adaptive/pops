@@ -1,12 +1,12 @@
 import _ from "lodash";
-import puppeteer from "puppeteer";
+import { chromium, firefox, webkit } from "playwright";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/ec2.js";
 
 const asset = "ec2";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await webkit.launch();
   const page = await browser.newPage();
   await page.goto(
     "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"

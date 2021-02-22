@@ -1,12 +1,12 @@
 import _ from "lodash";
-import puppeteer from "puppeteer";
+import { chromium, firefox, webkit } from "playwright";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/lightsail.js";
 
 const asset = "lightsail";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await webkit.launch();
   const page = await browser.newPage();
   await page.goto(
     "https://lightsail.aws.amazon.com/ls/docs/en_us/articles/understanding-regions-and-availability-zones-in-amazon-lightsail"
