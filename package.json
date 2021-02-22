@@ -65,7 +65,7 @@
     "@adaptivelink/iata": "0.0.7",
     "concurrently": "6.0.0",
     "isomorphic-fetch": "3.0.0",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "playwright": "1.8.1",
     "prettier": "2.2.1",
     "rollup": "2.39.0",
