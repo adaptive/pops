@@ -1,26 +1,23 @@
 import _ from "lodash";
-import { chromium, firefox, webkit } from "playwright";
+import fetch from "isomorphic-fetch";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/cdn77.js";
 
 const asset = "cdn77";
 
 const spotter = async () => {
-  const browser = await webkit.launch();
-  const page = await browser.newPage();
-  await page.goto("https://client.cdn77.com/support/status");
-  const data = await page.$eval("#main > div > div > div", e => e.innerHTML);
-  browser.close();
-  return data;
+  await fetch(`https://client.cdn77.com/support/api/datacenter/status`, {
+    method: "GET"
+  })
+    .then(response => response.json())
+    .then(res => {
+      if (res.length === provider.pops.length) {
+        console.log(`${asset}:success`);
+      } else {
+        toTelegram(asset);
+        console.log(`${asset}:fail`);
+      }
+    });
 };
 
-spotter()
-  .then(value => value.match(/\bbox-status__item\b/gm))
-  .then(extracted => {
-    if (extracted.length === provider.pops.length) {
-      console.log(`${asset}:success`);
-    } else {
-      toTelegram(asset);
-      console.log(`${asset}:fail`);
-    }
-  });
+spotter();
