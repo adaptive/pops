@@ -1,7 +1,7 @@
-const scaleaway = {
+const scaleway = {
   name: "Scaleway",
   url: "https://www.scaleway.com/",
   pops: ["AMS", "CDG", "WAW"]
 };
 
-export default scaleaway;
+export default scaleway;

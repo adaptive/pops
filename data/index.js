@@ -34,7 +34,7 @@ import mnx from "./providers/mnx.js";
 import netlify from "./providers/netlify.js";
 import ovh from "./providers/ovh.js";
 import packet from "./providers/packet.js";
-import scaleaway from "./providers/scaleaway.js";
+import scaleway from "./providers/scaleway.js";
 import stackpath from "./providers/stackpath.js";
 import sucuri from "./providers/sucuri.js";
 import upcloud from "./providers/upcloud.js";
@@ -79,7 +79,7 @@ const providers = {
   netlify,
   ovh,
   packet,
-  scaleaway,
+  scaleway,
   stackpath,
   sucuri,
   upcloud,

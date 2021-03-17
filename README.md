@@ -39,7 +39,7 @@ console.log(PoPs.MAD);
 "gcore", "googlecdn", "googlecompute", "heroku", "hetzner",
 "hostwinds", "imperva", "ionos", "kamatera", "keycdn", "leapswitch",
 "lightsail", "limelight", "linode", "mnx", "netlify", "ovh", "packet",
-"scaleaway", "stackpath", "upcloud", "verizonmedia", "vercel", "vultr",
+"scaleway", "stackpath", "upcloud", "verizonmedia", "vercel", "vultr",
 "wasabi"]
 ```
 
@@ -79,7 +79,7 @@ console.log(PoPs.MAD);
 *   Netlify ```netlify```
 *   OVH ```ovh```
 *   Packet ```packet``` 🕵️
-*   Scaleaway ```scaleaway```
+*   Scaleway ```scaleway```
 *   Stackpath ```stackpath``` 🕵️
 *   Upcloud ```upcloud``` 🕵️
 *   Verizon Media ```verizonmedia```
