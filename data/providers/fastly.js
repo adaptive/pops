@@ -48,6 +48,7 @@ const fastly = {
     "LGB",
     "LGW",
     "LHR",
+    "LIM",
     "MAA",
     "MAD",
     "MAN",
