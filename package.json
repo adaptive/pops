@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -87,7 +87,6 @@
     "spotter-keycdn": "node ./tools/spotters/keycdn.js",
     "spotter-lightsail": "node ./tools/spotters/lightsail.js",
     "spotter-linode": "node ./tools/spotters/linode.js",
-    "spotter-packet": "node ./tools/spotters/packet.js",
     "spotter-stackpath": "node ./tools/spotters/stackpath.js",
     "spotter-upcloud": "node ./tools/spotters/upcloud.js",
     "spotter-vercel": "node ./tools/spotters/vercel.js",

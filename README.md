@@ -78,7 +78,7 @@ console.log(PoPs.MAD);
 *   MNX ```mnx```
 *   Netlify ```netlify```
 *   OVH ```ovh```
-*   Packet ```packet``` 🕵️
+*   Packet ```packet```
 *   Scaleway ```scaleway```
 *   Stackpath ```stackpath``` 🕵️
 *   Upcloud ```upcloud``` 🕵️
