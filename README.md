@@ -1,5 +1,6 @@
 # Points of Presence for CDNs
 
+![Banner](/banner.png)
 
 [![npm](https://img.shields.io/npm/v/@adaptivelink/pops.svg)](https://www.npmjs.com/package/@adaptivelink/pops) &nbsp; ![Test](https://github.com/adaptive/pops/workflows/Test/badge.svg?branch=main)
 
