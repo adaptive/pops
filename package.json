@@ -77,6 +77,7 @@
     "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "node ./tools/validator.js",
     "test": "node ./test/index.test.js",
+    "csv": "node ./tools/csv-generator.js > ./notebooks/data.csv",
     "spotter-atlatincnet": "node ./tools/spotters/atlanticnet.js",
     "spotter-cdn77": "node ./tools/spotters/cdn77.js",
     "spotter-cloudflare": "node ./tools/spotters/cloudflare.js",
