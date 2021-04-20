@@ -30,7 +30,16 @@ console.log(PoPs.fastly.code);
 console.log(PoPs.fastly.code.length);
 
 /* Providers in Madrid */
-console.log(PoPs.MAD);
+console.log(PoPs.MAD.providers);
+
+/* Location of Lisbon */
+console.log(PoPs.LIS.geo);
+
+/* All PoPs codes */
+console.log(PoPs.all.code);
+
+/* All PoPs locations */
+console.log(PoPs.all.geo);
 
 /* Providers */
 ["alibaba", "arubacloud", "atlanticnet", "azurecdn", "backblaze",
