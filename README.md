@@ -108,3 +108,7 @@ Feel free to suggest or PR more networks and PoP locations.
 ## 💻 Codespaces
 
 This repo is configured for GitHub Codespaces.
+
+## 📒 Jupyter Notebook
+
+A Jupyter Notebook is available at [Kaggle](https://www.kaggle.com/hugoromano/pops-notebook/), where providers rough coverage is simulated at ~5ms RTT. Source for this notebook in directory `notebooks`.
