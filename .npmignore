@@ -7,3 +7,5 @@ rollup.config.js
 .devcontainer
 test
 CODE_OF_CONDUCT.md
+banner.png
+notebooks
