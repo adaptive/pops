@@ -28,6 +28,7 @@ const cloudflare = {
     "BUF",
     "BWN",
     "CAN",
+    "CBR",
     "CCU",
     "CDG",
     "CEB",
