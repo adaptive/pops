@@ -191,6 +191,7 @@ const cloudflare = {
     "TPA",
     "TPE",
     "TSN",
+    "TUN",
     "TXL",
     "UIO",
     "ULN",
