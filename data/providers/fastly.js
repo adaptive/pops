@@ -59,6 +59,7 @@ const fastly = {
     "MRS",
     "MSP",
     "MXP",
+    "NRT",
     "ORD",
     "OSL",
     "PAO",
