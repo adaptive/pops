@@ -20,21 +20,17 @@ const spotter = async () => {
 const translate = new Map([
   [
     ["AM", "AMS"],
-    ["SK", "ARN"],
     ["AT", "ATL"],
     ["BO", "BOG"],
     ["BR", "BRU"],
-    ["PA", "CDG"],
+    ["CH", "ORD"],
+    ["DA", "DFW"],
     ["DC", "DCA"],
     ["DE", "DEN"],
-    ["DA", "DFW"],
+    ["EZ", "EZE"],
     ["FR", "FRA"],
     ["GI", "GIG"],
-    ["SP", "GRU"],
     ["HK", "HKG"],
-    ["ST", "IAD"],
-    ["SL", "ICN"],
-    ["NY", "JFK"],
     ["LA", "LAX"],
     ["LI", "LIM"],
     ["LO", "LHR"],
@@ -42,17 +38,21 @@ const translate = new Map([
     ["ME", "MEL"],
     ["MI", "MIA"],
     ["ML", "MXP"],
-    ["TK", "NRT"],
-    ["CH", "ORD"],
+    ["NY", "JFK"],
+    ["PA", "CDG"],
     ["PH", "PHX"],
     ["SC", "SCL"],
     ["SE", "SEA"],
     ["SF", "SFO"],
     ["SI", "SIN"],
     ["SJ", "SJC"],
+    ["SK", "ARN"],
+    ["SL", "ICN"],
+    ["SP", "GRU"],
     ["SY", "SYD"],
-    ["WA", "WAW"],
-    ["TR", "YYZ"]
+    ["TK", "NRT"],
+    ["TR", "YYZ"],
+    ["WA", "WAW"]
   ]
 ]);
 
@@ -67,6 +67,6 @@ spotter()
       console.log(`${asset}:success`);
     } else {
       toTelegram(asset);
-      console.log(`${asset}:fail`, x.length, provider.pops.length);
+      console.log(`${asset}:fail`, x.length, x, provider.pops.length);
     }
   });

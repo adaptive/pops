@@ -16,7 +16,6 @@ const stackpath = {
     "GIG",
     "GRU",
     "HKG",
-    "IAD",
     "ICN",
     "JFK",
     "LAX",
