@@ -293,6 +293,7 @@ cloudflare,BOG,4.7,-74.14
 cloudflare,BOM,19.1,72.87
 cloudflare,BOS,42.37,-71.02
 cloudflare,BRU,50.9,4.48
+cloudflare,BSB,-15.87,-47.92
 cloudflare,BUD,47.43,19.26
 cloudflare,BUF,42.93,-78.73
 cloudflare,BWN,4.95,114.93
@@ -1038,6 +1039,7 @@ leapswitch,IEV,50.4,30.45
 leapswitch,LIS,38.77,-9.13
 leapswitch,PNQ,18.58,73.92
 leapswitch,SBN,41.7,-86.31
+lightsail,ARN,59.65,17.93
 lightsail,BOM,19.1,72.87
 lightsail,CDG,49,2.57
 lightsail,CMH,40,-82.88

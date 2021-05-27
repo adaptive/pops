@@ -87,8 +87,8 @@ const cloudfront = {
     "VIE",
     "WAW",
     "YUL",
-    "YYZ",
     "YVR",
+    "YYZ",
     "ZAG",
     "ZHY",
     "ZRH"

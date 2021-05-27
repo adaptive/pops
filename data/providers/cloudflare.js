@@ -24,6 +24,7 @@ const cloudflare = {
     "BOM",
     "BOS",
     "BRU",
+    "BSB",
     "BUD",
     "BUF",
     "BWN",
