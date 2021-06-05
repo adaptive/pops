@@ -10,6 +10,7 @@ const keycdn = {
     "BLR",
     "BNE",
     "CDG",
+    "DEN",
     "DFW",
     "DME",
     "DXB",
