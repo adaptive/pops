@@ -17,7 +17,6 @@ const cdn77 = {
     "FRA",
     "GRU",
     "HKG",
-    "ICN",
     "IST",
     "JFK",
     "KBP",
