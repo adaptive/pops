@@ -30,5 +30,13 @@ spotter()
         `${asset}:fail`,
         extracted.filter(e => !provider.pops.includes(e))
       );
+      console.log(
+        `added`,
+        extracted.filter(e => !provider.pops.includes(e))
+      );
+      console.log(
+        `removed`,
+        provider.pops.filter(e => !extracted.includes(e))
+      );
     }
   });

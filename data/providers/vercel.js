@@ -4,7 +4,6 @@ const vercel = {
   pops: [
     "ARN",
     "BOM",
-    "BRU",
     "CDG",
     "CLE",
     "DUB",
