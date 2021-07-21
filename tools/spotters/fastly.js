@@ -33,14 +33,20 @@ spotter()
       else return x;
     })
   )
+  .then(a => a.concat(["LAX", "LGB"]))
   .then(extracted => {
     if (_.isEqual(extracted.sort(), provider.pops)) {
       console.log(`${asset}:success`, extracted.length - provider.pops.length);
     } else {
       toTelegram(asset);
+      console.log(`${asset}:fail`, extracted.length - provider.pops.length);
       console.log(
-        `${asset}:fail`,
+        `added`,
         extracted.filter(e => !provider.pops.includes(e))
+      );
+      console.log(
+        `removed`,
+        provider.pops.filter(e => !extracted.includes(e))
       );
     }
   });

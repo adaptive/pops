@@ -2,6 +2,7 @@ const fastly = {
   name: "Fastly",
   url: "https://www.fastly.com",
   pops: [
+    "ACC",
     "AKL",
     "AMS",
     "BMA",
