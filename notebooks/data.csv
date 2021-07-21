@@ -301,6 +301,7 @@ cloudflare,CBR,-35.31,149.19
 cloudflare,CCU,22.65,88.44
 cloudflare,CDG,49,2.57
 cloudflare,CEB,10.31,123.98
+cloudflare,CFC,-26.79,-50.94
 cloudflare,CGK,-6.13,106.66
 cloudflare,CGO,34.53,113.84
 cloudflare,CGP,22.25,91.82
@@ -1316,7 +1317,6 @@ verizonmedia,VIE,48.12,16.56
 verizonmedia,WAW,52.17,20.97
 vercel,ARN,59.65,17.93
 vercel,BOM,19.1,72.87
-vercel,BRU,50.9,4.48
 vercel,CDG,49,2.57
 vercel,CLE,41.41,-81.84
 vercel,DUB,53.43,-6.24
