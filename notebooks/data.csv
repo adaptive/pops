@@ -251,7 +251,6 @@ cdn77,DME,55.41,37.9
 cdn77,FRA,50.05,8.57
 cdn77,GRU,-23.43,-46.48
 cdn77,HKG,22.32,113.94
-cdn77,ICN,37.45,126.45
 cdn77,IST,40.98,28.82
 cdn77,JFK,40.64,-73.79
 cdn77,KBP,50.34,30.9
@@ -310,6 +309,7 @@ cloudflare,CLT,35.22,-80.94
 cloudflare,CMB,7.17,79.89
 cloudflare,CMH,40,-82.88
 cloudflare,CMN,33.37,-7.59
+cloudflare,CNF,-19.63,-43.96
 cloudflare,CPH,55.63,12.65
 cloudflare,CPT,-33.97,18.6
 cloudflare,CSX,28.19,113.21
@@ -343,6 +343,7 @@ cloudflare,GRU,-23.43,-46.48
 cloudflare,GUA,14.59,-90.53
 cloudflare,GVA,46.23,6.11
 cloudflare,GYD,40.46,50.05
+cloudflare,GYE,-2.14,-79.88
 cloudflare,HAM,53.63,10.01
 cloudflare,HAN,21.21,105.8
 cloudflare,HEL,60.32,24.97
@@ -427,6 +428,7 @@ cloudflare,POA,-29.99,-51.18
 cloudflare,PRG,50.11,14.27
 cloudflare,PTY,9.07,-79.39
 cloudflare,QRO,20.6,-100.38
+cloudflare,RAO,-21.14,-47.77
 cloudflare,RGN,16.9,96.13
 cloudflare,RIC,37.51,-77.32
 cloudflare,RIX,56.92,23.98
@@ -441,7 +443,6 @@ cloudflare,SHA,31.2,121.34
 cloudflare,SIN,1.36,103.99
 cloudflare,SJC,37.37,-121.93
 cloudflare,SJO,10,-84.2
-cloudflare,SJW,38.27,114.69
 cloudflare,SKG,40.52,22.97
 cloudflare,SLC,40.79,-111.98
 cloudflare,SMF,38.69,-121.59
@@ -675,6 +676,7 @@ ec2,SIN,1.36,103.99
 ec2,SJC,37.37,-121.93
 ec2,SYD,-33.93,151.18
 ec2,YUL,45.46,-73.75
+fastly,ACC,5.61,-0.17
 fastly,AKL,-37,174.78
 fastly,AMS,52.31,4.76
 fastly,BMA,59.36,17.95
