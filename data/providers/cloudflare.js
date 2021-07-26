@@ -67,6 +67,7 @@ const cloudflare = {
     "EWR",
     "EZE",
     "FCO",
+    "FLN",
     "FOR",
     "FRA",
     "GIG",
