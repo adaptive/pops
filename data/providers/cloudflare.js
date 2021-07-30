@@ -56,6 +56,7 @@ const cloudflare = {
     "DFW",
     "DKR",
     "DME",
+    "DMM",
     "DOH",
     "DTW",
     "DUB",
