@@ -60,7 +60,6 @@
     "vultr",
     "wasabi"
   ],
-  "private": false,
   "devDependencies": {
     "@adaptivelink/iata": "0.0.9",
     "concurrently": "6.2.0",
@@ -93,5 +92,6 @@
     "spotter-vercel": "node ./tools/spotters/vercel.js",
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
-  }
+  },
+  "packageManager": "yarn@3.0.0"
 }
