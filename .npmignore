@@ -9,3 +9,5 @@ test
 CODE_OF_CONDUCT.md
 banner.png
 notebooks
+.yarn
+.yarnrc.yml
