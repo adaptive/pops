@@ -57,6 +57,7 @@ const fastly = {
     "MDW",
     "MEL",
     "MIA",
+    "MNL",
     "MRS",
     "MSP",
     "MUC",
