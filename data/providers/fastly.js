@@ -5,6 +5,7 @@ const fastly = {
     "ACC",
     "AKL",
     "AMS",
+    "ATL",
     "BMA",
     "BNE",
     "BOG",
