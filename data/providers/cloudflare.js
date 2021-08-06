@@ -4,6 +4,7 @@ const cloudflare = {
   pops: [
     "ADL",
     "AKL",
+    "ALG",
     "AMM",
     "AMS",
     "ARI",
