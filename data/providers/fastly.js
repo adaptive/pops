@@ -51,6 +51,7 @@ const fastly = {
     "LGW",
     "LHR",
     "LIM",
+    "KUL",
     "MAA",
     "MAD",
     "MAN",
