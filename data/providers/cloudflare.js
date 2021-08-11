@@ -21,6 +21,7 @@ const cloudflare = {
     "BLR",
     "BNA",
     "BNE",
+    "BNU",
     "BOG",
     "BOM",
     "BOS",
