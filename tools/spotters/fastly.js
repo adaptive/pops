@@ -34,6 +34,7 @@ spotter()
     })
   )
   .then(a => a.concat(["LAX", "LGB"]))
+  .then(a => _.uniq(a))
   .then(extracted => {
     if (_.isEqual(extracted.sort(), provider.pops)) {
       console.log(`${asset}:success`, extracted.length - provider.pops.length);
