@@ -76,7 +76,6 @@ const fastly = {
     "QPG",
     "SCL",
     "SEA",
-    "SIN",
     "SJC",
     "STL",
     "STP",
