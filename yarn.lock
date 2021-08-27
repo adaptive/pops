@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@adaptivelink/iata@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@adaptivelink/iata/-/iata-0.0.11.tgz#9ac2985e35829f3013b1f86b04d6944a2ad7f3bf"
+"@adaptivelink/iata@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@adaptivelink/iata/-/iata-0.0.12.tgz#aee852ebd52036b2e5ea599c417068539efdf63e"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.14.5"
