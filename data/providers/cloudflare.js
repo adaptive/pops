@@ -206,6 +206,7 @@ const cloudflare = {
     "TXL",
     "UIO",
     "ULN",
+    "URT",
     "VCP",
     "VIE",
     "VNO",
