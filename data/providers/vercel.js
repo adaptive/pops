@@ -7,6 +7,7 @@ const vercel = {
     "CDG",
     "CLE",
     "DUB",
+    "FRA",
     "GRU",
     "HKG",
     "HND",
