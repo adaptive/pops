@@ -45,12 +45,12 @@ console.log(PoPs.all.geo);
 /* Providers */
 ["alibaba", "arubacloud", "atlanticnet", "azurecdn", "backblaze",
 "bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
-"cloudsigma", "digitalocean", "equinix", "ec2", "fastly", "flexential",
-"gcore", "googlecdn", "googlecompute", "heroku", "hetzner",
-"hostwinds", "imperva", "ionos", "kamatera", "keycdn", "leapswitch",
-"lightsail", "limelight", "linode", "mnx", "netlify", "ovh", "packet",
-"scaleway", "stackpath", "upcloud", "verizonmedia", "vercel", "vultr",
-"wasabi"]
+"cloudsigma", "deno", "digitalocean", "equinix", "ec2", "fastly",
+"flexential", "gcore", "googlecdn", "googlecompute", "heroku",
+"hetzner", "hostwinds", "imperva", "ionos", "kamatera", "keycdn",
+"leapswitch", "lightsail", "limelight", "linode", "mnx", "netlify",
+"ovh", "packet", "scaleway", "stackpath", "upcloud", "verizonmedia",
+"vercel", "vultr", "wasabi"]
 ```
 
 ## 🌐 Supported CDNs and Hosting Providers
@@ -68,6 +68,7 @@ console.log(PoPs.all.geo);
 *   CDN77 ```cdn77``` 🕵️
 *   Cloudflare ```cloudflare``` 🕵️
 *   CloudSigma ```cloudsigma```
+*   Deno Deploy ```deno``` 🕵️
 *   DigitalOcean ```digitalocean``` 🕵️
 *   Equinix ```equinix```
 *   Fastly ```fastly``` 🕵️

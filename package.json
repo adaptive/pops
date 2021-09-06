@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -32,6 +32,7 @@
     "cloudflare",
     "cloudfront",
     "cloudsigma",
+    "deno",
     "digitalocean",
     "equinix",
     "fastly",
@@ -80,6 +81,7 @@
     "spotter-atlatincnet": "node ./tools/spotters/atlanticnet.js",
     "spotter-cdn77": "node ./tools/spotters/cdn77.js",
     "spotter-cloudflare": "node ./tools/spotters/cloudflare.js",
+    "spotter-deno": "node ./tools/spotters/deno.js",
     "spotter-digitalocean": "node ./tools/spotters/digitalocean.js",
     "spotter-ec2": "node ./tools/spotters/ec2.js",
     "spotter-fastly": "node ./tools/spotters/fastly.js",

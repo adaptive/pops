@@ -11,6 +11,7 @@ import cdn77 from "./providers/cdn77.js";
 import cloudflare from "./providers/cloudflare.js";
 import cloudfront from "./providers/cloudfront.js";
 import cloudsigma from "./providers/cloudsigma.js";
+import deno from "./providers/deno.js";
 import digitalocean from "./providers/digitalocean.js";
 import equinix from "./providers/equinix.js";
 import ec2 from "./providers/ec2.js";
@@ -56,6 +57,7 @@ const providers = {
   cloudflare,
   cloudfront,
   cloudsigma,
+  deno,
   digitalocean,
   equinix,
   ec2,
