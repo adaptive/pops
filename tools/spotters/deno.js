@@ -21,7 +21,9 @@ spotter()
   .then(value => value.match(/<li>/g))
   .then(extracted => {
     if (extracted.length === provider.pops.length) {
-      console.log(`${asset}:success ${extracted.length}`);
+      console.log(
+        `${asset}:success ${extracted.length - provider.pops.length}`
+      );
     } else {
       toTelegram(asset);
       console.log(`${asset}:fail`);
