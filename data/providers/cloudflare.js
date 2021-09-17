@@ -190,6 +190,7 @@ const cloudflare = {
     "SOF",
     "SSA",
     "STL",
+    "SVX",
     "SYD",
     "SZV",
     "TBS",
