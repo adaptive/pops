@@ -3,6 +3,7 @@ const vultr = {
   url: "https://www.vultr.com/",
   pops: [
     "AMS",
+    "ARN",
     "ATL",
     "CDG",
     "DFW",

@@ -25,6 +25,7 @@ const fastly = {
     "DEL",
     "DEN",
     "DFW",
+    "DTW",
     "DUB",
     "EWR",
     "EZE",

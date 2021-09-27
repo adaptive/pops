@@ -355,6 +355,7 @@ cloudflare,HAN,21.21,105.8
 cloudflare,HEL,60.32,24.97
 cloudflare,HKG,22.32,113.94
 cloudflare,HNL,21.33,-157.92
+cloudflare,HRE,-17.92,31.1
 cloudflare,HYD,17.24,78.43
 cloudflare,IAD,38.95,-77.45
 cloudflare,IAH,29.98,-95.34
@@ -374,6 +375,7 @@ cloudflare,KGL,-1.96,30.14
 cloudflare,KHI,24.9,67.17
 cloudflare,KIV,46.94,28.93
 cloudflare,KIX,34.44,135.24
+cloudflare,KJA,56.18,92.48
 cloudflare,KTM,27.7,85.36
 cloudflare,KUL,2.76,101.71
 cloudflare,KWI,29.24,47.97
@@ -451,6 +453,7 @@ cloudflare,SHA,31.2,121.34
 cloudflare,SIN,1.36,103.99
 cloudflare,SJC,37.37,-121.93
 cloudflare,SJO,10,-84.2
+cloudflare,SJP,-20.82,-49.42
 cloudflare,SKG,40.52,22.97
 cloudflare,SLC,40.79,-111.98
 cloudflare,SMF,38.69,-121.59
@@ -734,6 +737,7 @@ fastly,DCA,38.85,-77.04
 fastly,DEL,28.56,77.1
 fastly,DEN,39.85,-104.67
 fastly,DFW,32.9,-97.04
+fastly,DTW,42.21,-83.36
 fastly,DUB,53.43,-6.24
 fastly,EWR,40.69,-74.18
 fastly,EZE,-34.81,-58.54
@@ -1373,6 +1377,7 @@ vercel,SFO,37.62,-122.39
 vercel,SIN,1.36,103.99
 vercel,SYD,-33.93,151.18
 vultr,AMS,52.31,4.76
+vultr,ARN,59.65,17.93
 vultr,ATL,33.64,-84.44
 vultr,CDG,49,2.57
 vultr,DFW,32.9,-97.04
