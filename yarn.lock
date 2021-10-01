@@ -317,9 +317,9 @@ pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
 
-playwright@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.15.0.tgz#c8c75287541e75317988b973a306d2f61065aefb"
+playwright@1.15.1:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.15.1.tgz#f53dae5fbbe9c7b1eca06e2638af8196e0deec96"
   dependencies:
     commander "^6.1.0"
     debug "^4.1.1"
