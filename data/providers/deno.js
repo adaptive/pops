@@ -5,9 +5,10 @@ const deno = {
     "AMS",
     "BOM",
     "BRU",
-    "CBF",
     "CGK",
     "CHS",
+    "DEL",
+    "DSM",
     "FRA",
     "GRU",
     "HEL",
@@ -18,6 +19,7 @@ const deno = {
     "LAS",
     "LAX",
     "LHR",
+    "MEL",
     "NRT",
     "PDX",
     "SIN",
@@ -26,6 +28,7 @@ const deno = {
     "TPE",
     "WAW",
     "YUL",
+    "YYZ",
     "ZRH"
   ]
 };
