@@ -43,14 +43,14 @@ console.log(PoPs.all.code);
 console.log(PoPs.all.geo);
 
 /* Providers */
-["alibaba", "arubacloud", "atlanticnet", "azurecdn", "backblaze",
-"bunnycdn", "cachefly", "cdn77", "cloudflare", "cloudfront",
-"cloudsigma", "deno", "digitalocean", "equinix", "ec2", "fastly",
-"flexential", "gcore", "googlecdn", "googlecompute", "heroku",
-"hetzner", "hostwinds", "imperva", "ionos", "kamatera", "keycdn",
-"leapswitch", "lightsail", "limelight", "linode", "mnx", "netlify",
-"ovh", "packet", "scaleway", "stackpath", "upcloud", "verizonmedia",
-"vercel", "vultr", "wasabi"]
+["alibaba", "arubacloud", "atlanticnet", "azurecdn", "azurevm",
+"backblaze", "bunnycdn", "cachefly", "cdn77", "cloudflare",
+"cloudfront", "cloudsigma", "deno", "digitalocean", "equinix",
+"ec2", "fastly", "flexential", "gcore", "googlecdn", "googlecompute",
+"heroku", "hetzner", "hostwinds", "imperva", "ionos", "kamatera",
+"keycdn", "leapswitch", "lightsail", "limelight", "linode", "mnx",
+"netlify", "ovh", "packet", "scaleway", "stackpath", "upcloud",
+"verizonmedia", "vercel", "vultr", "wasabi"]
 ```
 
 ## 🌐 Supported CDNs and Hosting Providers
@@ -61,7 +61,8 @@ console.log(PoPs.all.geo);
 *   AWS EC2 ```ec2``` 🕵️
 *   AWS Lightsail ```lightsail``` 🕵️
 *   Atlanticnet ```atlanticnet``` 🕵️
-*   Azurecdn ```azurecdn```
+*   Azure CDN ```azurecdn```
+*   Azure VM ```azurevm```
 *   Backblaze ```backblaze```
 *   Bunnycdn ```bunnycdn```
 *   CacheFly ```cachefly```

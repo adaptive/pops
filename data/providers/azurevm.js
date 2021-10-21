@@ -5,6 +5,7 @@ const azurevm = {
     "AMS",
     "BOM",
     "CBR",
+    "CDG",
     "CHI",
     "CWL",
     "CYS",
@@ -17,14 +18,13 @@ const azurevm = {
     "HKG",
     "IAD",
     "ICN",
+    "ITM",
     "JNB",
     "LAX",
-    "LON",
+    "LHR",
     "MAA",
     "MEL",
-    "OSA",
     "OSL",
-    "PAR",
     "PEK",
     "PHX",
     "PNQ",
@@ -37,7 +37,7 @@ const azurevm = {
     "SYD",
     "TYO",
     "YQB",
-    "YTO",
+    "YYZ",
     "ZRH"
   ]
 };
