@@ -94,7 +94,7 @@
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   },
-  "packageManager": "yarn@3.0.0",
+  "packageManager": "yarn@3.2.0-rc.2",
   "dependencies": {
     "puppeteer": "^10.4.0"
   }
