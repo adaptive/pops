@@ -1,12 +1,12 @@
 import _ from "lodash";
-import { chromium, firefox, webkit } from "playwright";
+import puppeteer from "puppeteer";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/vercel.js";
 
 const asset = "vercel";
 
 const spotter = async () => {
-  const browser = await webkit.launch();
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("https://vercel.com/docs/edge-network/regions");
   const data = await page.$eval(

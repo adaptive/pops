@@ -66,7 +66,6 @@
     "concurrently": "6.3.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
-    "playwright": "1.16.2",
     "prettier": "2.4.1",
     "rollup": "2.59.0",
     "rollup-plugin-terser": "7.0.2"
@@ -95,5 +94,8 @@
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   },
-  "packageManager": "yarn@3.0.0"
+  "packageManager": "yarn@3.0.0",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
 }

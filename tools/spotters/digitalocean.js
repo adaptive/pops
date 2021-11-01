@@ -1,12 +1,12 @@
 import _ from "lodash";
-import { chromium, firefox, webkit } from "playwright";
+import puppeteer from "puppeteer";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/digitalocean.js";
 
 const asset = "digitalocean";
 
 const spotter = async () => {
-  const browser = await webkit.launch();
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("https://status.digitalocean.com/");
   const data = await page.$eval(

@@ -1,12 +1,12 @@
 import _ from "lodash";
-import { chromium, firefox, webkit } from "playwright";
+import puppeteer from "puppeteer";
 import toTelegram from "./lib/telegram.js";
 import provider from "../../data/providers/upcloud.js";
 
 const asset = "upcloud";
 
 const spotter = async () => {
-  const browser = await webkit.launch();
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("https://status.upcloud.com/");
   const data = await page.$eval(
