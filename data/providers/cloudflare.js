@@ -4,6 +4,7 @@ const cloudflare = {
   pops: [
     "ADL",
     "AKL",
+    "ALA",
     "ALG",
     "AMM",
     "AMS",
@@ -82,6 +83,7 @@ const cloudflare = {
     "GVA",
     "GYD",
     "GYE",
+    "GYN",
     "HAM",
     "HAN",
     "HEL",
