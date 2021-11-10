@@ -28,6 +28,7 @@ const fastly = {
     "DFW",
     "DTW",
     "DUB",
+    "DXB",
     "EWR",
     "EZE",
     "FCO",

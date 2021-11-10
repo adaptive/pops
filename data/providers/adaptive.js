@@ -8,24 +8,23 @@ const adaptive = {
     "BOM",
     "CDG",
     "CMH",
+    "DFW",
     "DUB",
-    "FRA",
     "GRU",
     "HEL",
     "ICN",
     "JFK",
     "LHR",
     "LIS",
+    "MEX",
+    "MIA",
     "NRT",
     "NUE",
     "PDX",
-    "RIC",
     "SFO",
     "SIN",
     "SYD",
-    "YUL",
-    "YYZ",
-    "ZPM"
+    "YYZ"
   ]
 };
 

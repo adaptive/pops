@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
