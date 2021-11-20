@@ -6,6 +6,7 @@ const fastly = {
     "AKL",
     "AMS",
     "ATL",
+    "BFI",
     "BMA",
     "BNE",
     "BOG",
