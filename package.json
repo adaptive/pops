@@ -95,5 +95,5 @@
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   },
-  "packageManager": "yarn@3.2.0-rc.2"
+  "packageManager": "yarn@3.2.0-rc.5"
 }
