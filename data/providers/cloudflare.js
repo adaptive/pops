@@ -160,6 +160,7 @@ const cloudflare = {
     "OSL",
     "OTP",
     "PAP",
+    "PAT",
     "PBH",
     "PBM",
     "PDX",
