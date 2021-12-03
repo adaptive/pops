@@ -85,6 +85,7 @@ const fastly = {
     "SCL",
     "SEA",
     "SJC",
+    "SOF",
     "STL",
     "STP",
     "SYD",

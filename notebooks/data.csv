@@ -431,6 +431,7 @@ cloudflare,LUX,49.63,6.21
 cloudflare,MAA,12.98,80.16
 cloudflare,MAD,40.47,-3.57
 cloudflare,MAN,53.36,-2.27
+cloudflare,MAO,-3.03,-60.05
 cloudflare,MBA,-4.03,39.6
 cloudflare,MCI,39.29,-94.72
 cloudflare,MCT,23.59,58.29
@@ -448,6 +449,7 @@ cloudflare,MPM,-25.92,32.57
 cloudflare,MRS,43.44,5.22
 cloudflare,MRU,-20.43,57.68
 cloudflare,MSP,44.88,-93.21
+cloudflare,MSQ,53.89,28.03
 cloudflare,MUC,48.35,11.79
 cloudflare,MXP,45.63,8.71
 cloudflare,NAG,21.09,79.06
@@ -838,6 +840,7 @@ fastly,QPG,1.35,103.9
 fastly,SCL,-33.4,-70.79
 fastly,SEA,47.44,-122.3
 fastly,SJC,37.37,-121.93
+fastly,SOF,42.69,23.41
 fastly,STL,38.74,-90.37
 fastly,STP,44.93,-93.07
 fastly,SYD,-33.93,151.18
