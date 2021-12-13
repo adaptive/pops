@@ -408,9 +408,9 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-puppeteer@12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-12.0.1.tgz#ae79d0e174a07563e0bf2e05c94ccafce3e70033"
+puppeteer@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-13.0.0.tgz#f241d9bbbe5c8388da922f4f6ea3f84866e17f81"
   dependencies:
     debug "4.3.2"
     devtools-protocol "0.0.937139"
