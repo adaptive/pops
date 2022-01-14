@@ -19,13 +19,13 @@ const spotter = async () => {
 
 spotter()
   .then(value => value.match(/\((.{3})\)/gm).map(x => x.slice(1, -1)))
-  .then(a =>
-    a.map(x => {
-      // hardcoding array due to Cloudflare Error
-      if (x === "NBG") return "NGB";
-      else return x;
-    })
-  )
+  // .then(a =>
+  //   a.map(x => {
+  //     hardcoding array due to Cloudflare Error
+  //     if (x === "NBG") return "NGB";
+  //     else return x;
+  //   })
+  // )
   .then(extracted => {
     if (_.isEqual(extracted.sort(), provider.pops)) {
       console.log(`${asset}:success`, extracted.length - provider.pops.length);

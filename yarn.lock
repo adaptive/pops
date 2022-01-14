@@ -5,10 +5,10 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@adaptivelink/iata@npm:0.0.12":
-  version: 0.0.12
-  resolution: "@adaptivelink/iata@npm:0.0.12"
-  checksum: ec38d0228cee67ba93a38ffb36ad2b3cb3a99299bd7daf46fa7878db43f4b50fbef59d92381bd6d296b5de315ee51bd3d3c677ee59254a7fa380fe6400d98465
+"@adaptivelink/iata@npm:0.0.13":
+  version: 0.0.13
+  resolution: "@adaptivelink/iata@npm:0.0.13"
+  checksum: 275aed18a21fc8683616188ace6625f781cde9d3dd2a98cab5e12479d2f36ff4c47e61902ca87ef0576b34107765585904931064e3ed2a33a2d109b7369dc0e1
   languageName: node
   linkType: hard
 
@@ -16,7 +16,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@adaptivelink/pops@workspace:."
   dependencies:
-    "@adaptivelink/iata": 0.0.12
+    "@adaptivelink/iata": 0.0.13
     concurrently: 7.0.0
     isomorphic-fetch: 3.0.0
     lodash: 4.17.21
