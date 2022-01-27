@@ -1,6 +1,5 @@
 provider,code,latitude,longitude
 adaptive,AMS,52.31,4.76
-adaptive,BCN,41.3,2.08
 adaptive,BLR,13.2,77.71
 adaptive,BOM,19.1,72.87
 adaptive,CDG,49,2.57
@@ -12,7 +11,6 @@ adaptive,HEL,60.32,24.97
 adaptive,ICN,37.45,126.45
 adaptive,JFK,40.64,-73.79
 adaptive,LHR,51.47,-0.45
-adaptive,LIS,38.77,-9.13
 adaptive,MEX,19.44,-99.07
 adaptive,MIA,25.8,-80.28
 adaptive,NRT,35.77,140.39
@@ -414,6 +412,7 @@ cloudflare,ISB,33.61,73.11
 cloudflare,IST,40.98,28.82
 cloudflare,ITJ,-26.88,-48.65
 cloudflare,JAX,30.49,-81.68
+cloudflare,JDO,-7.2,-39.32
 cloudflare,JHB,1.64,103.67
 cloudflare,JIB,11.55,43.15
 cloudflare,JJN,24.8,118.59

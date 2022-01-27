@@ -110,6 +110,7 @@ const cloudflare = {
     "IST",
     "ITJ",
     "JAX",
+    "JDO",
     "JHB",
     "JIB",
     "JJN",
