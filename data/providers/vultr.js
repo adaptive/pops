@@ -9,9 +9,12 @@ const vultr = {
     "DFW",
     "EWR",
     "FRA",
+    "GRU",
     "ICN",
     "LAX",
     "LHR",
+    "MAD",
+    "MEX",
     "MIA",
     "NRT",
     "ORD",
@@ -19,6 +22,7 @@ const vultr = {
     "SIN",
     "SJC",
     "SYD",
+    "WAW",
     "YYZ"
   ]
 };
