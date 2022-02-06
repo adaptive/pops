@@ -71,6 +71,7 @@ const cloudflare = {
     "DUR",
     "DUS",
     "DXB",
+    "EBL",
     "EDI",
     "EVN",
     "EWR",

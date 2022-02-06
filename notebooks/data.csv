@@ -373,6 +373,7 @@ cloudflare,DUB,53.43,-6.24
 cloudflare,DUR,-29.61,31.12
 cloudflare,DUS,51.28,6.77
 cloudflare,DXB,25.25,55.35
+cloudflare,EBL,36.24,43.96
 cloudflare,EDI,55.95,-3.36
 cloudflare,EVN,40.15,44.4
 cloudflare,EWR,40.69,-74.18
@@ -1469,8 +1470,10 @@ vultr,SYD,-33.93,151.18
 vultr,WAW,52.17,20.97
 vultr,YYZ,43.68,-79.61
 wasabi,AMS,52.31,4.76
+wasabi,CDG,49,2.57
 wasabi,DFW,32.9,-97.04
 wasabi,HEF,38.72,-77.52
 wasabi,HIO,45.54,-122.95
 wasabi,IAD,38.95,-77.45
+wasabi,LHR,51.47,-0.45
 wasabi,NRT,35.77,140.39
