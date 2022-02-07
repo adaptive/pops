@@ -18,7 +18,8 @@ const spotter = async () => {
 };
 
 spotter()
-  .then(value => value.match(/\((.{3})\)/gm).map(x => x.slice(1, -1)))
+  .then(value => value.match(/\((.{3,7})\)/gm).map(x => x.slice(1, 4)))
+  .then(a => _.uniq(a))
   .then(a =>
     a.map(x => {
       // hardcoding LON to LGW
@@ -34,7 +35,7 @@ spotter()
     })
   )
   .then(a => a.concat(["LAX", "LGB"]))
-  .then(a => _.uniq(a))
+  
   .then(extracted => {
     if (_.isEqual(extracted.sort(), provider.pops)) {
       console.log(`${asset}:success`, extracted.length - provider.pops.length);
