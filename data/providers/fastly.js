@@ -44,6 +44,7 @@ const fastly = {
     "HHN",
     "HKG",
     "HND",
+    "HNL",
     "HYD",
     "IAD",
     "IAH",

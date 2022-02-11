@@ -2,6 +2,7 @@ const cloudflare = {
   name: "Cloudflare",
   url: "https://www.cloudflare.com",
   pops: [
+    "ACC",
     "ADL",
     "AKL",
     "ALA",
@@ -96,6 +97,7 @@ const cloudflare = {
     "HAN",
     "HEL",
     "HET",
+    "HFA",
     "HFE",
     "HGH",
     "HKG",
@@ -116,6 +118,7 @@ const cloudflare = {
     "JIB",
     "JJN",
     "JNB",
+    "JOI",
     "JSR",
     "JUZ",
     "KBP",

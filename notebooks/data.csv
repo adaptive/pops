@@ -304,6 +304,7 @@ cdn77,VIE,48.12,16.56
 cdn77,WAW,52.17,20.97
 cdn77,YYZ,43.68,-79.61
 cdn77,ZRH,47.45,8.56
+cloudflare,ACC,5.61,-0.17
 cloudflare,ADL,-34.94,138.54
 cloudflare,AKL,-37,174.78
 cloudflare,ALA,43.35,77.01
@@ -398,6 +399,7 @@ cloudflare,HAM,53.63,10.01
 cloudflare,HAN,21.21,105.8
 cloudflare,HEL,60.32,24.97
 cloudflare,HET,40.85,111.81
+cloudflare,HFA,32.81,35.04
 cloudflare,HFE,31.99,116.98
 cloudflare,HGH,30.24,120.43
 cloudflare,HKG,22.32,113.94
@@ -418,6 +420,7 @@ cloudflare,JHB,1.64,103.67
 cloudflare,JIB,11.55,43.15
 cloudflare,JJN,24.8,118.59
 cloudflare,JNB,-26.13,28.23
+cloudflare,JOI,-26.23,-48.78
 cloudflare,JSR,23.18,89.16
 cloudflare,JUZ,28.97,118.83
 cloudflare,KBP,50.34,30.9
@@ -821,6 +824,7 @@ fastly,HEL,60.32,24.97
 fastly,HHN,49.95,7.26
 fastly,HKG,22.32,113.94
 fastly,HND,35.55,139.78
+fastly,HNL,21.33,-157.92
 fastly,HYD,17.24,78.43
 fastly,IAD,38.95,-77.45
 fastly,IAH,29.98,-95.34
