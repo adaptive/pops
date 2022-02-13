@@ -23,6 +23,7 @@ import googlecdn from "./providers/googlecdn.js";
 import googlecompute from "./providers/googlecompute.js";
 import heroku from "./providers/heroku.js";
 import hetzner from "./providers/hetzner.js";
+import hivelocity from "./providers/hivelocity.js";
 import hostwinds from "./providers/hostwinds.js";
 import imperva from "./providers/imperva.js";
 import ionos from "./providers/ionos.js";
@@ -70,6 +71,7 @@ const providers = {
   googlecompute,
   heroku,
   hetzner,
+  hivelocity,
   hostwinds,
   imperva,
   ionos,
