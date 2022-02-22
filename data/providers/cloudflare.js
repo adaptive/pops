@@ -237,6 +237,7 @@ const cloudflare = {
     "TSN",
     "TUN",
     "TXL",
+    "UDI",
     "UIO",
     "ULN",
     "URT",
