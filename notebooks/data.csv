@@ -1,6 +1,5 @@
 provider,code,latitude,longitude
 adaptive,AMS,52.31,4.76
-adaptive,BLR,13.2,77.71
 adaptive,BOM,19.1,72.87
 adaptive,CDG,49,2.57
 adaptive,CMH,40,-82.88
@@ -11,6 +10,7 @@ adaptive,HEL,60.32,24.97
 adaptive,ICN,37.45,126.45
 adaptive,JFK,40.64,-73.79
 adaptive,LHR,51.47,-0.45
+adaptive,MAD,40.47,-3.57
 adaptive,MEX,19.44,-99.07
 adaptive,MIA,25.8,-80.28
 adaptive,NRT,35.77,140.39
@@ -1474,6 +1474,7 @@ vultr,ICN,37.45,126.45
 vultr,LAX,33.94,-118.41
 vultr,LHR,51.47,-0.45
 vultr,MAD,40.47,-3.57
+vultr,MEL,-37.67,144.85
 vultr,MEX,19.44,-99.07
 vultr,MIA,25.8,-80.28
 vultr,NRT,35.77,140.39

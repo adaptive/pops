@@ -3,7 +3,6 @@ const adaptive = {
   url: "https://adaptive.link",
   pops: [
     "AMS",
-    "BLR",
     "BOM",
     "CDG",
     "CMH",
@@ -14,6 +13,7 @@ const adaptive = {
     "ICN",
     "JFK",
     "LHR",
+    "MAD",
     "MEX",
     "MIA",
     "NRT",

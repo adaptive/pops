@@ -14,6 +14,7 @@ const vultr = {
     "LAX",
     "LHR",
     "MAD",
+    "MEL",
     "MEX",
     "MIA",
     "NRT",
