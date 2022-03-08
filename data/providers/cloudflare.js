@@ -225,6 +225,7 @@ const cloudflare = {
     "SVX",
     "SYD",
     "TAO",
+    "TAS",
     "TBS",
     "TGU",
     "TLH",
