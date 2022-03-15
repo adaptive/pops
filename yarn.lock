@@ -456,9 +456,9 @@ rollup-plugin-terser@7.0.2:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup@2.70.0:
-  version "2.70.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.70.0.tgz#17a92e5938e92a251b962352e904c9f558230ec7"
+rollup@2.70.1:
+  version "2.70.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.70.1.tgz#824b1f1f879ea396db30b0fc3ae8d2fead93523e"
   optionalDependencies:
     fsevents "~2.3.2"
 
