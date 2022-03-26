@@ -10,6 +10,7 @@ const vultr = {
     "EWR",
     "FRA",
     "GRU",
+    "HNL",
     "ICN",
     "LAX",
     "LHR",
