@@ -12,7 +12,6 @@ const keycdn = {
     "CDG",
     "DEN",
     "DFW",
-    "DME",
     "DXB",
     "FRA",
     "GRU",
