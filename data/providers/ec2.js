@@ -6,6 +6,7 @@ const lightsail = {
     "BAH",
     "BOM",
     "CDG",
+    "CGK",
     "CMH",
     "CPT",
     "DUB",
