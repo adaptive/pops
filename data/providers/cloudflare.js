@@ -7,6 +7,7 @@ const cloudflare = {
     "AKL",
     "ALA",
     "ALG",
+    "AMD",
     "AMM",
     "AMS",
     "AQG",
