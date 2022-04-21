@@ -5,6 +5,7 @@ const vultr = {
     "AMS",
     "ARN",
     "ATL",
+    "BOM",
     "CDG",
     "DFW",
     "EWR",

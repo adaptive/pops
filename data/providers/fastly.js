@@ -50,7 +50,6 @@ const fastly = {
     "IAH",
     "ICN",
     "ITM",
-    "JAX",
     "JNB",
     "KUL",
     "LAX",
