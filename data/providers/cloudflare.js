@@ -115,6 +115,7 @@ const cloudflare = {
     "ISB",
     "IST",
     "ITJ",
+    "IXC",
     "JAX",
     "JDO",
     "JHB",
