@@ -700,6 +700,7 @@ cloudsigma,ZRH,47.45,8.56
 deno,AMS,52.31,4.76
 deno,BOM,19.1,72.87
 deno,BRU,50.9,4.48
+deno,CDG,49,2.57
 deno,CGK,-6.13,106.66
 deno,CHS,32.88,-80.04
 deno,DEL,28.56,77.1
@@ -714,9 +715,12 @@ deno,KIX,34.44,135.24
 deno,LAS,36.09,-115.15
 deno,LAX,33.94,-118.41
 deno,LHR,51.47,-0.45
+deno,MAD,40.47,-3.57
 deno,MEL,-37.67,144.85
+deno,MXP,45.63,8.71
 deno,NRT,35.77,140.39
 deno,PDX,45.59,-122.59
+deno,SCL,-33.4,-70.79
 deno,SIN,1.36,103.99
 deno,SLC,40.79,-111.98
 deno,SYD,-33.93,151.18
