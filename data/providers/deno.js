@@ -33,7 +33,7 @@ const deno = {
     "WAW",
     "YUL",
     "YYZ",
-    "ZRH",
+    "ZRH"
   ]
 };
 

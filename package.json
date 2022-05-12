@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.4.16",
+  "version": "0.4.17",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -63,7 +63,7 @@
     "wasabi"
   ],
   "devDependencies": {
-    "@adaptivelink/iata": "0.0.15",
+    "@adaptivelink/iata": "0.1.0",
     "concurrently": "7.1.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
