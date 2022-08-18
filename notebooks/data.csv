@@ -366,16 +366,19 @@ cloudflare,CCU,22.65,88.44
 cloudflare,CDG,49,2.57
 cloudflare,CEB,10.31,123.98
 cloudflare,CFC,-26.79,-50.94
+cloudflare,CGB,-15.65,-56.12
 cloudflare,CGD,28.92,111.64
 cloudflare,CGK,-6.13,106.66
 cloudflare,CGO,34.53,113.84
 cloudflare,CGP,22.25,91.82
+cloudflare,CHC,-43.49,172.54
 cloudflare,CLT,35.22,-80.94
 cloudflare,CMB,7.17,79.89
 cloudflare,CMH,40,-82.88
 cloudflare,CMN,33.37,-7.59
 cloudflare,CNF,-19.63,-43.96
 cloudflare,CNX,18.77,98.97
+cloudflare,COR,-31.32,-64.21
 cloudflare,CPH,55.63,12.65
 cloudflare,CPT,-33.97,18.6
 cloudflare,CSX,28.19,113.21
@@ -409,6 +412,8 @@ cloudflare,FOC,25.93,119.67
 cloudflare,FOR,-3.78,-38.54
 cloudflare,FRA,50.05,8.57
 cloudflare,FUO,23.13,113.28
+cloudflare,GBE,-24.56,25.92
+cloudflare,GEO,6.5,-58.25
 cloudflare,GIG,-22.81,-43.25
 cloudflare,GND,12,-61.79
 cloudflare,GOT,57.67,12.29
@@ -422,6 +427,7 @@ cloudflare,GYN,-16.63,-49.23
 cloudflare,HAK,19.94,110.46
 cloudflare,HAM,53.63,10.01
 cloudflare,HAN,21.21,105.8
+cloudflare,HBA,-42.84,147.51
 cloudflare,HEL,60.32,24.97
 cloudflare,HET,40.85,111.81
 cloudflare,HFA,32.81,35.04
@@ -442,6 +448,7 @@ cloudflare,ITJ,-26.88,-48.65
 cloudflare,IXC,30.67,76.8
 cloudflare,JAX,30.49,-81.68
 cloudflare,JDO,-7.2,-39.32
+cloudflare,JED,21.67,39.15
 cloudflare,JHB,1.64,103.67
 cloudflare,JIB,11.55,43.15
 cloudflare,JJN,24.8,118.59
@@ -486,6 +493,7 @@ cloudflare,MBA,-4.03,39.6
 cloudflare,MCI,39.29,-94.72
 cloudflare,MCT,23.59,58.29
 cloudflare,MDE,6.17,-75.43
+cloudflare,MDL,21.94,96.09
 cloudflare,MEL,-37.67,144.85
 cloudflare,MEM,35.04,-89.98
 cloudflare,MEX,19.44,-99.07
@@ -504,10 +512,12 @@ cloudflare,MUC,48.35,11.79
 cloudflare,MXP,45.63,8.71
 cloudflare,NAG,21.09,79.06
 cloudflare,NBO,-1.32,36.93
+cloudflare,NJF,31.99,44.4
 cloudflare,NKG,31.74,118.87
 cloudflare,NOU,-22.02,166.22
 cloudflare,NQN,-38.95,-68.15
 cloudflare,NRT,35.77,140.39
+cloudflare,OKA,26.2,127.65
 cloudflare,OMA,41.3,-95.9
 cloudflare,ORD,41.98,-87.9
 cloudflare,ORF,36.9,-76.21
@@ -561,6 +571,7 @@ cloudflare,TAO,36.27,120.38
 cloudflare,TAS,41.26,69.27
 cloudflare,TBS,41.67,44.96
 cloudflare,TGU,14.06,-87.22
+cloudflare,TIA,41.42,19.71
 cloudflare,TLH,30.4,-84.34
 cloudflare,TLL,59.42,24.8
 cloudflare,TLV,32,34.87
@@ -823,10 +834,12 @@ ec2,SJC,37.37,-121.93
 ec2,SYD,-33.93,151.18
 ec2,YUL,45.46,-73.75
 fastly,ACC,5.61,-0.17
+fastly,ADL,-34.94,138.54
 fastly,AKL,-37,174.78
 fastly,AMS,52.31,4.76
 fastly,ATL,33.64,-84.44
 fastly,BFI,47.54,-122.3
+fastly,BKK,13.69,100.75
 fastly,BMA,59.36,17.95
 fastly,BNE,-27.4,153.11
 fastly,BOG,4.7,-74.14
@@ -859,7 +872,6 @@ fastly,FRA,50.05,8.57
 fastly,FTY,33.78,-84.52
 fastly,GIG,-22.81,-43.25
 fastly,GNV,29.69,-82.28
-fastly,GRU,-23.43,-46.48
 fastly,HEL,60.32,24.97
 fastly,HHN,49.95,7.26
 fastly,HKG,22.32,113.94
@@ -887,7 +899,6 @@ fastly,MAA,12.98,80.16
 fastly,MAD,40.47,-3.57
 fastly,MAN,53.36,-2.27
 fastly,MCI,39.29,-94.72
-fastly,MDW,41.79,-87.74
 fastly,MEL,-37.67,144.85
 fastly,MIA,25.8,-80.28
 fastly,MNL,14.51,121.01
@@ -896,7 +907,6 @@ fastly,MSP,44.88,-93.21
 fastly,MUC,48.35,11.79
 fastly,MXP,45.63,8.71
 fastly,NRT,35.77,140.39
-fastly,ORD,41.98,-87.9
 fastly,OSL,60.19,11.1
 fastly,PAO,37.46,-122.11
 fastly,PDK,33.88,-84.3
@@ -904,7 +914,6 @@ fastly,PDX,45.59,-122.59
 fastly,PER,-31.93,115.96
 fastly,PHX,33.44,-112
 fastly,PMO,38.19,13.1
-fastly,PWK,42.11,-87.89
 fastly,QPG,1.35,103.9
 fastly,SCL,-33.4,-70.79
 fastly,SEA,47.44,-122.3
@@ -918,6 +927,7 @@ fastly,VIE,48.12,16.56
 fastly,WLG,-41.33,174.81
 fastly,YUL,45.46,-73.75
 fastly,YVR,49.19,-123.18
+fastly,YYC,51.13,-114.01
 fastly,YYZ,43.68,-79.61
 flexential,ABE,40.65,-75.43
 flexential,ATL,33.64,-84.44

@@ -3,10 +3,12 @@ const fastly = {
   url: "https://www.fastly.com",
   pops: [
     "ACC",
+    "ADL",
     "AKL",
     "AMS",
     "ATL",
     "BFI",
+    "BKK",
     "BMA",
     "BNE",
     "BOG",
@@ -39,7 +41,6 @@ const fastly = {
     "FTY",
     "GIG",
     "GNV",
-    "GRU",
     "HEL",
     "HHN",
     "HKG",
@@ -67,7 +68,6 @@ const fastly = {
     "MAD",
     "MAN",
     "MCI",
-    "MDW",
     "MEL",
     "MIA",
     "MNL",
@@ -76,7 +76,6 @@ const fastly = {
     "MUC",
     "MXP",
     "NRT",
-    "ORD",
     "OSL",
     "PAO",
     "PDK",
@@ -84,7 +83,6 @@ const fastly = {
     "PER",
     "PHX",
     "PMO",
-    "PWK",
     "QPG",
     "SCL",
     "SEA",
@@ -98,6 +96,7 @@ const fastly = {
     "WLG",
     "YUL",
     "YVR",
+    "YYC",
     "YYZ"
   ]
 };
