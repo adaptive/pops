@@ -64,7 +64,7 @@
   ],
   "devDependencies": {
     "@adaptivelink/iata": "0.1.2",
-    "concurrently": "7.3.0",
+    "concurrently": "7.4.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
     "prettier": "2.7.1",
