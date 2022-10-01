@@ -5,25 +5,25 @@ const netlify = {
   name: "Netlify",
   url: "https://www.netlify.com/",
   pops: [
-    "BOM", // Mumbai
-    "CMH", // Columbus
-    "DME", // Moscow
-    "DSM", // Des Moines
-    "DUB", // Dublin
-    "DXB", // Dubai
-    "FRA", // Frankfurt
-    "GRU", // Sao Paulo
-    "HEL", // Helsinki
-    "JFK", // New York
-    "JNB", // Johannesburg
-    "LHR", // London
-    "MAA", // Chennai
-    "NRT", // Tokyo
-    "PUS", // Busan
-    "SFO", // San Francisco
-    "SIN", // Singapore
-    "SYD", // Sydney
-    "YYZ" // Toronto
+    "BOM", // Mumbai (India)
+    "CMH", // Columbus (US)
+    "DME", // Moscow (Russia)
+    "DSM", // Des Moines (US)
+    "DUB", // Dublin (Ireland)
+    "DXB", // Dubai (United Arab Emirates)
+    "FRA", // Frankfurt (Germany)
+    "GRU", // Sao Paulo (Brazil)
+    "HEL", // Helsinki (Finland)
+    "JFK", // New York (US)
+    "JNB", // Johannesburg (South Africa)
+    "LHR", // London (UK)
+    "MAA", // Chennai (India)
+    "NRT", // Tokyo (Japan)
+    "PUS", // Busan (South Korea)
+    "SFO", // San Francisco (US)
+    "SIN", // Singapore (Singapore)
+    "SYD", // Sydney (Australia)
+    "YYZ" // Toronto (Canada)
   ]
 };
 

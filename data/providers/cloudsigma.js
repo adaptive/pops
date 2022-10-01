@@ -2,20 +2,20 @@ const cloudsigma = {
   name: "CloudSigma",
   url: "https://www.cloudsigma.com",
   pops: [
-    "CRK", // Clark
-    "DUB", // Dublin
-    "FRA", // Frankfurt
-    "GVA", // Geneva
-    "HNL", // Honolulu
-    "IAD", // Washington DC
-    "LLA", // Lulea, Sweden
-    "MEL", // Melbourne
-    "MNL", // Manila
-    "NRT", // Tokyo
-    "PER", // Perth
-    "RUH", // Riyadh
-    "SJC", // San Jose
-    "ZRH" // Zurich
+    "CRK", // Clark (Philippines)
+    "DUB", // Dublin (Ireland)
+    "FRA", // Frankfurt (Germany)
+    "GVA", // Geneva (Switzerland)
+    "HNL", // Honolulu (US)
+    "IAD", // Washington DC (US)
+    "LLA", // Lulea (Sweden)
+    "MEL", // Melbourne (Australia)
+    "MNL", // Manila (Philippines)
+    "NRT", // Tokyo (Japan)
+    "PER", // Perth (Australia)
+    "RUH", // Riyadh (Saudi Arabia)
+    "SJC", // San Jose (US)
+    "ZRH" // Zurich (Switzerland)
   ]
 };
 

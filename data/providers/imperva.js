@@ -2,50 +2,50 @@ const imperva = {
   name: "Imperva",
   url: "https://www.imperva.com/",
   pops: [
-    "AKL",
-    "AMS",
-    "ARN",
-    "ATL",
-    "BKK",
-    "BOM",
-    "CDG",
-    "CGK",
-    "CPH",
-    "DEL",
-    "DFW",
-    "DME",
-    "DXB",
-    "EZE",
-    "FRA",
-    "GRU",
-    "HKG",
-    "IAD",
-    "ICN",
-    "IST",
-    "JFK",
-    "JNB",
-    "KIX",
-    "KUL",
-    "LAX",
-    "LHR",
-    "MAD",
-    "MEL",
-    "MEX",
-    "MIA",
-    "MXP",
-    "NRT",
-    "ORD",
-    "SEA",
-    "SIN",
-    "SJC",
-    "SYD",
-    "TLV",
-    "TPE",
-    "VIE",
-    "WAW",
-    "YVR",
-    "YYZ",
-    "ZRH"
+    "AKL", // Auckland (New Zealand)
+    "AMS", // Amsterdam (Netherlands)
+    "ARN", // Stockholm (Sweden)
+    "ATL", // Atlanta (US)
+    "BKK", // Bangkok (Thailand)
+    "BOM", // Mumbai (Bombay)
+    "CDG", // Paris (France)
+    "CGK", // Jakarta (Indonesia)
+    "CPH", // Copenhagen (Denmark)
+    "DEL", // Delhi (India)
+    "DFW", // Dallas (US)
+    "DME", // Moscow (Russia)
+    "DXB", // Dubai (United Arab Emirates)
+    "EZE", // Buenos Aires (Argentina)
+    "FRA", // Frankfurt (Germany)
+    "GRU", // Sao Paulo (Brazil)
+    "HKG", // Hong Kong (China)
+    "IAD", // Washington DC (US)
+    "ICN", // Seoul (South Korea)
+    "IST", // Istanbul (Turkey)
+    "JFK", // New York (US)
+    "JNB", // Johannesburg (South Africa)
+    "KIX", // Osaka (Japan)
+    "KUL", // Kuala Lumpur (Malaysia)
+    "LAX", // Los Angeles (US)
+    "LHR", // London (UK)
+    "MAD", // Madrid (Spain)
+    "MEL", // Melbourne (Australia)
+    "MEX", // Mexico City (Mexico)
+    "MIA", // Miami (US)
+    "MXP", // Milan (Italy)
+    "NRT", // Tokyo (Japan)
+    "ORD", // Chicago (US)
+    "SEA", // Seattle (US)
+    "SIN", // Singapore (Singapore)
+    "SJC", // San Jose (US)
+    "SYD", // Sydney (Australia)
+    "TLV", // Tel Aviv (Israel)
+    "TPE", // Taipei (Taiwan)
+    "VIE", // Vienna (Austria)
+    "WAW", // Warsaw (Poland)
+    "YVR", // Vancouver (Canada)
+    "YYZ", // Toronto (Canada)
+    "ZRH" // Zurich (Switzerland)
   ]
 };
 

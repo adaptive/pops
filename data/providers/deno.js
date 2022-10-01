@@ -2,40 +2,40 @@ const deno = {
   name: "Deno Deploy",
   url: "https://deno.com/deploy",
   pops: [
-    "AMS", // Amsterdam
-    "BOM", // Mumbai
-    "BRU", // Brussels
-    "CDG", // Paris
-    "CGK", // Jakarta
-    "CHS", // Charleston
-    "CMH", // Columbus
-    "DEL", // Delhi
-    "DFW", // Dallas
-    "DSM", // Des Moines
-    "FRA", // Frankfurt
-    "GRU", // Sao Paulo
-    "HEL", // Helsinki
-    "HKG", // Hong Kong
-    "IAD", // Washington DC
-    "ICN", // Seoul
-    "KIX", // Osaka
-    "LAS", // Las Vegas
-    "LAX", // Los Angeles
-    "LHR", // London
-    "MAD", // Madrid
-    "MEL", // Melbourne
-    "MXP", // Milan
-    "NRT", // Tokyo
-    "PDX", // Portland
-    "SCL", // Santiago
-    "SIN", // Singapore
-    "SLC", // Salt Lake City
-    "SYD", // Sydney
-    "TPE", // Taipei
-    "WAW", // Warsaw
-    "YUL", // Montreal
-    "YYZ", // Toronto
-    "ZRH" // Zurich
+    "AMS", // Amsterdam (Netherlands)
+    "BOM", // Mumbai (India)
+    "BRU", // Brussels (Belgium)
+    "CDG", // Paris (France)
+    "CGK", // Jakarta (Indonesia)
+    "CHS", // Charleston (US)
+    "CMH", // Columbus (US)
+    "DEL", // Delhi (India)
+    "DFW", // Dallas (US)
+    "DSM", // Des Moines (US)
+    "FRA", // Frankfurt (Germany)
+    "GRU", // Sao Paulo (Brazil)
+    "HEL", // Helsinki (Finland)
+    "HKG", // Hong Kong (China)
+    "IAD", // Washington DC (US)
+    "ICN", // Seoul (South Korea)
+    "KIX", // Osaka (Japan)
+    "LAS", // Las Vegas (US)
+    "LAX", // Los Angeles (US)
+    "LHR", // London (UK)
+    "MAD", // Madrid (Spain)
+    "MEL", // Melbourne (Australia)
+    "MXP", // Milan (Italy)
+    "NRT", // Tokyo (Japan)
+    "PDX", // Portland (US)
+    "SCL", // Santiago de Chile (Chile)
+    "SIN", // Singapore (Singapore)
+    "SLC", // Salt Lake City (US)
+    "SYD", // Sydney (Australia)
+    "TPE", // Taipei (Taiwan)
+    "WAW", // Warsaw (Poland)
+    "YUL", // Montreal (Canada)
+    "YYZ", // Toronto (Canada)
+    "ZRH" // Zurich (Switzerland)
   ]
 };
 
