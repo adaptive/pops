@@ -20,9 +20,10 @@ jobs:
         cache: 'pnpm'
     - name: PNPM Install
       run: pnpm install
-    - name: Pack and Unpack
-      run: pnpm pack && tar -xvzf *.tgz
-    - name: Test
-      run: pnpm test
     - name: Publish Dry Run
       run: pnpm publish --dry-run --no-git-checks
+    - name: Test
+      run: pnpm test
+    - name: Pack and Unpack
+      run: pnpm pack && tar -xvzf *.tgz
+
