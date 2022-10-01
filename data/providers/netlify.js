@@ -5,25 +5,25 @@ const netlify = {
   name: "Netlify",
   url: "https://www.netlify.com/",
   pops: [
-    "BOM",
-    "CMH",
-    "DME",
-    "DSM",
-    "DUB",
-    "DXB",
-    "FRA",
-    "GRU",
-    "HEL",
-    "JFK",
-    "JNB",
-    "LHR",
-    "MAA",
-    "NRT",
-    "PUS",
-    "SFO",
-    "SIN",
-    "SYD",
-    "YYZ"
+    "BOM", // Mumbai
+    "CMH", // Columbus
+    "DME", // Moscow
+    "DSM", // Des Moines
+    "DUB", // Dublin
+    "DXB", // Dubai
+    "FRA", // Frankfurt
+    "GRU", // Sao Paulo
+    "HEL", // Helsinki
+    "JFK", // New York
+    "JNB", // Johannesburg
+    "LHR", // London
+    "MAA", // Chennai
+    "NRT", // Tokyo
+    "PUS", // Busan
+    "SFO", // San Francisco
+    "SIN", // Singapore
+    "SYD", // Sydney
+    "YYZ" // Toronto
   ]
 };
 
