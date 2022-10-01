@@ -2,17 +2,17 @@ const wasabi = {
   name: "Wasabi",
   url: "https://wasabi.com",
   pops: [
-    "AMS",
-    "CDG",
-    "DFW",
-    "FRA",
-    "HEF",
-    "HIO",
-    "IAD",
-    "KIX",
-    "LHR",
-    "NRT",
-    "YYZ"
+    "AMS", // Amsterdam (Netherlands)
+    "CDG", // Paris (France)
+    "DFW", // Dallas (US)
+    "FRA", // Frankfurt (Germany)
+    "HEF", // Manassas (US)
+    "HIO", // Portland (US)
+    "IAD", // Washington (US)
+    "KIX", // Osaka (Japan)
+    "LHR", // London (UK)
+    "NRT", // Tokyo (Japan)
+    "YYZ" // Toronto (Canada)
   ]
 };
 
