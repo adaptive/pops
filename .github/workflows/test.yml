@@ -12,14 +12,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: pnpm/action-setup@v2
-    with:
-      version: 7.12.2
+      with:
+        version: latest
     - uses: actions/setup-node@v3.5.0
       with:
         node-version: ${{ matrix.node }}
         cache: 'pnpm'
     - name: PNPM Install
-      run: pnpm install --frozen-lockfile
+      run: pnpm install
     - name: Pack and Unpack
       run: pnpm pack && tar -xvzf *.tgz
     - name: Test
