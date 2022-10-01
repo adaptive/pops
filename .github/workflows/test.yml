@@ -16,7 +16,7 @@ jobs:
         node-version: ${{ matrix.node }}
         cache: 'npm'
     - name: NPM Install
-      run: npm install
+      run: npm install --no-package-lock
     - name: Pack and Unpack
       run: npm pack && tar -xvzf *.tgz
     - name: Test
