@@ -14,10 +14,10 @@ jobs:
     - uses: actions/setup-node@v3.5.0
       with:
         node-version: ${{ matrix.node }}
-        cache: 'npm'
-    - name: NPM Install
-      run: npm install --no-package-lock
+        cache: 'pnpm'
+    - name: PNPM Install
+      run: pnpm install
     - name: Pack and Unpack
-      run: npm pack && tar -xvzf *.tgz
+      run: pnpm pack && tar -xvzf *.tgz
     - name: Test
-      run: npm test
+      run: pnpm test
