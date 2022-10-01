@@ -122,23 +122,23 @@ const cloudflare = {
     "IXC",
     "JAX",
     "JDO",
-    "JED",
-    "JHB",
-    "JIB",
-    "JNB",
-    "JOG",
-    "JOI",
-    "JSR",
-    "KBP",
-    "KEF",
-    "KGL",
-    "KHH",
-    "KHI",
-    "KHN",
-    "KHV",
-    "KIV",
-    "KIX",
-    "KJA",
+    "JED", // Jeddah (Saudi Arabia)
+    "JHB", // Johor Bahru (Malaysia)
+    "JIB", // Djibouti (Djibouti)
+    "JNB", // Johannesburg (South Africa)
+    "JOG", // Yogyakarta (Indonesia)
+    "JOI", // Joinville (Brazil)
+    "JSR", // Jessore (Bangladesh)
+    "KBP", // Kiev (Ukraine)
+    "KEF", // Reykjavik (Iceland)
+    "KGL", // Kigali (Rwanda)
+    "KHH", // Kaohsiung (Taiwan)
+    "KHI", // Karachi (Pakistan)
+    "KHN", // Nanchang (China)
+    "KHV", // Khabarovsk (Russia)
+    "KIV", // Chisinau (Moldova)
+    "KIX", // Osaka (Japan)
+    "KJA", // Krasnoyarsk (Russia)
     "KLD", // Kaliningrad (Russia)
     "KNU", // Kanpur (India)
     "KTM", // Kathmandu (Nepal)
@@ -156,11 +156,11 @@ const cloudflare = {
     "LIS", // Lisbon (Portugal)
     "LLK", // Lankaran (Azerbaijan)
     "LOS", // Lagos (Nigeria)
-    "LUX",
-    "LYA",
-    "MAA",
-    "MAD",
-    "MAN",
+    "LUX", // Luxembourg (Luxembourg)
+    "LYA", // Luoyang (China)
+    "MAA", // Chennai (India)
+    "MAD", // Madrid (Spain)
+    "MAN", // Manchester (United Kingdom)
     "MAO",
     "MBA",
     "MCI",
@@ -169,21 +169,21 @@ const cloudflare = {
     "MDL",
     "MEL",
     "MEM",
-    "MEX",
+    "MEX", // Mexico City (Mexico)
     "MFE",
     "MFM",
     "MGM",
-    "MIA",
-    "MLE",
-    "MNL",
-    "MPM",
-    "MRS",
-    "MRU",
-    "MSP",
-    "MSQ",
-    "MUC",
-    "MXP",
-    "NAG",
+    "MIA", // Miami (US)
+    "MLE", // Malé (Maldives)
+    "MNL", // Manila (Philippines)
+    "MPM", // Maputo (Mozambique)
+    "MRS", // Marseille (France)
+    "MRU", // Port Louis (Mauritius)
+    "MSP", // Minneapolis (US)
+    "MSQ", // Minsk (Belarus)
+    "MUC", // Munich (Germany)
+    "MXP", // Milan (Italy)
+    "NAG", // Nagpur (India)
     "NBO", // Nairobi (Kenya)
     "NJF", // Najaf (Iraq)
     "NNG", // Nanning (China)
