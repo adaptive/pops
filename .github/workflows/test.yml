@@ -24,3 +24,5 @@ jobs:
       run: pnpm pack && tar -xvzf *.tgz
     - name: Test
       run: pnpm test
+    - name: Publish Dry Run
+      run: pnpm publish --dry-run --no-git-checks

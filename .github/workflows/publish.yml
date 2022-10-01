@@ -15,9 +15,7 @@ jobs:
         node-version: 18
         registry-url: https://registry.npmjs.org/
         scope: "@adaptivelink"
-        cache: 'npm'
-    - name: NPM Install
-      run: npm install
+        cache: 'pnpm'
     - name: Publish
       run: npm publish --access public
       env:
