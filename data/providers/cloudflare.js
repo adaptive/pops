@@ -108,20 +108,20 @@ const cloudflare = {
     "HEL", // Helsinki (Finland)
     "HFA", // Haifa (Israel)
     "HGH", // Hangzhou (China)
-    "HKG",
-    "HNL",
-    "HRE",
-    "HYD",
-    "IAD",
-    "IAH",
-    "ICN",
-    "IND",
-    "ISB",
-    "IST",
-    "ITJ",
-    "IXC",
-    "JAX",
-    "JDO",
+    "HKG", // Hong Kong (China)
+    "HNL", // Honolulu (US)
+    "HRE", // Harare (Zimbabwe)
+    "HYD", // Hyderabad (India)
+    "IAD", // Washington, DC (US)
+    "IAH", // Houston (US)
+    "ICN", // Seoul (South Korea)
+    "IND", // Indianapolis (US)
+    "ISB", // Islamabad (Pakistan)
+    "IST", // Istanbul (Turkey)
+    "ITJ", // Ito (Japan)
+    "IXC", // Ixtepec (Mexico)
+    "JAX", // Jacksonville (US)
+    "JDO", // Juazeiro do Norte (Brazil)
     "JED", // Jeddah (Saudi Arabia)
     "JHB", // Johor Bahru (Malaysia)
     "JIB", // Djibouti (Djibouti)
@@ -161,18 +161,18 @@ const cloudflare = {
     "MAA", // Chennai (India)
     "MAD", // Madrid (Spain)
     "MAN", // Manchester (United Kingdom)
-    "MAO",
-    "MBA",
-    "MCI",
-    "MCT",
-    "MDE",
-    "MDL",
-    "MEL",
-    "MEM",
+    "MAO", // Manaus (Brazil)
+    "MBA", // Mombasa (Kenya)
+    "MCI", // Kansas City (US)
+    "MCT", // Muscat (Oman)
+    "MDE", // Medellin (Colombia)
+    "MDL", // Mandalay (Myanmar)
+    "MEL", // Melbourne (Australia)
+    "MEM", // Memphis (US)
     "MEX", // Mexico City (Mexico)
-    "MFE",
-    "MFM",
-    "MGM",
+    "MFE", // Monterrey (Mexico)
+    "MFM", // Macau (China)
+    "MGM", // Montgomery (US)
     "MIA", // Miami (US)
     "MLE", // Malé (Maldives)
     "MNL", // Manila (Philippines)
