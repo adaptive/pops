@@ -19,7 +19,7 @@ jobs:
         node-version: ${{ matrix.node }}
         cache: 'pnpm'
     - name: PNPM Install
-      run: pnpm install
+      run: pnpm install --no-frozen-lockfile
     - name: Pack and Unpack
       run: pnpm pack && tar -xvzf *.tgz
     - name: Test
