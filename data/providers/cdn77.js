@@ -2,60 +2,61 @@ const cdn77 = {
   name: "CDN77",
   url: "https://www.cdn77.com/",
   pops: [
-    "AMS",
-    "ARN",
-    "ATL",
-    "BOG",
-    "BOM",
-    "BTS",
-    "CDG",
-    "CGK",
-    "CPT",
-    "DEN",
-    "DFW",
-    "DME",
-    "EBL",
-    "EZE",
-    "FJR",
-    "FRA",
-    "GRU",
-    "GYE",
-    "HKG",
-    "IAD",
-    "IEV",
-    "IST",
-    "JED",
-    "JFK",
-    "KBP",
-    "LAX",
-    "LHR",
-    "LIM",
-    "MAD",
-    "MCT",
-    "MIA",
-    "MRS",
-    "MSQ",
-    "MXP",
-    "NRT",
-    "ORD",
-    "OTP",
-    "PRG",
-    "PTY",
-    "QRO",
-    "RUH",
-    "SCL",
-    "SEA",
-    "SIN",
-    "SJC",
-    "SOF",
-    "SYD",
-    "TLV",
-    "TPE",
-    "UIO",
-    "VIE",
-    "WAW",
-    "YYZ",
-    "ZRH"
+    "AMS", // Amsterdam (Netherlands)
+    "ARN", // Stockholm (Sweden)
+    "ATL", // Atlanta (US)
+    "BOG", // Bogota (Colombia)
+    "BOM", // Mumbai (India)
+    "BTS", // Bratislava (Slovakia)
+    "CDG", // Paris (France)
+    "CGK", // Jakarta (Indonesia)
+    "CPT", // Cape Town (South Africa)
+    "DEN", // Denver (US)
+    "DFW", // Dallas (US)
+    "DME", // Moscow (Russia)
+    "EBL", // Erbil (Iraq)
+    "EZE", // Buenos Aires (Argentina)
+    "FJR", // Fujairah (United Arab Emirates)
+    "FRA", // Frankfurt (Germany)
+    "GRU", // Sao Paulo (Brazil)
+    "GYE", // Guayaquil (Ecuador)
+    "HKG", // Hong Kong (China)
+    "IAD", // Washington (US)
+    "IEV", // Kiev (Ukraine)
+    "IST", // Istanbul (Turkey)
+    "JED", // Jeddah (Saudi Arabia)
+    "JFK", // New York (US)
+    "KBP", // Kiev (Ukraine)
+    "LAX", // Los Angeles (US)
+    "LHR", // London (United Kingdom)
+    "LIM", // Lima (Peru)
+    "MAD", // Madrid (Spain)
+    "MCT", // Muscat (Oman)
+    "MIA", // Miami (US)
+    "MRS", // Marseille (France)
+    "MSQ", // Minsk (Belarus)
+    "MXP", // Milan (Italy)
+    "NRT", // Tokyo (Japan)
+    "ORD", // Chicago (US)
+    "OTP", // Bucharest (Romania)
+    "PRG", // Prague (Czech Republic)
+    "PTY", // Panama City (Panama)
+    "QRO", // Queretaro (Mexico)
+    "RUH", // Riyadh (Saudi Arabia)
+    "SCL", // Santiago (Chile)
+    "SEA", // Seattle (US)
+    "SIN", // Singapore (Singapore)
+    "SJC", // San Jose (US)
+    "SOF", // Sofia (Bulgaria)
+    "SYD", // Sydney (Australia)
+    "TLV", // Tel Aviv (Israel)
+    "TPE", // Taipei (Taiwan)
+    "UIO", // Quito (Ecuador)
+    "VIE", // Vienna (Austria)
+    "WAW", // Warsaw (Poland)
+    "YYZ", // Toronto (Canada)
+    "ZAG", // Zagreb (Croatia)
+    "ZRH" // Zurich (Switzerland)
   ]
 };
 
