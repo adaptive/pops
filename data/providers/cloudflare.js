@@ -118,6 +118,7 @@ const cloudflare = {
     "IND", // Indianapolis (US)
     "ISB", // Islamabad (Pakistan)
     "IST", // Istanbul (Turkey)
+    "ISU", // Sulaymaniyah (Iraq)
     "ITJ", // Ito (Japan)
     "IXC", // Ixtepec (Mexico)
     "JAX", // Jacksonville (US)
