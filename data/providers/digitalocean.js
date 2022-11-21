@@ -9,6 +9,7 @@ const digitalocean = {
     "LHR", // London (UK)
     "SFO", // San Francisco (US)
     "SIN", // Singapore (Singapore)
+    "SYD", // Sydney (Australia)
     "YYZ" // Toronto (Canada)
   ]
 };

@@ -2,21 +2,21 @@ lockfileVersion: 5.4
 
 specifiers:
   '@adaptivelink/iata': 0.1.4
-  concurrently: 7.5.0
+  concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
   prettier: 2.7.1
-  puppeteer: 19.2.0
+  puppeteer: 19.2.2
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
 
 devDependencies:
   '@adaptivelink/iata': 0.1.4
-  concurrently: 7.5.0
+  concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
   prettier: 2.7.1
-  puppeteer: 19.2.0
+  puppeteer: 19.2.2
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
 
@@ -236,8 +236,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/7.5.0:
-    resolution: {integrity: sha512-5E3mwiS+i2JYBzr5BpXkFxOnleZTMsG+WnE/dCG4/P+oiVXrbmrBwJ2ozn4SxwB2EZDrKR568X+puVohxz3/Mg==}
+  /concurrently/7.6.0:
+    resolution: {integrity: sha512-BKtRgvcJGeZ4XttiDiNcFiRlxoAeZOseqUvyYRUp/Vtd+9p1ULmeoSqGsDA+2ivdeDFpqrJvGvmI+StKfKl5hw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -552,8 +552,8 @@ packages:
       once: 1.4.0
     dev: true
 
-  /puppeteer-core/19.2.0:
-    resolution: {integrity: sha512-wdoZDzf46y1ScpPEUDAzIWDmvG272BbdqSvDMvtYNjy2UJZT/j5OS5k813o2lfT4HtOle79eByCLs24iXbat1g==}
+  /puppeteer-core/19.2.2:
+    resolution: {integrity: sha512-faojf+1pZ/tHXSr4x1q+9MVd9FrL3rpdbC0w7qN7MNClMoLuCvMbpR4vzcjoiJYgclt1n+SOPUOmHQViTw6frw==}
     engines: {node: '>=14.1.0'}
     dependencies:
       cross-fetch: 3.1.5
@@ -573,8 +573,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer/19.2.0:
-    resolution: {integrity: sha512-rhr5ery8htpOTikmm/wrDU707wtmJ7ccX2WLkBf0A8eYYpscck5/iz04/fHOiIRWMFfnYOvaO9wNb4jcO3Mjyg==}
+  /puppeteer/19.2.2:
+    resolution: {integrity: sha512-m1T5Mog5qu5+dMBptWYTn6pXRdnFbydbVUCthqwbfd8/kOiMlzZBR9ywjX79LpvI1Sj+/z8+FKeIsjnMul8ZYA==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
     dependencies:
@@ -583,7 +583,7 @@ packages:
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.2.0
+      puppeteer-core: 19.2.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
