@@ -5,8 +5,8 @@ specifiers:
   concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
-  prettier: 2.7.1
-  puppeteer: 19.2.2
+  prettier: 2.8.0
+  puppeteer: 19.3.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
 
@@ -15,8 +15,8 @@ devDependencies:
   concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
-  prettier: 2.7.1
-  puppeteer: 19.2.2
+  prettier: 2.8.0
+  puppeteer: 19.3.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
 
@@ -530,8 +530,8 @@ packages:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -552,8 +552,8 @@ packages:
       once: 1.4.0
     dev: true
 
-  /puppeteer-core/19.2.2:
-    resolution: {integrity: sha512-faojf+1pZ/tHXSr4x1q+9MVd9FrL3rpdbC0w7qN7MNClMoLuCvMbpR4vzcjoiJYgclt1n+SOPUOmHQViTw6frw==}
+  /puppeteer-core/19.3.0:
+    resolution: {integrity: sha512-P8VAAOBnBJo/7DKJnj1b0K9kZBF2D8lkdL94CjJ+DZKCp182LQqYemPI9omUSZkh4bgykzXjZhaVR1qtddTTQg==}
     engines: {node: '>=14.1.0'}
     dependencies:
       cross-fetch: 3.1.5
@@ -573,8 +573,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer/19.2.2:
-    resolution: {integrity: sha512-m1T5Mog5qu5+dMBptWYTn6pXRdnFbydbVUCthqwbfd8/kOiMlzZBR9ywjX79LpvI1Sj+/z8+FKeIsjnMul8ZYA==}
+  /puppeteer/19.3.0:
+    resolution: {integrity: sha512-WJbi/ULaeuFOz7cfMgJlJCBAZiyqIFeQ6os4h5ex3PVTt2qosXgwI9eruFZqFAwJRv8x5pOuMhWR0aSRgyDqEg==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
     dependencies:
@@ -583,7 +583,7 @@ packages:
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.2.2
+      puppeteer-core: 19.3.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
