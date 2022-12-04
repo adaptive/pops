@@ -1192,10 +1192,12 @@ keycdn,ATH,37.94,23.95
 keycdn,ATL,33.64,-84.44
 keycdn,BLR,13.2,77.71
 keycdn,BNE,-27.4,153.11
+keycdn,BOG,4.7,-74.14
 keycdn,CDG,49,2.57
 keycdn,DEN,39.85,-104.67
 keycdn,DFW,32.9,-97.04
 keycdn,DXB,25.25,55.35
+keycdn,EZE,-34.81,-58.54
 keycdn,FRA,50.05,8.57
 keycdn,GRU,-23.43,-46.48
 keycdn,HEL,60.32,24.97
@@ -1208,6 +1210,7 @@ keycdn,LHR,51.47,-0.45
 keycdn,LOS,6.58,3.32
 keycdn,MAD,40.47,-3.57
 keycdn,MEL,-37.67,144.85
+keycdn,MEX,19.44,-99.07
 keycdn,MIA,25.8,-80.28
 keycdn,MXP,45.63,8.71
 keycdn,NRT,35.77,140.39
@@ -1215,6 +1218,7 @@ keycdn,ORD,41.98,-87.9
 keycdn,OSL,60.19,11.1
 keycdn,OTP,44.57,26.08
 keycdn,PER,-31.93,115.96
+keycdn,SCL,-33.4,-70.79
 keycdn,SEA,47.44,-122.3
 keycdn,SFO,37.62,-122.39
 keycdn,SIN,1.36,103.99

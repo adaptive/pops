@@ -2,45 +2,49 @@ const keycdn = {
   name: "KeyCDN",
   url: "https://www.keycdn.com/",
   pops: [
-    "AKL",
-    "AMS",
-    "ARN",
-    "ATH",
-    "ATL",
-    "BLR",
-    "BNE",
-    "CDG",
-    "DEN",
-    "DFW",
-    "DXB",
-    "FRA",
-    "GRU",
-    "HEL",
-    "HKG",
-    "IST",
-    "JFK",
-    "JNB",
-    "LAX",
-    "LHR",
-    "LOS",
-    "MAD",
-    "MEL",
-    "MIA",
-    "MXP",
-    "NRT",
-    "ORD",
-    "OSL",
-    "OTP",
-    "PER",
-    "SEA",
-    "SFO",
-    "SIN",
-    "SYD",
-    "TLV",
-    "VIE",
-    "WAW",
-    "YUL",
-    "ZRH"
+    "AKL", // Auckland (New Zealand)
+    "AMS", // Amsterdam (Netherlands)
+    "ARN", // Stockholm (Sweden)
+    "ATH", // Athens (Greece)
+    "ATL", // Atlanta (US)
+    "BLR", // Bangalore (India)
+    "BNE", // Brisbane (Australia)
+    "BOG", // Bogota (Colombia)
+    "CDG", // Paris (France)
+    "DEN", // Denver (US)
+    "DFW", // Dallas (US)
+    "DXB", // Dubai (United Arab Emirates)
+    "EZE", // Buenos Aires (Argentina)
+    "FRA", // Frankfurt (Germany)
+    "GRU", // Sao Paulo (Brazil)
+    "HEL", // Helsinki (Finland)
+    "HKG", // Hong Kong (Hong Kong)
+    "IST", // Istanbul (Turkey)
+    "JFK", // New York (US)
+    "JNB", // Johannesburg (South Africa)
+    "LAX", // Los Angeles (US)
+    "LHR", // London (United Kingdom)
+    "LOS", // Lagos (Nigeria)
+    "MAD", // Madrid (Spain)
+    "MEL", // Melbourne (Australia)
+    "MEX", // Mexico City (Mexico)
+    "MIA", // Miami (US)
+    "MXP", // Milan (Italy)
+    "NRT", // Tokyo (Japan)
+    "ORD", // Chicago (US)
+    "OSL", // Oslo (Norway)
+    "OTP", // Bucharest (Romania)
+    "PER", // Perth (Australia)
+    "SCL", // Santiago (Chile)
+    "SEA", // Seattle (US)
+    "SFO", // San Francisco (US)
+    "SIN", // Singapore (Singapore)
+    "SYD", // Sydney (Australia)
+    "TLV", // Tel Aviv
+    "VIE", // Vienna (Austria)
+    "WAW", // Warsaw (Poland)
+    "YUL", // Montreal (Canada)
+    "ZRH" // Zurich (Switzerland)
   ]
 };
 

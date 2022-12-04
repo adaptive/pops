@@ -25,6 +25,6 @@ spotter()
       console.log(`${asset}:success`);
     } else {
       toTelegram(asset);
-      console.log(`${asset}:fail`);
+      console.log(`${asset}:fail ${x.length - provider.pops.length}`);
     }
   });
