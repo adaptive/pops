@@ -20,6 +20,7 @@ const stackpath = {
     "HKG", // Hong Kong (China)
     "ICN", // Seoul (South Korea)
     "JFK", // New York (US)
+    "KIX", // Osaka (Japan)
     "LAX", // Los Angeles (US)
     "LHR", // London (UK)
     "LIM", // Lima (Peru)

@@ -41,6 +41,7 @@ const translate = new Map([
     ["MI", "MIA"],
     ["ML", "MXP"],
     ["NY", "JFK"],
+    ["OS", "KIX"],
     ["PA", "CDG"],
     ["PH", "PHX"],
     ["SC", "SCL"],
