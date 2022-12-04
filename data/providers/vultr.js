@@ -15,6 +15,7 @@ const vultr = {
     "GRU", // Sao Paulo (Brazil)
     "HNL", // Honolulu (US)
     "ICN", // Seoul (South Korea)
+    "JNB", // Johannesburg (South Africa)
     "LAX", // Los Angeles (US)
     "LHR", // London (UK)
     "MAD", // Madrid (Spain)
