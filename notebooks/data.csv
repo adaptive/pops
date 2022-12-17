@@ -1188,6 +1188,7 @@ kamatera,SJC,37.37,-121.93
 kamatera,TLV,32,34.87
 kamatera,YYZ,43.68,-79.61
 keycdn,AKL,-37,174.78
+keycdn,ALA,43.35,77.01
 keycdn,AMS,52.31,4.76
 keycdn,ARN,59.65,17.93
 keycdn,ATH,37.94,23.95
@@ -1196,8 +1197,11 @@ keycdn,BLR,13.2,77.71
 keycdn,BNE,-27.4,153.11
 keycdn,BOG,4.7,-74.14
 keycdn,CDG,49,2.57
+keycdn,CPH,55.63,12.65
 keycdn,DEN,39.85,-104.67
 keycdn,DFW,32.9,-97.04
+keycdn,DME,55.41,37.9
+keycdn,DUB,53.43,-6.24
 keycdn,DXB,25.25,55.35
 keycdn,EZE,-34.81,-58.54
 keycdn,FRA,50.05,8.57
@@ -1207,8 +1211,10 @@ keycdn,HKG,22.32,113.94
 keycdn,IST,40.98,28.82
 keycdn,JFK,40.64,-73.79
 keycdn,JNB,-26.13,28.23
+keycdn,KBP,50.34,30.9
 keycdn,LAX,33.94,-118.41
 keycdn,LHR,51.47,-0.45
+keycdn,LIS,38.77,-9.13
 keycdn,LOS,6.58,3.32
 keycdn,MAD,40.47,-3.57
 keycdn,MEL,-37.67,144.85
