@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.4.26",
+  "version": "0.4.27",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -69,8 +69,8 @@
     "lodash": "4.17.21",
     "prettier": "2.8.1",
     "puppeteer": "19.4.1",
-    "rollup": "3.7.4",
-    "@rollup/plugin-terser": "0.1.0"
+    "rollup": "3.8.0",
+    "@rollup/plugin-terser": "0.2.1"
   },
   "scripts": {
     "build": "npx rollup -c",

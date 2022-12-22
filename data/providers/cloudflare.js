@@ -214,6 +214,7 @@ const cloudflare = {
     "PMO", // Palermo (Italy)
     "PNH", // Phnom Penh (Cambodia)
     "POA", // Porto Alegre (Brazil)
+    "PPT", // Papeete (French Polynesia)
     "PRG", // Prague (Czech Republic)
     "PTY", // Panama City (Panama)
     "QRO", // Queretaro (Mexico)
