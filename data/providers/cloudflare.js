@@ -3,6 +3,7 @@ const cloudflare = {
   url: "https://www.cloudflare.com",
   pops: [
     "ACC", // Accra (Ghana)
+    "ADB", // Izmir (Turkey)
     "ADL", // Adelaide (Australia)
     "AKL", // Auckland (New Zealand)
     "ALA", // Almaty (Kazakhstan)
