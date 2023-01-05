@@ -8,17 +8,17 @@ specifiers:
   lodash: 4.17.21
   prettier: 2.8.1
   puppeteer: 19.4.1
-  rollup: 3.8.1
+  rollup: 3.9.1
 
 devDependencies:
   '@adaptivelink/iata': 0.1.4
-  '@rollup/plugin-terser': 0.2.1_rollup@3.8.1
+  '@rollup/plugin-terser': 0.2.1_rollup@3.9.1
   concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
   prettier: 2.8.1
   puppeteer: 19.4.1
-  rollup: 3.8.1
+  rollup: 3.9.1
 
 packages:
 
@@ -84,7 +84,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@rollup/plugin-terser/0.2.1_rollup@3.8.1:
+  /@rollup/plugin-terser/0.2.1_rollup@3.9.1:
     resolution: {integrity: sha512-hV52c8Oo6/cXZZxVVoRNBb4zh+EKSHS4I1sedWV5pf0O+hTLSkrf6w86/V0AZutYtwBguB6HLKwz89WDBfwGOA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -93,7 +93,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      rollup: 3.8.1
+      rollup: 3.9.1
       serialize-javascript: 6.0.0
       smob: 0.0.6
       terser: 5.16.1
@@ -631,8 +631,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/3.8.1:
-    resolution: {integrity: sha512-4yh9eMW7byOroYcN8DlF9P/2jCpu6txVIHjEqquQVSx7DI0RgyCCN3tjrcy4ra6yVtV336aLBB3v2AarYAxePQ==}
+  /rollup/3.9.1:
+    resolution: {integrity: sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:

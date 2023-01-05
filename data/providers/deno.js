@@ -31,6 +31,7 @@ const deno = {
     "SIN", // Singapore (Singapore)
     "SLC", // Salt Lake City (US)
     "SYD", // Sydney (Australia)
+    "TLV", // Tel Aviv (Israel)
     "TPE", // Taipei (Taiwan)
     "WAW", // Warsaw (Poland)
     "YUL", // Montreal (Canada)
