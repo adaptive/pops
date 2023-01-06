@@ -568,6 +568,7 @@ cloudflare,SOD,-23.48,-47.45
 cloudflare,SOF,42.69,23.41
 cloudflare,SSA,-12.91,-38.34
 cloudflare,STL,38.74,-90.37
+cloudflare,STR,48.69,9.19
 cloudflare,SVX,56.75,60.8
 cloudflare,SYD,-33.93,151.18
 cloudflare,TAO,36.27,120.38
@@ -851,7 +852,6 @@ fastly,ADL,-34.94,138.54
 fastly,AKL,-37,174.78
 fastly,AMS,52.31,4.76
 fastly,ATL,33.64,-84.44
-fastly,BFI,47.54,-122.3
 fastly,BKK,13.69,100.75
 fastly,BMA,59.36,17.95
 fastly,BNE,-27.4,153.11
@@ -885,6 +885,7 @@ fastly,FRA,50.05,8.57
 fastly,FTY,33.78,-84.52
 fastly,GIG,-22.81,-43.25
 fastly,GNV,29.69,-82.28
+fastly,GRU,-23.43,-46.48
 fastly,HEL,60.32,24.97
 fastly,HHN,49.95,7.26
 fastly,HKG,22.32,113.94
@@ -895,6 +896,7 @@ fastly,IAD,38.95,-77.45
 fastly,IAH,29.98,-95.34
 fastly,ICN,37.45,126.45
 fastly,ITM,34.79,135.44
+fastly,JFK,40.64,-73.79
 fastly,JNB,-26.13,28.23
 fastly,KUL,2.76,101.71
 fastly,LAX,33.94,-118.41
@@ -902,7 +904,6 @@ fastly,LCK,39.81,-82.93
 fastly,LCY,51.5,0.05
 fastly,LEE,28.83,-81.81
 fastly,LGA,40.77,-73.87
-fastly,LGB,33.82,-118.14
 fastly,LGW,51.16,-0.16
 fastly,LHR,51.47,-0.45
 fastly,LIM,-12.02,-77.11

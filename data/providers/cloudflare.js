@@ -245,6 +245,7 @@ const cloudflare = {
     "SOF", // Sofia (Bulgaria)
     "SSA", // Salvador (Brazil)
     "STL", // St. Louis (US)
+    "STR", // Stuttgart (Germany)
     "SVX", // Yekaterinburg (Russia)
     "SYD", // Sydney (Australia)
     "TAO", // Qingdao (China)
