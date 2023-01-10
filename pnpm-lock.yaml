@@ -2,22 +2,22 @@ lockfileVersion: 5.4
 
 specifiers:
   '@adaptivelink/iata': 0.1.4
-  '@rollup/plugin-terser': 0.2.1
+  '@rollup/plugin-terser': 0.3.0
   concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
-  prettier: 2.8.1
-  puppeteer: 19.4.1
+  prettier: 2.8.2
+  puppeteer: 19.5.0
   rollup: 3.9.1
 
 devDependencies:
   '@adaptivelink/iata': 0.1.4
-  '@rollup/plugin-terser': 0.2.1_rollup@3.9.1
+  '@rollup/plugin-terser': 0.3.0_rollup@3.9.1
   concurrently: 7.6.0
   isomorphic-fetch: 3.0.0
   lodash: 4.17.21
-  prettier: 2.8.1
-  puppeteer: 19.4.1
+  prettier: 2.8.2
+  puppeteer: 19.5.0
   rollup: 3.9.1
 
 packages:
@@ -84,8 +84,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@rollup/plugin-terser/0.2.1_rollup@3.9.1:
-    resolution: {integrity: sha512-hV52c8Oo6/cXZZxVVoRNBb4zh+EKSHS4I1sedWV5pf0O+hTLSkrf6w86/V0AZutYtwBguB6HLKwz89WDBfwGOA==}
+  /@rollup/plugin-terser/0.3.0_rollup@3.9.1:
+    resolution: {integrity: sha512-mYTkNW9KjOscS/3QWU5LfOKsR3/fAAVDaqcAe2TZ7ng6pN46f+C7FOZbITuIW/neA+PhcjoKl7yMyB3XcmA4gw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.x || ^3.x
@@ -539,8 +539,8 @@ packages:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -561,8 +561,8 @@ packages:
       once: 1.4.0
     dev: true
 
-  /puppeteer-core/19.4.1:
-    resolution: {integrity: sha512-JHIuqtqrUAx4jGOTxXu4ilapV2jabxtVMA/e4wwFUMvtSsqK4nVBSI+Z1SKDoz7gRy/JUIc8WzmfocCa6SIZ1w==}
+  /puppeteer-core/19.5.0:
+    resolution: {integrity: sha512-s2EE2x/7UfvR4AP+6OokY7yEmIboZoQFc2InuWUu5grWG7uka3W2Nch6+R4ERQepH4NO8kkkEBzNO4PqtwU4lQ==}
     engines: {node: '>=14.1.0'}
     dependencies:
       cross-fetch: 3.1.5
@@ -582,8 +582,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer/19.4.1:
-    resolution: {integrity: sha512-PCnrR13B8A+VSEDXRmrNXRZbrkF1tfsI1hKSC7vs13eNS6CUD3Y4FA8SF8/VZy+Pm1kg5AggJT2Nu3HLAtGkFg==}
+  /puppeteer/19.5.0:
+    resolution: {integrity: sha512-601tKJdKu/mlL6l5wklNJiQbIxyEU2N4pwZzFkwhr1VizNYV0Fly1aFMT7qAp7CvzklYLypQGKn7/Zgpy+HheA==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
     dependencies:
@@ -591,7 +591,7 @@ packages:
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.4.1
+      puppeteer-core: 19.5.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
