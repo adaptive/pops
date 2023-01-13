@@ -91,6 +91,7 @@ const cloudflare = {
     "FOR", // Fortaleza (Brazil)
     "FRA", // Frankfurt (Germany)
     "FSD", // Sioux Falls (US)
+    "FUK", // Fukuoka (Japan)
     "FUO", // Foshan (China)
     "GBE", // Gaborone (Botswana)
     "GEO", // Georgetown (Guyana)
