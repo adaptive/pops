@@ -24,6 +24,7 @@ const vultr = {
     "MIA", // Miami (US)
     "NRT", // Tokyo (Japan)
     "ORD", // Chicago (US)
+    "SCL", // Santiago (Chile)
     "SEA", // Seattle (US)
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
