@@ -20,6 +20,7 @@ const lightsail = {
     "KIX", // Osaka (Japan)
     "LHR", // London (United Kingdom)
     "MAD", // Madrid (Spain)
+    "MEL", // Melbourne (Australia)
     "MXP", // Milan (Italy)
     "NRT", // Tokyo (Japan)
     "PDX", // Portland (US)
