@@ -382,6 +382,7 @@ cloudflare,CMH,40,-82.88
 cloudflare,CMN,33.37,-7.59
 cloudflare,CNF,-19.63,-43.96
 cloudflare,CNX,18.77,98.97
+cloudflare,COK,10.16,76.39
 cloudflare,COR,-31.32,-64.21
 cloudflare,CPH,55.63,12.65
 cloudflare,CPT,-33.97,18.6
@@ -437,6 +438,7 @@ cloudflare,HKG,22.32,113.94
 cloudflare,HNL,21.33,-157.92
 cloudflare,HRE,-17.92,31.1
 cloudflare,HYD,17.24,78.43
+cloudflare,HYN,28.56,121.42
 cloudflare,IAD,38.95,-77.45
 cloudflare,IAH,29.98,-95.34
 cloudflare,ICN,37.45,126.45
@@ -462,6 +464,7 @@ cloudflare,KHH,22.57,120.35
 cloudflare,KHI,24.9,67.17
 cloudflare,KHN,28.86,115.91
 cloudflare,KHV,48.52,135.17
+cloudflare,KIN,17.94,-76.78
 cloudflare,KIV,46.94,28.93
 cloudflare,KIX,34.44,135.24
 cloudflare,KJA,56.18,92.48
@@ -543,6 +546,7 @@ cloudflare,PTY,9.07,-79.39
 cloudflare,QRO,20.6,-100.38
 cloudflare,QWJ,-22.74,-47.33
 cloudflare,RAO,-21.14,-47.77
+cloudflare,REC,-8.13,-34.92
 cloudflare,RGN,16.9,96.13
 cloudflare,RIC,37.51,-77.32
 cloudflare,RIX,56.92,23.98
@@ -595,6 +599,7 @@ cloudflare,VIE,48.12,16.56
 cloudflare,VNO,54.64,25.28
 cloudflare,VTE,17.98,102.57
 cloudflare,WAW,52.17,20.97
+cloudflare,WHU,31.37,118.37
 cloudflare,WUH,30.78,114.21
 cloudflare,WUX,31.49,120.42
 cloudflare,XIY,34.44,108.76

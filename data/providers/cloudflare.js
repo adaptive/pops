@@ -195,7 +195,6 @@ const cloudflare = {
     "NOU", // Noumea (New Caledonia)
     "NQN", // Neuquen (Argentina)
     "NRT", // Tokyo (Japan)
-    "NTG", // Ningbo (China)
     "NVT", // Navegantes (Brazil)
     "OKA", // Okinawa (Japan)
     "OMA", // Omaha (US)
