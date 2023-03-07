@@ -49,6 +49,13 @@ const spotter = async () => {
         else return x;
       })
     )
+    .then(a =>
+      a.map(x => {
+        // hardcoding PAR to ORY
+        if (x === "PAR") return "ORY";
+        else return x;
+      })
+    )
     .then(extracted => {
       if (_.isEqual(extracted.sort(), provider.pops)) {
         console.log(

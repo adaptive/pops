@@ -76,6 +76,7 @@ const fastly = {
     "MUC", // Munich (Germany)
     "MXP", // Milan (Italy)
     "NRT", // Tokyo (Japan)
+    "ORY", // Paris (France)
     "OSL", // Oslo (Norway)
     "PAO", // Palo Alto (US)
     "PDK", // Atlanta (US)

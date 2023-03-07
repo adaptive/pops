@@ -29,6 +29,7 @@ const keycdn = {
     "KBP", // Kiev (Ukraine)
     "LAX", // Los Angeles (US)
     "LHR", // London (United Kingdom)
+    "LIM", // Lima (Peru)
     "LIS", // Lisbon (Portugal)
     "LOS", // Lagos (Nigeria)
     "MAD", // Madrid (Spain)

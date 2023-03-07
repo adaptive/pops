@@ -925,6 +925,7 @@ fastly,MSP,44.88,-93.21
 fastly,MUC,48.35,11.79
 fastly,MXP,45.63,8.71
 fastly,NRT,35.77,140.39
+fastly,ORY,48.73,2.36
 fastly,OSL,60.19,11.1
 fastly,PAO,37.46,-122.11
 fastly,PDK,33.88,-84.3
@@ -1223,6 +1224,7 @@ keycdn,JNB,-26.13,28.23
 keycdn,KBP,50.34,30.9
 keycdn,LAX,33.94,-118.41
 keycdn,LHR,51.47,-0.45
+keycdn,LIM,-12.02,-77.11
 keycdn,LIS,38.77,-9.13
 keycdn,LOS,6.58,3.32
 keycdn,MAD,40.47,-3.57
@@ -1407,6 +1409,7 @@ stackpath,DCA,38.85,-77.04
 stackpath,DEN,39.85,-104.67
 stackpath,DFW,32.9,-97.04
 stackpath,DTW,42.21,-83.36
+stackpath,DXB,25.25,55.35
 stackpath,EZE,-34.81,-58.54
 stackpath,FRA,50.05,8.57
 stackpath,GIG,-22.81,-43.25
@@ -1414,6 +1417,7 @@ stackpath,GRU,-23.43,-46.48
 stackpath,HKG,22.32,113.94
 stackpath,ICN,37.45,126.45
 stackpath,JFK,40.64,-73.79
+stackpath,JNB,-26.13,28.23
 stackpath,KIX,34.44,135.24
 stackpath,LAX,33.94,-118.41
 stackpath,LHR,51.47,-0.45
@@ -1421,6 +1425,7 @@ stackpath,LIM,-12.02,-77.11
 stackpath,MAD,40.47,-3.57
 stackpath,MEL,-37.67,144.85
 stackpath,MIA,25.8,-80.28
+stackpath,MRS,43.44,5.22
 stackpath,MXP,45.63,8.71
 stackpath,NRT,35.77,140.39
 stackpath,ORD,41.98,-87.9
