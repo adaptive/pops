@@ -69,7 +69,7 @@
     "lodash": "4.17.21",
     "prettier": "2.8.7",
     "puppeteer": "19.9.1",
-    "rollup": "3.20.5",
+    "rollup": "3.20.6",
     "@rollup/plugin-terser": "0.4.1"
   },
   "scripts": {
