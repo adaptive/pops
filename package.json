@@ -74,6 +74,7 @@
   },
   "scripts": {
     "build": "npx rollup -c",
+    "bun": "bun build ./src/main.js --outfile ./dist/bundle.js --minify --target browser --format esm",
     "prebuild": "npx prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
     "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "node ./tools/validator.js",

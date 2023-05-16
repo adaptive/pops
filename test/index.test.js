@@ -1,4 +1,4 @@
-import PoPs from "../package/dist/bundle.js";
+import PoPs from "../dist/main.js";
 
 /* Geolocation of Cloudflare PoPs */
 console.log(PoPs.cloudflare.geo);
