@@ -1,0 +1,19 @@
+{
+  "createdAt": 1684276926678,
+  "system": {
+    "sandwormVersion": "1.35.0",
+    "nodeVersion": "18.12.1",
+    "lockfileVersion": 5.4,
+    "packageManager": "pnpm",
+    "packageManagerVersion": "8.5.1"
+  },
+  "name": "@adaptivelink/pops",
+  "version": "0.5.4",
+  "rootVulnerabilities": [],
+  "dependencyVulnerabilities": [],
+  "licenseUsage": [],
+  "licenseIssues": [],
+  "metaIssues": [],
+  "resolvedIssues": [],
+  "errors": []
+}
