@@ -20,6 +20,7 @@ const spotter = async () => {
 spotter()
   .then(value => value.match(/\((.{3})\)/gm).map(x => x.slice(1, -1)))
   .then(a => a.filter(element => element !== "DEX"))
+  .then(a => a.filter(element => element !== "DLP"))
   // .then(a =>
   //   a.map(x => {
   //     hardcoding array due to Cloudflare Error

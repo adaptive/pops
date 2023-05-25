@@ -16,7 +16,6 @@ const fastly = {
     "BRU", // Brussels (Belgium)
     "BUR", // Burbank (US)
     "CCU", // Kolkata (India)
-    "CDG", // Paris (France)
     "CGH", // Sao Paulo (Brazil)
     "CHC", // Christchurch (New Zealand)
     "CHI", // Chicago (US)

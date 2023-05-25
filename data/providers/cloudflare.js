@@ -2,6 +2,7 @@ const cloudflare = {
   name: "Cloudflare",
   url: "https://www.cloudflare.com",
   pops: [
+    "ABQ", // Albuquerque (US)
     "ACC", // Accra (Ghana)
     "ADB", // Izmir (Turkey)
     "ADL", // Adelaide (Australia)
@@ -16,6 +17,7 @@ const cloudflare = {
     "ASU", // Asuncion (Paraguay)
     "ATH", // Athens (Greece)
     "ATL", // Atlanta (US)
+    "AUS", // Austin (US)
     "BAH", // Bahrain (Bahrain)
     "BBI", // Bhubaneswar (India)
     "BCN", // Barcelona (Spain)
@@ -40,6 +42,7 @@ const cloudflare = {
     "BUF", // Buffalo (US)
     "BWN", // Bandar Seri Begawan (Brunei)
     "CAN", // Guangzhou (China)
+    "CAW", // Campos (Brazil)
     "CBR", // Canberra (Australia)
     "CCP", // Concepcion (Chile)
     "CCU", // Calcutta (India)
@@ -87,6 +90,7 @@ const cloudflare = {
     "EWR", // Newark (US)
     "EZE", // Buenos Aires (Argentina)
     "FCO", // Rome (Italy)
+    "FIH", // Kinshasa (Congo)
     "FLN", // Florianopolis (Brazil)
     "FOC", // Fuzhou (China)
     "FOR", // Fortaleza (Brazil)
@@ -203,6 +207,7 @@ const cloudflare = {
     "ORD", // Chicago (US)
     "ORF", // Norfolk (US)
     "ORK", // Cork (Ireland)
+    "ORN", // Oran (Algeria)
     "OSL", // Oslo (Norway)
     "OTP", // Bucharest (Romania)
     "OUA", // Ouagadougou (Burkina Faso)
@@ -284,6 +289,7 @@ const cloudflare = {
     "WUH", // Wuhan (China)
     "WUX", // Wuxi (China)
     "XIY", // Xi'an (China)
+    "XMN", // Xiamen (China)
     "XNH", // Xining (China)
     "YOW", // Ottawa (Canada)
     "YUL", // Montreal (Canada)
