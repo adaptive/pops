@@ -10,7 +10,7 @@ devDependencies:
     version: 0.1.4
   '@rollup/plugin-terser':
     specifier: 0.4.3
-    version: 0.4.3(rollup@3.27.0)
+    version: 0.4.3(rollup@3.27.1)
   concurrently:
     specifier: 8.2.0
     version: 8.2.0
@@ -27,8 +27,8 @@ devDependencies:
     specifier: 20.9.0
     version: 20.9.0
   rollup:
-    specifier: 3.27.0
-    version: 3.27.0
+    specifier: 3.27.1
+    version: 3.27.1
 
 packages:
 
@@ -122,7 +122,7 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-terser@0.4.3(rollup@3.27.0):
+  /@rollup/plugin-terser@0.4.3(rollup@3.27.1):
     resolution: {integrity: sha512-EF0oejTMtkyhrkwCdg0HJ0IpkcaVg1MMSf2olHb2Jp+1mnLM04OhjpJWGma4HobiDTF0WCyViWuvadyE9ch2XA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -131,7 +131,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      rollup: 3.27.0
+      rollup: 3.27.1
       serialize-javascript: 6.0.1
       smob: 1.1.1
       terser: 5.17.6
@@ -786,8 +786,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /rollup@3.27.0:
-    resolution: {integrity: sha512-aOltLCrYZ0FhJDm7fCqwTjIUEVjWjcydKBV/Zeid6Mn8BWgDCUBBWT5beM5ieForYNo/1ZHuGJdka26kvQ3Gzg==}
+  /rollup@3.27.1:
+    resolution: {integrity: sha512-tXNDFwOkN6C2w5Blj1g6ForKeFw6c1mDu5jxoeDO3/pmYjgt+8yvIFjKzH5FQUq70OKZBkOt0zzv0THXL7vwzQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
