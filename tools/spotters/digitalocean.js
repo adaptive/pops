@@ -6,7 +6,7 @@ import provider from "../../data/providers/digitalocean.js";
 const asset = "digitalocean";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
   await page.goto("https://status.digitalocean.com/");
   const data = await page.$eval(

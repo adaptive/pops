@@ -6,7 +6,7 @@ import provider from "../../data/providers/deno.js";
 const asset = "deno";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
   await page.goto("https://deno.com/deploy/docs/regions");
   const data = await page.$eval(

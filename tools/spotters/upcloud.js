@@ -6,7 +6,7 @@ import provider from "../../data/providers/upcloud.js";
 const asset = "upcloud";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
   await page.goto("https://status.upcloud.com/");
   const data = await page.$eval(

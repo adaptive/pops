@@ -6,7 +6,7 @@ import provider from "../../data/providers/vercel.js";
 const asset = "vercel";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
   await page.goto("https://vercel.com/docs/edge-network/regions");
   const data = await page.$eval(

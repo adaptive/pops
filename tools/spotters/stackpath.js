@@ -6,7 +6,7 @@ import provider from "../../data/providers/stackpath.js";
 const asset = "stackpath";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
   await page.goto("https://status.stackpath.com/");
   const data = await page.$eval(

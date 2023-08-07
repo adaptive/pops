@@ -6,7 +6,7 @@ import provider from "../../data/providers/linode.js";
 const asset = "linode";
 
 const spotter = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
   await page.goto("https://status.linode.com/");
   const data = await page.$eval(
