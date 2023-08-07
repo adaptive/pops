@@ -20,6 +20,7 @@ const vultr = {
     "LAX", // Los Angeles (US)
     "LHR", // London (UK)
     "MAD", // Madrid (Spain)
+    "MAN", // Manchester (UK)
     "MEL", // Melbourne (Australia)
     "MEX", // Mexico City (Mexico)
     "MIA", // Miami (US)
