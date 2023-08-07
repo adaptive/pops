@@ -10,7 +10,7 @@ devDependencies:
     version: 0.1.4
   '@rollup/plugin-terser':
     specifier: 0.4.3
-    version: 0.4.3(rollup@3.27.1)
+    version: 0.4.3(rollup@3.27.2)
   concurrently:
     specifier: 8.2.0
     version: 8.2.0
@@ -21,14 +21,14 @@ devDependencies:
     specifier: 4.17.21
     version: 4.17.21
   prettier:
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 3.0.1
+    version: 3.0.1
   puppeteer:
     specifier: 21.0.1
     version: 21.0.1
   rollup:
-    specifier: 3.27.1
-    version: 3.27.1
+    specifier: 3.27.2
+    version: 3.27.2
 
 packages:
 
@@ -117,7 +117,7 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-terser@0.4.3(rollup@3.27.1):
+  /@rollup/plugin-terser@0.4.3(rollup@3.27.2):
     resolution: {integrity: sha512-EF0oejTMtkyhrkwCdg0HJ0IpkcaVg1MMSf2olHb2Jp+1mnLM04OhjpJWGma4HobiDTF0WCyViWuvadyE9ch2XA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -126,7 +126,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      rollup: 3.27.1
+      rollup: 3.27.2
       serialize-javascript: 6.0.1
       smob: 1.1.1
       terser: 5.17.6
@@ -138,6 +138,7 @@ packages:
 
   /@types/node@18.11.8:
     resolution: {integrity: sha512-uGwPWlE0Hj972KkHtCDVwZ8O39GmyjfMane1Z3GUBGGnkZ2USDq7SxLpVIiIHpweY9DS0QTDH0Nw7RNBsAAZ5A==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -681,8 +682,8 @@ packages:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
     dev: true
 
-  /prettier@3.0.0:
-    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+  /prettier@3.0.1:
+    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -775,8 +776,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /rollup@3.27.1:
-    resolution: {integrity: sha512-tXNDFwOkN6C2w5Blj1g6ForKeFw6c1mDu5jxoeDO3/pmYjgt+8yvIFjKzH5FQUq70OKZBkOt0zzv0THXL7vwzQ==}
+  /rollup@3.27.2:
+    resolution: {integrity: sha512-YGwmHf7h2oUHkVBT248x0yt6vZkYQ3/rvE5iQuVBh3WO8GcJ6BNeOkpoX1yMHIiBm18EMLjBPIoUDkhgnyxGOQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
