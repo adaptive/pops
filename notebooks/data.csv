@@ -325,6 +325,8 @@ cdn77,WAW,52.17,20.97
 cdn77,YYZ,43.68,-79.61
 cdn77,ZAG,45.73,16.06
 cdn77,ZRH,47.45,8.56
+cloudflare,AAE,36.82,7.81
+cloudflare,ABQ,35.05,-106.62
 cloudflare,ACC,5.61,-0.17
 cloudflare,ADB,38.29,27.15
 cloudflare,ADL,-34.94,138.54
@@ -339,6 +341,7 @@ cloudflare,ARN,59.65,17.93
 cloudflare,ASU,-25.24,-57.51
 cloudflare,ATH,37.94,23.95
 cloudflare,ATL,33.64,-84.44
+cloudflare,AUS,30.2,-97.67
 cloudflare,BAH,26.27,50.63
 cloudflare,BBI,20.25,85.82
 cloudflare,BCN,41.3,2.08
@@ -363,8 +366,8 @@ cloudflare,BUD,47.43,19.26
 cloudflare,BUF,42.93,-78.73
 cloudflare,BWN,4.95,114.93
 cloudflare,CAN,23.39,113.3
+cloudflare,CAW,-21.7,-41.3
 cloudflare,CBR,-35.31,149.19
-cloudflare,CCP,-36.78,-73.06
 cloudflare,CCU,22.65,88.44
 cloudflare,CDG,49,2.57
 cloudflare,CEB,10.31,123.98
@@ -382,6 +385,7 @@ cloudflare,CMB,7.17,79.89
 cloudflare,CMH,40,-82.88
 cloudflare,CMN,33.37,-7.59
 cloudflare,CNF,-19.63,-43.96
+cloudflare,CNN,56.9,124.88
 cloudflare,CNX,18.77,98.97
 cloudflare,COK,10.16,76.39
 cloudflare,COR,-31.32,-64.21
@@ -399,6 +403,7 @@ cloudflare,DKR,14.74,-17.49
 cloudflare,DME,55.41,37.9
 cloudflare,DMM,26.47,49.8
 cloudflare,DOH,25.27,51.56
+cloudflare,DPS,-8.75,115.17
 cloudflare,DTW,42.21,-83.36
 cloudflare,DUB,53.43,-6.24
 cloudflare,DUR,-29.61,31.12
@@ -410,6 +415,7 @@ cloudflare,EVN,40.15,44.4
 cloudflare,EWR,40.69,-74.18
 cloudflare,EZE,-34.81,-58.54
 cloudflare,FCO,41.79,12.25
+cloudflare,FIH,-4.39,15.45
 cloudflare,FLN,-27.66,-48.55
 cloudflare,FOC,25.93,119.67
 cloudflare,FOR,-3.78,-38.54
@@ -418,6 +424,7 @@ cloudflare,FSD,43.58,-96.73
 cloudflare,FUK,33.58,130.44
 cloudflare,FUO,23.13,113.28
 cloudflare,GBE,-24.56,25.92
+cloudflare,GDL,20.53,-103.3
 cloudflare,GEO,6.5,-58.25
 cloudflare,GIG,-22.81,-43.25
 cloudflare,GND,12,-61.79
@@ -488,6 +495,7 @@ cloudflare,LLK,38.75,48.82
 cloudflare,LOS,6.58,3.32
 cloudflare,LUX,49.63,6.21
 cloudflare,LYA,34.74,112.39
+cloudflare,LYS,45.72,5.08
 cloudflare,MAA,12.98,80.16
 cloudflare,MAD,40.47,-3.57
 cloudflare,MAN,53.36,-2.27
@@ -519,17 +527,16 @@ cloudflare,NJF,31.99,44.4
 cloudflare,NOU,-22.02,166.22
 cloudflare,NQN,-38.95,-68.15
 cloudflare,NRT,35.77,140.39
-cloudflare,NTG,32.07,120.98
 cloudflare,NVT,-26.87,-48.63
 cloudflare,OKA,26.2,127.65
 cloudflare,OMA,41.3,-95.9
 cloudflare,ORD,41.98,-87.9
 cloudflare,ORF,36.9,-76.21
 cloudflare,ORK,51.85,-8.49
+cloudflare,ORN,35.62,-0.61
 cloudflare,OSL,60.19,11.1
 cloudflare,OTP,44.57,26.08
 cloudflare,OUA,12.36,-1.51
-cloudflare,PAP,18.58,-72.29
 cloudflare,PAT,25.59,85.09
 cloudflare,PBH,27.43,89.42
 cloudflare,PBM,5.45,-55.19
@@ -577,6 +584,7 @@ cloudflare,STL,38.74,-90.37
 cloudflare,STR,48.69,9.19
 cloudflare,SVX,56.75,60.8
 cloudflare,SYD,-33.93,151.18
+cloudflare,SZX,22.64,113.81
 cloudflare,TAO,36.27,120.38
 cloudflare,TAS,41.26,69.27
 cloudflare,TBS,41.67,44.96
@@ -587,7 +595,6 @@ cloudflare,TLL,59.42,24.8
 cloudflare,TLV,32,34.87
 cloudflare,TNA,36.86,117.21
 cloudflare,TNR,-18.8,47.48
-cloudflare,TPA,27.98,-82.54
 cloudflare,TPE,25.08,121.22
 cloudflare,TSN,39.12,117.34
 cloudflare,TUN,36.85,10.22
@@ -604,9 +611,8 @@ cloudflare,VNO,54.64,25.28
 cloudflare,VTE,17.98,102.57
 cloudflare,WAW,52.17,20.97
 cloudflare,WHU,31.37,118.37
-cloudflare,WUH,30.78,114.21
-cloudflare,WUX,31.49,120.42
 cloudflare,XIY,34.44,108.76
+cloudflare,XMN,24.54,118.13
 cloudflare,XNH,30.94,46.09
 cloudflare,YOW,45.32,-75.67
 cloudflare,YUL,45.46,-73.75
@@ -868,7 +874,6 @@ fastly,BOS,42.37,-71.02
 fastly,BRU,50.9,4.48
 fastly,BUR,34.2,-118.35
 fastly,CCU,22.65,88.44
-fastly,CDG,49,2.57
 fastly,CGH,-23.63,-46.66
 fastly,CHC,-43.49,172.54
 fastly,CHI,41.88,-87.77
@@ -1427,6 +1432,7 @@ stackpath,LHR,51.47,-0.45
 stackpath,LIM,-12.02,-77.11
 stackpath,MAD,40.47,-3.57
 stackpath,MEL,-37.67,144.85
+stackpath,MFE,26.18,-98.24
 stackpath,MIA,25.8,-80.28
 stackpath,MRS,43.44,5.22
 stackpath,MXP,45.63,8.71
@@ -1571,6 +1577,7 @@ vultr,KIX,34.44,135.24
 vultr,LAX,33.94,-118.41
 vultr,LHR,51.47,-0.45
 vultr,MAD,40.47,-3.57
+vultr,MAN,53.36,-2.27
 vultr,MEL,-37.67,144.85
 vultr,MEX,19.44,-99.07
 vultr,MIA,25.8,-80.28
