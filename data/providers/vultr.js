@@ -31,7 +31,8 @@ const vultr = {
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
     "SYD", // Sydney (Australia)
-    "WAW", // Warsaw (Poland)
+    "TLV", // Tel Aviv (Israel)
+    "WAW", // Warsaw (Poland)"
     "YYZ" // Toronto (Canada)
   ]
 };
