@@ -283,6 +283,7 @@ const cloudflare = {
     "TLV", // Tel Aviv
     "TNA", // Jinan (China)
     "TNR", // Antananarivo (Madagascar)
+    "TPA", // Tampa (US)
     "TPE", // Taipei (Taiwan)
     "TSN", // Tianjin (China)
     "TUN", // Tunis (Tunisia)
@@ -302,7 +303,6 @@ const cloudflare = {
     "XAP", // Chapeco (Brazil)
     "XMN", // Xiamen (China)
     "XNH", // Xining (China)
-    "YNJ", // Yanji (China)
     "YOW", // Ottawa (Canada)
     "YUL", // Montreal (Canada)
     "YVR", // Vancouver (Canada)

@@ -606,6 +606,7 @@ cloudflare,TLL,59.42,24.8
 cloudflare,TLV,32,34.87
 cloudflare,TNA,36.86,117.21
 cloudflare,TNR,-18.8,47.48
+cloudflare,TPA,27.98,-82.54
 cloudflare,TPE,25.08,121.22
 cloudflare,TSN,39.12,117.34
 cloudflare,TUN,36.85,10.22
@@ -625,7 +626,6 @@ cloudflare,WUX,31.49,120.42
 cloudflare,XAP,-27.09,-52.63
 cloudflare,XMN,24.54,118.13
 cloudflare,XNH,30.94,46.09
-cloudflare,YNJ,42.89,129.44
 cloudflare,YOW,45.32,-75.67
 cloudflare,YUL,45.46,-73.75
 cloudflare,YVR,49.19,-123.18
