@@ -68,7 +68,7 @@
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
     "prettier": "3.1.0",
-    "puppeteer": "21.6.0",
+    "puppeteer": "21.6.1",
     "rollup": "4.9.0",
     "@rollup/plugin-terser": "0.4.4"
   },
