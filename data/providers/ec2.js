@@ -27,7 +27,9 @@ const lightsail = {
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
     "SYD", // Sydney (Australia)
+    "TLV", // Tel Aviv (Israel)
     "YUL", // Montreal (Canada)
+    "YYC", // Calgary (Canada)
     "ZRH" // Zurich (Switzerland)
   ]
 };

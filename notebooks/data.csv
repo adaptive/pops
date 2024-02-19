@@ -867,7 +867,9 @@ ec2,PDX,45.59,-122.59
 ec2,SIN,1.36,103.99
 ec2,SJC,37.37,-121.93
 ec2,SYD,-33.93,151.18
+ec2,TLV,32,34.87
 ec2,YUL,45.46,-73.75
+ec2,YYC,51.13,-114.01
 ec2,ZRH,47.45,8.56
 fastly,ACC,5.61,-0.17
 fastly,ADL,-34.94,138.54
@@ -1479,6 +1481,7 @@ sucuri,SJC,37.37,-121.93
 sucuri,SOF,42.69,23.41
 sucuri,SYD,-33.93,151.18
 upcloud,AMS,52.31,4.76
+upcloud,ARN,59.65,17.93
 upcloud,FRA,50.05,8.57
 upcloud,HEL,60.32,24.97
 upcloud,JFK,40.64,-73.79
