@@ -11,6 +11,7 @@ const upcloud = {
     "ORD", // Chicago (US)
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
+    "STO", // Stockholm (Sweden)
     "SYD", // Sydney (Australia)
     "WAW" // Warsaw (Poland)
   ]

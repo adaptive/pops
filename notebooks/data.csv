@@ -336,6 +336,7 @@ cloudflare,ALG,36.7,3.21
 cloudflare,AMD,23.07,72.62
 cloudflare,AMM,31.72,35.99
 cloudflare,AMS,52.31,4.76
+cloudflare,ANC,61.17,-150
 cloudflare,ARI,-18.35,-70.34
 cloudflare,ARN,59.65,17.93
 cloudflare,ASU,-25.24,-57.51
@@ -588,6 +589,7 @@ cloudflare,SOF,42.69,23.41
 cloudflare,SSA,-12.91,-38.34
 cloudflare,STL,38.74,-90.37
 cloudflare,STR,48.69,9.19
+cloudflare,SUV,-18.05,178.56
 cloudflare,SVX,56.75,60.8
 cloudflare,SYD,-33.93,151.18
 cloudflare,SZX,22.64,113.81
