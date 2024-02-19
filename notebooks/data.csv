@@ -1443,6 +1443,7 @@ stackpath,GIG,-22.81,-43.25
 stackpath,GRU,-23.43,-46.48
 stackpath,HKG,22.32,113.94
 stackpath,ICN,37.45,126.45
+stackpath,ICT,37.65,-97.43
 stackpath,JFK,40.64,-73.79
 stackpath,JNB,-26.13,28.23
 stackpath,KIX,34.44,135.24
@@ -1458,6 +1459,7 @@ stackpath,MXP,45.63,8.71
 stackpath,NRT,35.77,140.39
 stackpath,ORD,41.98,-87.9
 stackpath,PHX,33.44,-112
+stackpath,PNS,30.48,-87.19
 stackpath,SCL,-33.4,-70.79
 stackpath,SEA,47.44,-122.3
 stackpath,SFO,37.62,-122.39
