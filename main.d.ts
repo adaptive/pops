@@ -1,1 +1,1 @@
-declare module '@adaptivelink/pops';
+declare module "@adaptivelink/pops";
