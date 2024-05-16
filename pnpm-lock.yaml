@@ -24,8 +24,8 @@ devDependencies:
     specifier: 3.2.5
     version: 3.2.5
   puppeteer:
-    specifier: 22.8.0
-    version: 22.8.0
+    specifier: 22.8.2
+    version: 22.8.2
   rollup:
     specifier: 4.17.2
     version: 4.17.2
@@ -874,8 +874,8 @@ packages:
       once: 1.4.0
     dev: true
 
-  /puppeteer-core@22.8.0:
-    resolution: {integrity: sha512-S5bWx3g/fNuyFxjZX9TkZMN07CEH47+9Zm6IiTl1QfqI9pnVaShbwrD9kRe5vmz/XPp/jLGhhxRUj1sY4wObnA==}
+  /puppeteer-core@22.8.2:
+    resolution: {integrity: sha512-Gg9jUdJeF+UDbYPhwD602ky1LeS+AXDksl6sludrti1b7Sv/U4ZGY1LFyejarkIBCSHiPWL9SngXKCNcdZWBgQ==}
     engines: {node: '>=18'}
     dependencies:
       '@puppeteer/browsers': 2.2.3
@@ -889,8 +889,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@22.8.0:
-    resolution: {integrity: sha512-Z616wyTr0d7KpxmfcBG22rAkzuo/xzHJ3ycpu4KiJ3dZNHn/C1CpqcCwPlpiIIsmPojTAfWjo6EMR7M+AaC0Ww==}
+  /puppeteer@22.8.2:
+    resolution: {integrity: sha512-yNZmKZHhCtBAjwuzonMyzgXLYxnvR+tbpatuyMffK+zmag84xyqE2EvPEWV1FvDXwW3m+/PT4Zp4KLerWWydQQ==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -898,7 +898,7 @@ packages:
       '@puppeteer/browsers': 2.2.3
       cosmiconfig: 9.0.0
       devtools-protocol: 0.0.1273771
-      puppeteer-core: 22.8.0
+      puppeteer-core: 22.8.2
     transitivePeerDependencies:
       - bufferutil
       - supports-color
