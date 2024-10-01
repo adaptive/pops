@@ -393,7 +393,6 @@ cloudflare,CLE,41.41,-81.84
 cloudflare,CLT,35.22,-80.94
 cloudflare,CMB,7.17,79.89
 cloudflare,CMH,40,-82.88
-cloudflare,CMN,33.37,-7.59
 cloudflare,CNF,-19.63,-43.96
 cloudflare,CNN,56.9,124.88
 cloudflare,CNX,18.77,98.97
@@ -542,8 +541,10 @@ cloudflare,MXP,45.63,8.71
 cloudflare,NAG,21.09,79.06
 cloudflare,NBO,-1.32,36.93
 cloudflare,NJF,31.99,44.4
+cloudflare,NNG,22.61,108.17
 cloudflare,NOU,-22.02,166.22
 cloudflare,NQN,-38.95,-68.15
+cloudflare,NQZ,51.03,71.46
 cloudflare,NRT,35.77,140.39
 cloudflare,NVT,-26.87,-48.63
 cloudflare,OKA,26.2,127.65

@@ -70,7 +70,6 @@ const cloudflare = {
     "CLT", // Charlotte (US)
     "CMB", // Colombo (Sri Lanka)
     "CMH", // Columbus (US)
-    "CMN", // Casablanca (Morocco)
     "CNF", // Belo Horizonte (Brazil)
     "CNN", // Kannur (India)
     "CNX", // Chiang Mai (Thailand)
@@ -220,8 +219,10 @@ const cloudflare = {
     "NAG", // Nagpur (India)
     "NBO", // Nairobi (Kenya)
     "NJF", // Najaf (Iraq)
+    "NNG", // Nanning (China)
     "NOU", // Noumea (New Caledonia)
     "NQN", // Neuquen (Argentina)
+    "NQZ", // Astana (Kazakhstan)
     "NRT", // Tokyo (Japan)
     "NVT", // Navegantes (Brazil)
     "OKA", // Okinawa (Japan)
@@ -334,8 +335,8 @@ const cloudflare = {
     "ZAG", // Zagreb (Croatia)
     "ZDM", // Zadar (Croatia)
     "ZGN", // Zhongshan (China)
-    "ZRH", // Zurich (Switzerland)
-  ],
+    "ZRH" // Zurich (Switzerland)
+  ]
 };
 
 export default cloudflare;
