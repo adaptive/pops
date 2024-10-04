@@ -8,6 +8,7 @@ const atlanticnet = {
     "LHR", // London (UK)
     "MCO", // Orlando (US)
     "SFO", // San Francisco (US)
+    "SIN", // Singapore (Singapore)
     "YYZ" // Toronto (Canada)
   ]
 };
