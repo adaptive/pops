@@ -1,44 +1,41 @@
 import popsData from "../data/index.js";
 
 const PoPs = (() => {
-  const Output = {
+  const output = {
     all: {
       code: Array.from(popsData.iata.keys()),
       geo: Array.from(popsData.iata.values())
     }
   };
 
-  const keys = Object.keys(popsData.providers);
-
-  for (const key of keys) {
-    const map = new Map(
-      [...popsData.iata].filter(([k]) =>
-        popsData.providers[key].pops.includes(k)
-      )
-    );
-
-    Output[key] = { code: [], geo: [] };
-
-    for (let value of map.values()) {
-      Output[key].geo.push(value);
-    }
-
-    for (let e of map.keys()) {
-      Output[key].code.push(e);
-
-      if (Output[e] === undefined) {
-        Output[e] = {
-          geo: popsData.iata.get(e),
-          providers: []
-        };
-      }
-      Output[e].providers.push(key);
-    }
-
-    Output[key].code = [...new Set(Output[key].code)].sort();
+  // Initialize location entries with geo data and empty providers array
+  for (const [iataCode, geoData] of popsData.iata) {
+    output[iataCode] = {
+      geo: geoData,
+      providers: []
+    };
   }
 
-  return Output;
+  for (const providerKey of Object.keys(popsData.providers)) {
+    const providerPops = popsData.providers[providerKey].pops;
+
+    output[providerKey] = { code: [], geo: [] };
+
+    for (const iataCode of providerPops) {
+      const geoData = popsData.iata.get(iataCode);
+      if (geoData) {
+        output[providerKey].code.push(iataCode);
+        output[providerKey].geo.push(geoData);
+
+        output[iataCode].providers.push(providerKey);
+      }
+    }
+
+    // Remove duplicates and sort codes
+    output[providerKey].code = [...new Set(output[providerKey].code)].sort();
+  }
+
+  return output;
 })();
 
 export default PoPs;
