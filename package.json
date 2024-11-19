@@ -69,7 +69,7 @@
     "lodash": "4.17.21",
     "prettier": "3.3.3",
     "puppeteer": "23.8.0",
-    "rollup": "4.25.0",
+    "rollup": "4.27.3",
     "@rollup/plugin-terser": "0.4.4"
   },
   "scripts": {
@@ -97,5 +97,5 @@
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   },
-  "packageManager": "pnpm@9.12.1"
+  "packageManager": "pnpm@9.13.2"
 }
