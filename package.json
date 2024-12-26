@@ -68,8 +68,8 @@
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
     "prettier": "3.4.2",
-    "puppeteer": "23.10.4",
-    "rollup": "4.28.1",
+    "puppeteer": "23.11.1",
+    "rollup": "4.29.1",
     "@rollup/plugin-terser": "0.4.4"
   },
   "scripts": {
@@ -97,5 +97,5 @@
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   },
-  "packageManager": "pnpm@9.13.2"
+  "packageManager": "pnpm@9.15.1"
 }
