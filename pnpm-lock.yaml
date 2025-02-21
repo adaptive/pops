@@ -27,8 +27,8 @@ importers:
         specifier: 3.5.1
         version: 3.5.1
       puppeteer:
-        specifier: 24.2.0
-        version: 24.2.0
+        specifier: 24.2.1
+        version: 24.2.1
       rollup:
         specifier: 4.34.8
         version: 4.34.8
@@ -182,8 +182,8 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@types/node@22.13.1':
-    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
+  '@types/node@22.13.4':
+    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
 
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
@@ -258,8 +258,8 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chromium-bidi@1.2.0:
-    resolution: {integrity: sha512-XtdJ1GSN6S3l7tO7F77GhNsw0K367p0IsLYf2yZawCVAKKC3lUvDhPdMVrB2FNhmhfW43QGYbEX3Wg6q0maGwQ==}
+  chromium-bidi@1.3.0:
+    resolution: {integrity: sha512-G3x1bkST13kmbL7+dT/oRkNH/7C4UqG+0YQpmySrzXspyOhYgDNc6lhSGpj3cuexvH25WTENhTYq2Tt9JRXtbw==}
     peerDependencies:
       devtools-protocol: '*'
 
@@ -449,8 +449,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  pac-proxy-agent@7.1.0:
-    resolution: {integrity: sha512-Z5FnLVVZSnX7WjBg0mhDtydeRZ1xMcATZThjySQUHqr+0ksP8kqaw23fNKkaaN/Z8gwLUs/W7xdl0I75eP2Xyw==}
+  pac-proxy-agent@7.2.0:
+    resolution: {integrity: sha512-TEB8ESquiLMc0lV8vcd5Ql/JAKAoyzHFXaStwjkzpOpC5Yv+pIzLfHvjTSdf3vpa2bMiUQrg9i6276yn8666aA==}
     engines: {node: '>= 14'}
 
   pac-resolver@7.0.1:
@@ -490,12 +490,12 @@ packages:
   pump@3.0.2:
     resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
 
-  puppeteer-core@24.2.0:
-    resolution: {integrity: sha512-e4A4/xqWdd4kcE6QVHYhJ+Qlx/+XpgjP4d8OwBx0DJoY/nkIRhSgYmKQnv7+XSs1ofBstalt+XPGrkaz4FoXOQ==}
+  puppeteer-core@24.2.1:
+    resolution: {integrity: sha512-bCypUh3WXzETafv1TCFAjIUnI8BiQ/d+XvEfEXDLcIMm9CAvROqnBmbt79yBjwasoDZsgfXnUmIJU7Y27AalVQ==}
     engines: {node: '>=18'}
 
-  puppeteer@24.2.0:
-    resolution: {integrity: sha512-z8vv7zPEgrilIbOo3WNvM+2mXMnyM9f4z6zdrB88Fzeuo43Oupmjrzk3EpuvuCtyK0A7Lsllfx7Z+4BvEEGJcQ==}
+  puppeteer@24.2.1:
+    resolution: {integrity: sha512-Euno62ou0cd0dTkOYTNioSOsFF4VpSnz4ldD38hi9ov9xCNtr8DbhmoJRUx+V9OuPgecueZbKOohRrnrhkbg3Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -543,8 +543,8 @@ packages:
     resolution: {integrity: sha512-HehCEsotFqbPW9sJ8WVYB6UbmIMv7kUUORIF2Nncq4VQvBfNBLibW9YZR5dlYCSUhwcD628pRllm7n+E+YTzJw==}
     engines: {node: '>= 14'}
 
-  socks@2.8.3:
-    resolution: {integrity: sha512-l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==}
+  socks@2.8.4:
+    resolution: {integrity: sha512-D3YaD0aRxR3mEcqnidIs7ReYJFVzWdd6fXJYUM8ixcQcJRGTka/b3saV0KflYhyVJXKhb947GndU35SxYNResQ==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
 
   source-map-support@0.5.21:
@@ -652,8 +652,8 @@ packages:
   yauzl@2.10.0:
     resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
 
-  zod@3.24.1:
-    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
+  zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
 snapshots:
 
@@ -771,14 +771,14 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@types/node@22.13.1':
+  '@types/node@22.13.4':
     dependencies:
       undici-types: 6.20.0
     optional: true
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.13.1
+      '@types/node': 22.13.4
     optional: true
 
   acorn@8.12.1: {}
@@ -839,11 +839,11 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chromium-bidi@1.2.0(devtools-protocol@0.0.1402036):
+  chromium-bidi@1.3.0(devtools-protocol@0.0.1402036):
     dependencies:
       devtools-protocol: 0.0.1402036
       mitt: 3.0.1
-      zod: 3.24.1
+      zod: 3.24.2
 
   cliui@8.0.1:
     dependencies:
@@ -1018,7 +1018,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  pac-proxy-agent@7.1.0:
+  pac-proxy-agent@7.2.0:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.3
@@ -1062,7 +1062,7 @@ snapshots:
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
       lru-cache: 7.18.3
-      pac-proxy-agent: 7.1.0
+      pac-proxy-agent: 7.2.0
       proxy-from-env: 1.1.0
       socks-proxy-agent: 8.0.5
     transitivePeerDependencies:
@@ -1075,10 +1075,10 @@ snapshots:
       end-of-stream: 1.4.4
       once: 1.4.0
 
-  puppeteer-core@24.2.0:
+  puppeteer-core@24.2.1:
     dependencies:
       '@puppeteer/browsers': 2.7.1
-      chromium-bidi: 1.2.0(devtools-protocol@0.0.1402036)
+      chromium-bidi: 1.3.0(devtools-protocol@0.0.1402036)
       debug: 4.4.0
       devtools-protocol: 0.0.1402036
       typed-query-selector: 2.12.0
@@ -1089,13 +1089,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  puppeteer@24.2.0:
+  puppeteer@24.2.1:
     dependencies:
       '@puppeteer/browsers': 2.7.1
-      chromium-bidi: 1.2.0(devtools-protocol@0.0.1402036)
+      chromium-bidi: 1.3.0(devtools-protocol@0.0.1402036)
       cosmiconfig: 9.0.0
       devtools-protocol: 0.0.1402036
-      puppeteer-core: 24.2.0
+      puppeteer-core: 24.2.1
       typed-query-selector: 2.12.0
     transitivePeerDependencies:
       - bare-buffer
@@ -1159,11 +1159,11 @@ snapshots:
     dependencies:
       agent-base: 7.1.3
       debug: 4.4.0
-      socks: 2.8.3
+      socks: 2.8.4
     transitivePeerDependencies:
       - supports-color
 
-  socks@2.8.3:
+  socks@2.8.4:
     dependencies:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
@@ -1280,4 +1280,4 @@ snapshots:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
 
-  zod@3.24.1: {}
+  zod@3.24.2: {}
