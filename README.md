@@ -114,3 +114,5 @@ This repo is configured for GitHub Codespaces.
 ## 📒 Jupyter Notebook
 
 A Jupyter Notebook is available at [Kaggle](https://www.kaggle.com/hugoromano/pops-notebook/), where providers rough coverage is simulated at ~5ms RTT. Source for this notebook in directory `notebooks`.
+For guidelines on contributing, see [CONTRIBUTING.md](CONTRIBUTING.md).
+This project is licensed under the [MIT License](LICENSE).
