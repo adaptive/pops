@@ -67,7 +67,7 @@
     "concurrently": "9.1.2",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
-    "prettier": "3.5.3",
+    "prettier": "3.6.1",
     "puppeteer": "24.10.1",
     "rollup": "4.43.0",
     "@rollup/plugin-terser": "0.4.4"
