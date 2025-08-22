@@ -64,12 +64,12 @@
   ],
   "devDependencies": {
     "@adaptivelink/iata": "0.1.4",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.21",
-    "prettier": "3.5.3",
-    "puppeteer": "24.16.2",
-    "rollup": "4.46.2",
+    "prettier": "3.6.2",
+    "puppeteer": "24.17.0",
+    "rollup": "4.47.1",
     "@rollup/plugin-terser": "0.4.4"
   },
   "scripts": {
@@ -97,5 +97,5 @@
     "spotter-vultr": "node ./tools/spotters/vultr.js",
     "spotters": "concurrently \"yarn:spotter-*\""
   },
-  "packageManager": "pnpm@9.15.1"
+  "packageManager": "pnpm@10.15.0"
 }
