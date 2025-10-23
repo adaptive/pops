@@ -8,13 +8,13 @@ jobs:
     timeout-minutes: 5
     strategy:
       matrix:
-        node: [20, 22]
+        node: [22, 20]
     steps:
     - uses: actions/checkout@v5
     - uses: pnpm/action-setup@v4
       with:
-        version: 9.12.1
-    - uses: actions/setup-node@v5.0.0
+        version: latest
+    - uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node }}
         cache: 'pnpm'
