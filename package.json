@@ -70,7 +70,7 @@
     "prettier": "3.8.1",
     "puppeteer": "24.38.0",
     "rollup": "4.59.0",
-    "@rollup/plugin-terser": "0.4.4"
+    "@rollup/plugin-terser": "1.0.0"
   },
   "scripts": {
     "build": "npx rollup -c",
