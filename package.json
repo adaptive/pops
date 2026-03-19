@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.5.9",
+  "version": "0.6.0",
   "description": "Points of Presence geolocation",
   "main": "dist/bundle.js",
   "types": "main.d.ts",
@@ -64,13 +64,11 @@
   ],
   "devDependencies": {
     "@adaptivelink/iata": "0.1.4",
-    "concurrently": "9.2.1",
+    "@rollup/plugin-terser": "1.0.0",
     "isomorphic-fetch": "3.0.0",
     "lodash": "4.17.23",
     "prettier": "3.8.1",
-    "puppeteer": "24.38.0",
-    "rollup": "4.59.0",
-    "@rollup/plugin-terser": "1.0.0"
+    "rollup": "4.59.0"
   },
   "scripts": {
     "build": "npx rollup -c",
@@ -80,22 +78,10 @@
     "validate": "node ./tools/validator.js",
     "test": "node ./test/index.test.mjs",
     "csv": "node ./tools/csv-generator.js > ./notebooks/data.csv",
-    "spotter-atlatincnet": "node ./tools/spotters/atlanticnet.js",
-    "spotter-cdn77": "node ./tools/spotters/cdn77.js",
-    "spotter-cloudflare": "node ./tools/spotters/cloudflare.js",
-    "spotter-deno": "node ./tools/spotters/deno.js",
-    "spotter-digitalocean": "node ./tools/spotters/digitalocean.js",
-    "spotter-ec2": "node ./tools/spotters/ec2.js",
-    "spotter-fastly": "node ./tools/spotters/fastly.js",
-    "spotter-imperva": "node ./tools/spotters/imperva.js",
-    "spotter-keycdn": "node ./tools/spotters/keycdn.js",
-    "spotter-lightsail": "node ./tools/spotters/lightsail.js",
-    "spotter-linode": "node ./tools/spotters/linode.js",
-    "spotter-stackpath": "node ./tools/spotters/stackpath.js",
-    "spotter-upcloud": "node ./tools/spotters/upcloud.js",
-    "spotter-vercel": "node ./tools/spotters/vercel.js",
-    "spotter-vultr": "node ./tools/spotters/vultr.js",
-    "spotters": "concurrently \"yarn:spotter-*\""
+    "providers:list": "node ./tools/providers/list.js",
+    "provider:maintain": "node ./tools/providers/maintain-provider.js",
+    "provider:show": "node ./tools/providers/show-provider.js",
+    "provider:update": "node ./tools/providers/update-provider.js"
   },
   "packageManager": "pnpm@10.32.1"
 }
