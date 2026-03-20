@@ -4,16 +4,16 @@ This document contains the runs of the agents in the project. Each provider run 
 
 | Provider | Date |
 | --- | --- |
-| alibaba ||
-| arubacloud ||
-| atlanticnet ||
-| aws ||
-| azurecdn ||
-| backblaze ||
-| bunnycdn ||
-| cachefly ||
-| cdn ||
-| cdn77 ||
+| alibaba |2026-03-20|
+| arubacloud |2026-03-20|
+| atlanticnet |2026-03-20|
+| aws |2026-03-20|
+| azurecdn |2026-03-20|
+| backblaze |2026-03-20|
+| bunnycdn |2026-03-20|
+| cachefly |2026-03-20|
+| cdn |2026-03-20|
+| cdn77 |2026-03-20|
 | cloudflare |2026-03-19|
 | cloudfront ||
 | cloudsigma ||
