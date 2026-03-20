@@ -6,7 +6,8 @@ const ionos = {
     "FRA", // Frankfurt (Germany)
     "LAS", // Las Vegas (US)
     "LHR", // London (UK)
-    "MAD" // Madrid (Spain)
+    "MAD", // Madrid (Spain)
+    "MCI" // IATA MCI
   ]
 };
 

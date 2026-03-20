@@ -11,7 +11,11 @@ const wasabi = {
     "IAD", // Washington (US)
     "KIX", // Osaka (Japan)
     "LHR", // London (UK)
+    "MXP", // IATA MXP
     "NRT", // Tokyo (Japan)
+    "SIN", // IATA SIN
+    "SJC", // IATA SJC
+    "SYD", // IATA SYD
     "YYZ" // Toronto (Canada)
   ]
 };

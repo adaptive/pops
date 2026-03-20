@@ -3,6 +3,7 @@ const digitalocean = {
   url: "https://www.digitalocean.com",
   pops: [
     "AMS", // Amsterdam (Netherlands)
+    "ATL", // IATA ATL
     "BLR", // Bangalore (India)
     "FRA", // Frankfurt (Germany)
     "JFK", // New York (US)

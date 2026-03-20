@@ -3,9 +3,9 @@ const sucuri = {
   url: "https://sucuri.net/",
   pops: [
     "AMS", // Amsterdam (Netherlands)
+    "BOM", // IATA BOM
     "DFW", // Dallas (US)
     "FRA", // Frankfurt (Germany)
-    "GRU", // Sao Paulo (Brazil)
     "IAD", // Washington DC (US)
     "LHR", // London (UK)
     "MIA", // Miami (US)
@@ -13,8 +13,7 @@ const sucuri = {
     "ORD", // Chicago (US)
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
-    "SOF", // Sofia (Bulgaria)
-    "SYD" // Sydney (Australia)
+    "SOF" // Sofia (Bulgaria)
   ]
 };
 

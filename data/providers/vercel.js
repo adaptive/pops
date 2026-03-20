@@ -6,20 +6,21 @@ const vercel = {
     "BOM", // Mumbai (India)
     "CDG", // Paris (France)
     "CPT", // Cape Town (South Africa)
-    "CLE", // Cleveland (US)
     "DUB", // Dublin (Ireland)
+    "DXB", // IATA DXB
     "FRA", // Frankfurt (Germany)
     "GRU", // Sao Paulo (Brazil)
     "HKG", // Hong Kong (China)
     "HND", // Tokyo (Japan)
     "IAD", // Washington DC (US)
     "ICN", // Seoul (South Korea)
-    "LHR", // London (UK)
     "KIX", // Osaka (Japan)
+    "LHR", // London (UK)
     "PDX", // Portland (US)
     "SFO", // San Francisco (US)
     "SIN", // Singapore (Singapore)
-    "SYD" // Sydney (Australia)
+    "SYD", // Sydney (Australia)
+    "YUL" // IATA YUL
   ]
 };
 
