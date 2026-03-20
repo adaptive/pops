@@ -38,9 +38,7 @@ export const readProviderArg = () => {
   const provider = process.argv[2];
 
   if (!provider) {
-    throw new Error(
-      "Usage: node ./tools/providers/<command>.js <provider> [codes]"
-    );
+    throw new Error("Usage: bun ./tools/providers/<command>.js <provider> [codes]");
   }
 
   return provider;

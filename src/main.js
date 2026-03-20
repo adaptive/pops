@@ -18,21 +18,18 @@ const PoPs = (() => {
 
   for (const providerKey of Object.keys(popsData.providers)) {
     const providerPops = popsData.providers[providerKey].pops;
+    const providerCodes = [
+      ...new Set(providerPops.filter(iataCode => popsData.iata.has(iataCode)))
+    ].sort();
 
-    output[providerKey] = { code: [], geo: [] };
+    output[providerKey] = {
+      code: providerCodes,
+      geo: providerCodes.map(iataCode => popsData.iata.get(iataCode))
+    };
 
-    for (const iataCode of providerPops) {
-      const geoData = popsData.iata.get(iataCode);
-      if (geoData) {
-        output[providerKey].code.push(iataCode);
-        output[providerKey].geo.push(geoData);
-
-        output[iataCode].providers.push(providerKey);
-      }
+    for (const iataCode of providerCodes) {
+      output[iataCode].providers.push(providerKey);
     }
-
-    // Remove duplicates and sort codes
-    output[providerKey].code = [...new Set(output[providerKey].code)].sort();
   }
 
   return output;

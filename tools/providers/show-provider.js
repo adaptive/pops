@@ -1,7 +1,7 @@
 import data from "../../data/index.js";
 import providers from "./catalog.js";
-import { loadProviderContext } from "./lib/provider-file.js";
 import { readProviderArg } from "./lib/cli.js";
+import { loadProviderContext } from "./lib/provider-file.js";
 
 const provider = readProviderArg();
 const config = providers[provider];

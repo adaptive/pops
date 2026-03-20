@@ -6,7 +6,11 @@
 
 ES Module with geolocation and IATA codes of Content Delivery Networks and hosting companies  points of presence. Useful for plotting, planning and network measurements.
 
-## 🔨 Install with `yarn` or `npm`
+## 🔨 Install
+
+```bash
+bun add @adaptivelink/pops
+```
 
 ```bash
 yarn add @adaptivelink/pops
@@ -106,6 +110,14 @@ Spotters are scheduled GitHub Actions that continuously monitor CDNs and Hosting
 ## 🥰 Contribution
 
 Feel free to suggest or PR more networks and PoP locations.
+
+Contributor workflow uses Bun:
+
+```bash
+bun install
+bun run build
+bun run test
+```
 
 ## 💻 Codespaces
 

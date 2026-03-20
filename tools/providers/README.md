@@ -15,27 +15,27 @@ The intended workflow is:
 Useful commands:
 
 ```sh
-pnpm run providers:list
+bun run providers:list
 ```
 
 ```sh
-pnpm run provider:maintain vultr
+bun run provider:maintain vultr
 ```
 
 ```sh
-pnpm run provider:show vultr
+bun run provider:show vultr
 ```
 
 ```sh
-pnpm run provider:update vultr AMS ARN ATL
+bun run provider:update vultr AMS ARN ATL
 ```
 
 ```sh
-echo '["AMS","ARN","ATL"]' | pnpm run provider:update vultr
+echo '["AMS","ARN","ATL"]' | bun run provider:update vultr
 ```
 
 ```sh
-echo '["AMS","ARN","ATL"]' | pnpm run provider:maintain vultr
+echo '["AMS","ARN","ATL"]' | bun run provider:maintain vultr
 ```
 
 The updater preserves existing inline comments where possible and validates that

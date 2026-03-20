@@ -1,12 +1,11 @@
-import data from "../data/index.js";
 import iata from "@adaptivelink/iata";
+
+import data from "../data/index.js";
 
 const keys = Object.keys(data.providers);
 let pops = [];
 for (const key of keys) {
-  const map1 = new Map(
-    [...iata.airports].filter(([k]) => data.providers[key].pops.includes(k))
-  );
+  const map1 = new Map([...iata.airports].filter(([k]) => data.providers[key].pops.includes(k)));
 
   for (let value of map1.keys()) {
     pops.push(value);

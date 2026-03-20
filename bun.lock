@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@adaptivelink/pops",
+      "devDependencies": {
+        "@adaptivelink/iata": "0.1.6",
+      },
+    },
+  },
+  "packages": {
+    "@adaptivelink/iata": ["@adaptivelink/iata@0.1.6", "", {}, "sha512-XMWN5r6viKWTXg/uHXsnce9mXEH9b2laaokZiJYomkis5h4gF5hlDV/qoETLqTtIAfRCyeZKpj4Ac+6qnfkaFw=="],
+  }
+}

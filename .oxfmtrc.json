@@ -1,0 +1,8 @@
+{
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+  "ignorePatterns": ["dist/*"],
+  "sortImports": {
+    "enabled": true
+  }
+}

@@ -8,13 +8,11 @@ const buildPrompt = ({ provider, config, context }) =>
     `Maintain the "${provider}" provider dataset in ${context.filePath}.`,
     `Source type: ${config.sourceType}.`,
     `Source URL: ${config.sourceUrl}.`,
-    config.captureSelector
-      ? `Capture selector: ${config.captureSelector}.`
-      : null,
+    config.captureSelector ? `Capture selector: ${config.captureSelector}.` : null,
     `Current PoPs (${context.current.pops.length}): ${context.current.pops.join(", ")}.`,
     `Extraction rules:`,
     ...config.extraction.map((step, index) => `${index + 1}. ${step}`),
-    `When you have the final normalized IATA codes, apply them with: pnpm run provider:update ${provider} ...`
+    `When you have the final normalized IATA codes, apply them with: bun run provider:update ${provider} ...`
   ]
     .filter(Boolean)
     .join("\n");

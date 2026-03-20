@@ -2,24 +2,7 @@
   "name": "@adaptivelink/pops",
   "version": "0.6.0",
   "description": "Points of Presence geolocation",
-  "main": "dist/bundle.js",
-  "types": "main.d.ts",
-  "type": "module",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adaptive/pops.git"
-  },
-  "bugs": {
-    "url": "https://github.com/adaptive/pops/issues"
-  },
-  "homepage": "https://github.com/adaptive/pops#readme",
-  "author": "Hugo Romano <adaptive@hey.com>",
-  "license": "MIT",
   "keywords": [
-    "cdn",
     "alibaba",
     "arubacloud",
     "atlanticnet",
@@ -28,6 +11,7 @@
     "backblaze",
     "bunnycdn",
     "cachefly",
+    "cdn",
     "cdn77",
     "cloudflare",
     "cloudfront",
@@ -57,31 +41,41 @@
     "stackpath",
     "sucuri",
     "upcloud",
-    "verizonmedia",
     "vercel",
+    "verizonmedia",
     "vultr",
     "wasabi"
   ],
-  "devDependencies": {
-    "@adaptivelink/iata": "0.1.4",
-    "@rollup/plugin-terser": "1.0.0",
-    "isomorphic-fetch": "3.0.0",
-    "lodash": "4.17.23",
-    "prettier": "3.8.1",
-    "rollup": "4.59.0"
+  "homepage": "https://github.com/adaptive/pops#readme",
+  "bugs": {
+    "url": "https://github.com/adaptive/pops/issues"
+  },
+  "license": "MIT",
+  "author": "Hugo Romano <adaptive@hey.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaptive/pops.git"
+  },
+  "type": "module",
+  "main": "dist/bundle.js",
+  "types": "main.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "npx rollup -c",
-    "bun": "bun build ./src/main.js --outfile ./dist/bundle.js --minify --target browser --format esm",
-    "prebuild": "npx prettier --write '**/*.{js,json}' '!dist/**' --arrow-parens avoid --trailing-comma none",
-    "iata": "node ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
-    "validate": "node ./tools/validator.js",
-    "test": "node ./test/index.test.mjs",
-    "csv": "node ./tools/csv-generator.js > ./notebooks/data.csv",
-    "providers:list": "node ./tools/providers/list.js",
-    "provider:maintain": "node ./tools/providers/maintain-provider.js",
-    "provider:show": "node ./tools/providers/show-provider.js",
-    "provider:update": "node ./tools/providers/update-provider.js"
+    "build": "bun build ./src/main.js --outfile ./dist/bundle.js --minify --target browser --format esm",
+    "prebuild": "oxfmt --write '**/*.{js,json}'",
+    "iata": "bun ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
+    "validate": "bun ./tools/validator.js",
+    "test": "bun test ./test",
+    "csv": "bun ./tools/csv-generator.js > ./notebooks/data.csv",
+    "providers:list": "bun ./tools/providers/list.js",
+    "provider:maintain": "bun ./tools/providers/maintain-provider.js",
+    "provider:show": "bun ./tools/providers/show-provider.js",
+    "provider:update": "bun ./tools/providers/update-provider.js"
   },
-  "packageManager": "pnpm@10.32.1"
+  "devDependencies": {
+    "@adaptivelink/iata": "0.1.6"
+  },
+  "packageManager": "bun@1.3.11"
 }

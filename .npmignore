@@ -1,6 +1,7 @@
 .devcontainer
 .github
-.pnpm-lock.yaml
+bun.lockb
+pnpm-lock.yaml
 .yarn
 .yarnrc.yml
 banner.png
@@ -9,8 +10,13 @@ CONTRIBUTING.md
 data
 examples
 notebooks
-rollup.config.js
 src
 test
 tools
 sandworm
+.nvmrc
+.oxfmtrc.json
+.vscode/settings.json
+AGENTS.md
+bun.lock
+bun.lockb

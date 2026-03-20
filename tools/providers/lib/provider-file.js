@@ -1,5 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+
+import iata from "@adaptivelink/iata";
+
 import data from "../../../data/index.js";
 
 const providerFilePath = provider =>
@@ -19,7 +22,7 @@ const parseExistingComments = source => {
 };
 
 const fallbackComment = code => {
-  if (data.iata.has(code)) return `IATA ${code}`;
+  if (iata.airports.has(code)) return `IATA ${code}`;
 
   return `Unknown ${code}`;
 };
@@ -67,7 +70,7 @@ export const normalizeCodes = codes => {
   const cleaned = codes.map(code => code.trim().toUpperCase()).filter(Boolean);
 
   const unique = [...new Set(cleaned)].sort();
-  const invalid = unique.filter(code => !data.iata.has(code));
+  const invalid = unique.filter(code => !iata.airports.has(code));
 
   if (invalid.length > 0) {
     throw new Error(`Unknown IATA codes: ${invalid.join(", ")}`);
@@ -76,11 +79,7 @@ export const normalizeCodes = codes => {
   return unique;
 };
 
-export const writeProviderFile = async ({
-  provider,
-  codes,
-  dryRun = false
-}) => {
+export const writeProviderFile = async ({ provider, codes, dryRun = false }) => {
   const context = await loadProviderContext(provider);
   const nextCodes = normalizeCodes(codes);
   const nextSource = buildSource({
