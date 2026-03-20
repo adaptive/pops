@@ -23,6 +23,7 @@ const keycdn = {
     "GRU", // Sao Paulo (Brazil)
     "HEL", // Helsinki (Finland)
     "HKG", // Hong Kong (Hong Kong)
+    "ICN", // IATA ICN
     "IST", // Istanbul (Turkey)
     "JFK", // New York (US)
     "JNB", // Johannesburg (South Africa)
@@ -41,7 +42,6 @@ const keycdn = {
     "ORD", // Chicago (US)
     "OSL", // Oslo (Norway)
     "OTP", // Bucharest (Romania)
-    "PER", // Perth (Australia)
     "SCL", // Santiago (Chile)
     "SEA", // Seattle (US)
     "SFO", // San Francisco (US)

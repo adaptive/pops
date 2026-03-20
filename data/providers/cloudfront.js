@@ -2,96 +2,105 @@ const cloudfront = {
   name: "AWS Cloudfront",
   url: "https://aws.amazon.com/cloudfront/",
   pops: [
-    "AKL",
-    "AMS",
-    "ARN",
-    "ATH",
-    "ATL",
-    "BAH",
-    "BKK",
-    "BLR",
-    "BOG",
-    "BOM",
-    "BOS",
-    "BRU",
-    "BUD",
-    "CCU",
-    "CDG",
-    "CGK",
-    "CPH",
-    "CPT",
-    "DEL",
-    "DEN",
-    "DFW",
-    "DUB",
-    "DUS",
-    "DXB",
-    "EWR",
-    "EZE",
-    "FCO",
-    "FJR",
-    "FRA",
-    "GIG",
-    "GRU",
-    "HAM",
-    "HEL",
-    "HIO",
-    "HKG",
-    "HYD",
-    "IAD",
-    "IAH",
-    "ICN",
-    "IND",
-    "JAX",
-    "JFK",
-    "JNB",
-    "KIX",
-    "KUL",
-    "LAX",
-    "LHR",
-    "LIS",
-    "MAA",
-    "MAD",
-    "MAN",
-    "MEL",
-    "MIA",
-    "MNL",
-    "MRS",
-    "MSP",
-    "MUC",
-    "MXP",
-    "NBO",
-    "NRT",
-    "ORD",
-    "OSL",
-    "OTP",
-    "PEK",
-    "PER",
-    "PHL",
-    "PHX",
-    "PMO",
-    "PRG",
-    "QRO",
-    "SCL",
-    "SEA",
-    "SFO",
-    "SHA",
-    "SIN",
-    "SLC",
-    "SOF",
-    "SYD",
-    "SZX",
-    "TLV",
-    "TPE",
-    "TXL",
-    "VIE",
-    "WAW",
-    "YUL",
-    "YVR",
-    "YYZ",
-    "ZAG",
-    "ZHY",
-    "ZRH"
+    "AKL", // IATA AKL
+    "AMS", // IATA AMS
+    "ARN", // IATA ARN
+    "ATH", // IATA ATH
+    "ATL", // IATA ATL
+    "BAH", // IATA BAH
+    "BCN", // IATA BCN
+    "BKK", // IATA BKK
+    "BLR", // IATA BLR
+    "BNE", // IATA BNE
+    "BOG", // IATA BOG
+    "BOM", // IATA BOM
+    "BOS", // IATA BOS
+    "BRU", // IATA BRU
+    "BUD", // IATA BUD
+    "CAI", // IATA CAI
+    "CCU", // IATA CCU
+    "CDG", // IATA CDG
+    "CGK", // IATA CGK
+    "CMH", // IATA CMH
+    "CPH", // IATA CPH
+    "CPT", // IATA CPT
+    "DEL", // IATA DEL
+    "DEN", // IATA DEN
+    "DFW", // IATA DFW
+    "DOH", // IATA DOH
+    "DUB", // IATA DUB
+    "DUS", // IATA DUS
+    "DXB", // IATA DXB
+    "EWR", // IATA EWR
+    "EZE", // IATA EZE
+    "FCO", // IATA FCO
+    "FOR", // IATA FOR
+    "FRA", // IATA FRA
+    "GIG", // IATA GIG
+    "GRU", // IATA GRU
+    "HAM", // IATA HAM
+    "HEL", // IATA HEL
+    "HKG", // IATA HKG
+    "HYD", // IATA HYD
+    "IAD", // IATA IAD
+    "IAH", // IATA IAH
+    "ICN", // IATA ICN
+    "IST", // IATA IST
+    "JAX", // IATA JAX
+    "JED", // IATA JED
+    "JFK", // IATA JFK
+    "JNB", // IATA JNB
+    "KIX", // IATA KIX
+    "KUL", // IATA KUL
+    "LAX", // IATA LAX
+    "LHR", // IATA LHR
+    "LIM", // IATA LIM
+    "LIS", // IATA LIS
+    "LOS", // IATA LOS
+    "MAA", // IATA MAA
+    "MAD", // IATA MAD
+    "MAN", // IATA MAN
+    "MCI", // IATA MCI
+    "MCT", // IATA MCT
+    "MEL", // IATA MEL
+    "MIA", // IATA MIA
+    "MNL", // IATA MNL
+    "MRS", // IATA MRS
+    "MSP", // IATA MSP
+    "MUC", // IATA MUC
+    "MXP", // IATA MXP
+    "NBO", // IATA NBO
+    "NRT", // IATA NRT
+    "ORD", // IATA ORD
+    "OSL", // IATA OSL
+    "OTP", // IATA OTP
+    "PDX", // IATA PDX
+    "PER", // IATA PER
+    "PHL", // IATA PHL
+    "PHX", // IATA PHX
+    "PRG", // IATA PRG
+    "QRO", // IATA QRO
+    "RUH", // IATA RUH
+    "SCL", // IATA SCL
+    "SEA", // IATA SEA
+    "SFO", // IATA SFO
+    "SGN", // IATA SGN
+    "SIN", // IATA SIN
+    "SLC", // IATA SLC
+    "SOF", // IATA SOF
+    "SYD", // IATA SYD
+    "TLV", // IATA TLV
+    "TPA", // IATA TPA
+    "TPE", // IATA TPE
+    "TXL", // IATA TXL
+    "VIE", // IATA VIE
+    "WAW", // IATA WAW
+    "YUL", // IATA YUL
+    "YVR", // IATA YVR
+    "YYC", // IATA YYC
+    "YYZ", // IATA YYZ
+    "ZAG", // IATA ZAG
+    "ZRH" // IATA ZRH
   ]
 };
 
