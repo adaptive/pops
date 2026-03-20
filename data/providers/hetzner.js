@@ -6,6 +6,7 @@ const hetzner = {
     "HIO", // Portland (USA)
     "IAD", // Washington (USA)
     "NUE", // Nuremberg (Germany)
+    "SIN", // Singapore (Singapore)
     "ZPM" // Potsdam (Germany)
   ]
 };

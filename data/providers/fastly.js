@@ -6,24 +6,26 @@ const fastly = {
     "ADL", // Adelaide (Australia)
     "AKL", // Auckland (New Zealand)
     "AMS", // Amsterdam (Netherlands)
-    "ATL", // Atlanta (US)
+    "BER", // IATA BER
+    "BFI", // IATA BFI
+    "BGY", // IATA BGY
     "BKK", // Bangkok (Thailand)
     "BMA", // Stockholm (Sweden)
     "BNE", // Brisbane (Australia)
     "BOG", // Bogota (Colombia)
     "BOM", // Mumbai (India)
     "BOS", // Boston (US)
+    "BQH", // IATA BQH
     "BRU", // Brussels (Belgium)
+    "BSB", // IATA BSB
     "BUR", // Burbank (US)
     "CCU", // Kolkata (India)
-    "CGH", // Sao Paulo (Brazil)
     "CHC", // Christchurch (New Zealand)
     "CHI", // Chicago (US)
     "CMH", // Columbus (US)
     "CPH", // Copenhagen (Denmark)
     "CPT", // Cape Town (South Africa)
     "CWB", // Curitiba (Brazil)
-    "DAL", // Dallas (US)
     "DEL", // Delhi (India)
     "DEN", // Denver (US)
     "DFW", // Dallas (US)
@@ -36,33 +38,36 @@ const fastly = {
     "FJR", // Fujairah (United Arab Emirates)
     "FOR", // Fortaleza (Brazil)
     "FRA", // Frankfurt (Germany)
-    "FTY", // Atlanta (US)
     "GIG", // Rio de Janeiro (Brazil)
     "GNV", // Gainesville (US)
     "GRU", // Sao Paulo (Brazil)
     "HEL", // Helsinki (Finland)
-    "HHN", // Frankfurt (Germany)
     "HKG", // Hong Kong (China)
-    "HND", // Tokyo (Japan)
     "HNL", // Honolulu (US)
     "HYD", // Hyderabad (India)
     "IAD", // Washington DC (US)
     "IAH", // Houston (US)
     "ICN", // Seoul (South Korea)
     "ITM", // Osaka (Japan)
-    "JFK", // New York (US)
+    "IXD", // IATA IXD
+    "IXM", // IATA IXM
+    "IXR", // IATA IXR
+    "IXZ", // IATA IXZ
+    "JAX", // IATA JAX
+    "JGA", // IATA JGA
     "JNB", // Johannesburg (South Africa)
+    "KNU", // IATA KNU
+    "KTU", // IATA KTU
     "KUL", // Kuala Lumpur (Malaysia)
     "LAX", // Los Angeles (US)
-    "LCK", // Columbus (US)
     "LCY", // London (UK)
-    "LEE", // Leesburg (US)
     "LGA", // New York (US)
     "LGW", // London (UK)
     "LHR", // London (UK)
     "LIM", // Lima (Peru)
     "LIN", // Milan (Italy)
     "LIS", // Lisbon (Portugal)
+    "LTN", // IATA LTN
     "MAA", // Chennai (India)
     "MAD", // Madrid (Spain)
     "MAN", // Manchester (UK)
@@ -75,24 +80,35 @@ const fastly = {
     "MUC", // Munich (Germany)
     "MXP", // Milan (Italy)
     "NRT", // Tokyo (Japan)
-    "ORY", // Paris (France)
+    "ORD", // IATA ORD
     "OSL", // Oslo (Norway)
     "PAO", // Palo Alto (US)
     "PDK", // Atlanta (US)
     "PDX", // Portland (US)
     "PER", // Perth (Australia)
     "PHX", // Phoenix (US)
-    "PMO", // Palermo (Italy)
+    "PNQ", // IATA PNQ
+    "QAC", // IATA QAC
+    "QAK", // IATA QAK
+    "QAS", // IATA QAS
     "QPG", // Singapore (Singapore)
+    "QRO", // IATA QRO
+    "RPR", // IATA RPR
+    "RTM", // IATA RTM
     "SCL", // Santiago (Chile)
-    "SEA", // Seattle (US)
     "SJC", // San Jose (US)
     "SOF", // Sofia (Bulgaria)
+    "SSE", // IATA SSE
     "STL", // St. Louis (US)
     "STP", // St. Paul (US)
+    "STV", // IATA STV
+    "SXV", // IATA SXV
     "SYD", // Sydney (Australia)
+    "TOJ", // IATA TOJ
     "TYO", // Tokyo (Japan)
     "VIE", // Vienna (Austria)
+    "VNS", // IATA VNS
+    "VTZ", // IATA VTZ
     "WLG", // Wellington (New Zealand)
     "YUL", // Montreal (Canada)
     "YVR", // Vancouver (Canada)

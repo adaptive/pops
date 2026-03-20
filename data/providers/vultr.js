@@ -32,7 +32,7 @@ const vultr = {
     "SJC", // San Jose (US)
     "SYD", // Sydney (Australia)
     "TLV", // Tel Aviv (Israel)
-    "WAW", // Warsaw (Poland)"
+    "WAW", // Warsaw (Poland)
     "YYZ" // Toronto (Canada)
   ]
 };

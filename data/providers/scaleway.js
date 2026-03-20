@@ -4,6 +4,7 @@ const scaleway = {
   pops: [
     "AMS", // Amsterdam (Netherlands)
     "CDG", // Paris (France)
+    "MXP", // Milan (Italy)
     "WAW" // Warsaw (Poland)
   ]
 };
