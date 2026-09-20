@@ -39,4 +39,5 @@ echo '["AMS","ARN","ATL"]' | bun run provider:maintain vultr
 ```
 
 The updater preserves existing inline comments where possible and validates that
-every submitted code exists in `data/iata-filtered.js`.
+every submitted code exists in `@adaptivelink/iata` or the repository's local
+`data/iata-overrides.js` corrections.

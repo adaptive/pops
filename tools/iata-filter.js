@@ -1,25 +1,20 @@
 import iata from "@adaptivelink/iata";
 
+import iataOverrides from "../data/iata-overrides.js";
 import data from "../data/index.js";
 
-const keys = Object.keys(data.providers);
-let pops = [];
-for (const key of keys) {
-  const map1 = new Map([...iata.airports].filter(([k]) => data.providers[key].pops.includes(k)));
-
-  for (let value of map1.keys()) {
-    pops.push(value);
-  }
-}
-let unique_pops = [...new Set(pops)].sort();
+const providerCodes = Object.values(data.providers).flatMap(provider => provider.pops);
+const uniquePops = [...new Set(providerCodes)]
+  .filter(code => iataOverrides.has(code) || iata.airports.has(code))
+  .sort();
 
 console.log(`/** IATA airports location filtered*/
 const iata = new Map([`);
-for (let e of unique_pops) {
-  let geo = iata.airports.get(e);
-  let lat = Math.round(geo[0] * 100) / 100;
-  let long = Math.round(geo[1] * 100) / 100;
-  console.log(`  ["${e}", [${lat}, ${long}]],`);
+for (const code of uniquePops) {
+  const geo = iataOverrides.get(code) || iata.airports.get(code);
+  const lat = Math.round(geo[0] * 100) / 100;
+  const long = Math.round(geo[1] * 100) / 100;
+  console.log(`  ["${code}", [${lat}, ${long}]],`);
 }
 console.log(`]);
 

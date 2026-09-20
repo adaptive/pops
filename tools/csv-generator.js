@@ -1,15 +1,16 @@
 import popsData from "../data/index.js";
 
-const providers = Object.keys(popsData.providers);
+// Preserve the location catalog's insertion order in each provider's CSV rows.
+const locationOrder = new Map([...popsData.iata.keys()].map((code, index) => [code, index]));
 
 console.log("provider,code,latitude,longitude");
 
-for (const provider of providers) {
-  const map = new Map(
-    [...popsData.iata].filter(([k]) => popsData.providers[provider].pops.includes(k))
+for (const [provider, { pops }] of Object.entries(popsData.providers)) {
+  const codes = [...new Set(pops.filter(code => popsData.iata.has(code)))].sort(
+    (a, b) => locationOrder.get(a) - locationOrder.get(b)
   );
 
-  for (let e of map.keys()) {
-    console.log(`${provider},${e},${map.get(e)}`);
+  for (const code of codes) {
+    console.log(`${provider},${code},${popsData.iata.get(code)}`);
   }
 }

@@ -1,21 +1,13 @@
 import data from "../data/index.js";
 
-const keys = Object.keys(data.providers);
-for (const key of keys) {
-  const map1 = new Map([...data.iata].filter(([k]) => data.providers[key].pops.includes(k)));
-  let pops = [];
-  for (let value of map1.keys()) {
-    pops.push(value);
-  }
-
-  let unique_pops = [...new Set(pops)];
-  unique_pops = unique_pops.sort();
-  let missing = data.providers[key].pops.filter(e => !pops.includes(e));
+for (const [key, provider] of Object.entries(data.providers)) {
+  const uniquePops = [...new Set(provider.pops.filter(code => data.iata.has(code)))].sort();
+  const missing = provider.pops.filter(code => !data.iata.has(code));
   const hasSamePops =
-    data.providers[key].pops.length === unique_pops.length &&
-    data.providers[key].pops.every((pop, index) => pop === unique_pops[index]);
-  console.log(key, data.providers[key].pops.length, hasSamePops);
+    provider.pops.length === uniquePops.length &&
+    provider.pops.every((pop, index) => pop === uniquePops[index]);
+  console.log(key, provider.pops.length, hasSamePops);
   if (missing.length > 0) console.log(missing);
-  if (unique_pops.length !== data.providers[key].pops.length)
-    console.error(data.providers[key].pops.length - unique_pops.length);
+  if (uniquePops.length !== provider.pops.length)
+    console.error(provider.pops.length - uniquePops.length);
 }

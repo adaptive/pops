@@ -14,7 +14,7 @@ This document contains the runs of the agents in the project. Each provider run 
 | cachefly | 2026-03-20 |
 | cdn | 2026-03-20 |
 | cdn77 | 2026-03-20 |
-| cloudflare | 2026-03-20 |
+| cloudflare | 2026-08-31 |
 | cloudfront | 2026-03-20 |
 | cloudsigma | 2026-03-20 |
 | deno | 2026-03-20 |

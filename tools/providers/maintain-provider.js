@@ -8,6 +8,7 @@ const buildPrompt = ({ provider, config, context }) =>
     `Maintain the "${provider}" provider dataset in ${context.filePath}.`,
     `Source type: ${config.sourceType}.`,
     `Source URL: ${config.sourceUrl}.`,
+    config.verificationUrl ? `Verification URL: ${config.verificationUrl}.` : null,
     config.captureSelector ? `Capture selector: ${config.captureSelector}.` : null,
     `Current PoPs (${context.current.pops.length}): ${context.current.pops.join(", ")}.`,
     `Extraction rules:`,

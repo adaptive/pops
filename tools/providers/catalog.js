@@ -9,14 +9,15 @@ const providers = {
     ]
   },
   cloudflare: {
-    sourceType: "browser",
-    sourceUrl: "https://www.cloudflarestatus.com/",
-    captureSelector:
-      "body > div.layout-content.status.status-index.starter > div.container > div.components-section.font-regular",
+    sourceType: "http-json",
+    sourceUrl: "https://www.cloudflarestatus.com/api/v2/components.json",
+    verificationUrl: "https://www.cloudflare.com/network/",
     extraction: [
-      "Extract the IATA code from each component label where the code appears in parentheses, e.g. (AMS).",
-      "Ignore Cloudflare internal non-airport labels such as DEX and DLP.",
-      "Return the final set as sorted uppercase IATA codes."
+      "Find the top-level geographic component groups named Africa, Asia, Europe, Latin America & the Caribbean, Middle East, North America, and Oceania.",
+      "Follow only the component IDs referenced by those geographic groups; do not inspect the Cloudflare Sites and Services group.",
+      "Extract the trailing three-letter location code from each geographic component label, e.g. (AMS).",
+      "Cross-check apparent removals against the verification URL and retain known codes whose cities remain on Cloudflare's network map.",
+      "Return the final set as sorted uppercase three-letter Cloudflare location codes; preserve Cloudflare's identifiers even when they differ from current IATA assignments."
     ]
   },
   deno: {

@@ -3,6 +3,7 @@ import path from "node:path";
 
 import iata from "@adaptivelink/iata";
 
+import iataOverrides from "../../../data/iata-overrides.js";
 import data from "../../../data/index.js";
 
 const providerFilePath = provider =>
@@ -22,6 +23,7 @@ const parseExistingComments = source => {
 };
 
 const fallbackComment = code => {
+  if (iataOverrides.has(code)) return `Location ${code}`;
   if (iata.airports.has(code)) return `IATA ${code}`;
 
   return `Unknown ${code}`;
@@ -70,7 +72,7 @@ export const normalizeCodes = codes => {
   const cleaned = codes.map(code => code.trim().toUpperCase()).filter(Boolean);
 
   const unique = [...new Set(cleaned)].sort();
-  const invalid = unique.filter(code => !iata.airports.has(code));
+  const invalid = unique.filter(code => !iata.airports.has(code) && !iataOverrides.has(code));
 
   if (invalid.length > 0) {
     throw new Error(`Unknown IATA codes: ${invalid.join(", ")}`);

@@ -1,6 +1,6 @@
 {
   "name": "@adaptivelink/pops",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Points of Presence geolocation",
   "keywords": [
     "alibaba",
@@ -64,10 +64,12 @@
   },
   "scripts": {
     "build": "bun build ./src/main.js --outfile ./dist/bundle.js --minify --target browser --format esm",
-    "prebuild": "oxfmt --write '**/*.{js,json}'",
+    "prebuild": "oxfmt --write '**/*.{js,json}' && bun run types:generate",
     "iata": "bun ./tools/iata-filter.js > ./data/iata-filtered-test.js && mv ./data/iata-filtered-test.js ./data/iata-filtered.js",
     "validate": "bun ./tools/validator.js",
-    "test": "bun test ./test",
+    "test": "bun run test:types && bun test ./test",
+    "test:types": "bun ./tools/generate-types.js --check && tsc --project ./test/types/tsconfig.json",
+    "types:generate": "bun ./tools/generate-types.js",
     "csv": "bun ./tools/csv-generator.js > ./notebooks/data.csv",
     "providers:list": "bun ./tools/providers/list.js",
     "provider:maintain": "bun ./tools/providers/maintain-provider.js",
@@ -75,7 +77,8 @@
     "provider:update": "bun ./tools/providers/update-provider.js"
   },
   "devDependencies": {
-    "@adaptivelink/iata": "0.1.6"
+    "@adaptivelink/iata": "0.1.6",
+    "typescript": "5.9.3"
   },
-  "packageManager": "bun@1.3.11"
+  "packageManager": "bun@1.4.0"
 }
