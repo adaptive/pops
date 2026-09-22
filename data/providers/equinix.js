@@ -1,5 +1,6 @@
 /**
- * source: Equinix 2025 annual report metro table
+ * source: Equinix data center directory and 2025 annual report metro table
+ * https://www.equinix.com/data-centers
  * https://investor.equinix.com/sec-filings/all-sec-filings/content/0001101239-26-000032/eqix-20251231.htm
  */
 const equinix = {
@@ -16,6 +17,7 @@ const equinix = {
     "BCN",
     "BNE",
     "BOD",
+    "BOG", // Bogota (Colombia)
     "BOM",
     "BOS",
     "CBR",
@@ -31,6 +33,7 @@ const equinix = {
     "EWR",
     "FRA",
     "GIG",
+    "GOA", // Genoa (Italy)
     "GRU",
     "GVA",
     "HAM",
@@ -40,6 +43,8 @@ const equinix = {
     "IAH",
     "ICN",
     "IST",
+    "JHB", // Johor (Malaysia)
+    "JNB", // Johannesburg (South Africa)
     "KIX",
     "KUL",
     "LAX",
@@ -55,7 +60,6 @@ const equinix = {
     "MEX",
     "MIA",
     "MNL",
-    "MRS",
     "MTY",
     "MUC",
     "MXP",
@@ -68,12 +72,16 @@ const equinix = {
     "SHA",
     "SIN",
     "SJC",
+    "SLL", // Salalah (Oman)
     "SOF",
     "SYD",
     "WAW",
+    "YKA", // Kamloops (Canada)
     "YOW",
+    "YSJ", // Saint John (Canada)
     "YUL",
     "YVR",
+    "YWG", // Winnipeg (Canada)
     "YYC",
     "YYZ",
     "ZRH"

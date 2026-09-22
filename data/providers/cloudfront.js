@@ -11,6 +11,7 @@ const cloudfront = {
     "BCN", // IATA BCN
     "BKK", // IATA BKK
     "BLR", // IATA BLR
+    "BNA", // Nashville (US)
     "BNE", // IATA BNE
     "BOG", // IATA BOG
     "BOM", // IATA BOM
@@ -39,6 +40,7 @@ const cloudfront = {
     "GIG", // IATA GIG
     "GRU", // IATA GRU
     "HAM", // IATA HAM
+    "HAN", // Hanoi (Vietnam)
     "HEL", // IATA HEL
     "HKG", // IATA HKG
     "HYD", // IATA HYD
@@ -63,6 +65,7 @@ const cloudfront = {
     "MCI", // IATA MCI
     "MCT", // IATA MCT
     "MEL", // IATA MEL
+    "MEX", // Mexico City (Mexico)
     "MIA", // IATA MIA
     "MNL", // IATA MNL
     "MRS", // IATA MRS
@@ -78,6 +81,7 @@ const cloudfront = {
     "PER", // IATA PER
     "PHL", // IATA PHL
     "PHX", // IATA PHX
+    "PIT", // Pittsburgh (US)
     "PRG", // IATA PRG
     "QRO", // IATA QRO
     "RUH", // IATA RUH

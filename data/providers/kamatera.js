@@ -17,10 +17,11 @@ const kamatera = {
     "MXP", // IATA MXP
     "NRT", // IATA NRT
     "ORD", // IATA ORD
+    "OTP", // Bucharest (Romania)
     "SDV", // Tel Aviv (Israel)
     "SEA", // IATA SEA
     "SIN", // IATA SIN
-    "SJC", // San Jose (US)
+    "SJC", // Santa Clara / San Jose (US)
     "SYD", // IATA SYD
     "TLV", // Tel Aviv (Israel)
     "YYZ" // Toronto (Canada)

@@ -1,3 +1,7 @@
+/**
+ * source: Vultr status page location table
+ * https://status.vultr.com/
+ */
 const vultr = {
   name: "Vultr",
   url: "https://www.vultr.com/",
@@ -24,6 +28,7 @@ const vultr = {
     "MEL", // Melbourne (Australia)
     "MEX", // Mexico City (Mexico)
     "MIA", // Miami (US)
+    "MXP", // Milan (Italy)
     "NRT", // Tokyo (Japan)
     "ORD", // Chicago (US)
     "SCL", // Santiago (Chile)

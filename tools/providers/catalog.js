@@ -1,11 +1,12 @@
 const providers = {
   cdn77: {
-    sourceType: "http-json",
-    sourceUrl: "https://client.cdn77.com/support/api/datacenter/status",
+    sourceType: "browser",
+    sourceUrl: "https://www.cdn77.com/network",
     extraction: [
-      "Read the JSON response and extract the datacenter/location list.",
-      "Normalize each location to the IATA code convention already used in data/providers/cdn77.js.",
-      "Keep only uppercase IATA codes that exist in this repository's filtered IATA map."
+      "Read the named network-map metros, including data-name markers in the page HTML.",
+      "Normalize each city to the IATA convention already used in data/providers/cdn77.js; validate against the IATA package and local overrides.",
+      "The map may expose fewer named metros than the advertised location count; retain unlisted existing locations unless another complete source supports removal.",
+      "The former client.cdn77.com/support/api/datacenter/status endpoint returned 404 in September 2026."
     ]
   },
   cloudflare: {
@@ -22,12 +23,12 @@ const providers = {
   },
   deno: {
     sourceType: "browser",
-    sourceUrl: "https://deno.com/deploy/docs/regions",
-    captureSelector: "body > section > article > ol",
+    sourceUrl: "https://docs.deno.com/deploy/migration_guide/",
+    verificationUrl: "https://denostatus.com/",
     extraction: [
-      "Read each region list item from the captured ordered list.",
-      "Map each region location to the IATA code convention already used in data/providers/deno.js.",
-      "Use the existing provider file to preserve current mapping choices when a city could map to multiple airports."
+      "Read the current Deploy region list; do not reuse the Deploy Classic list, which sunset on July 20, 2026.",
+      "Cross-check compute metros against Deploy status incidents and https://docs.deno.com/sandbox/.",
+      "Document any inferred country/region-to-city mapping; the September 2026 review maps US to ORD and infers EU as AMS from shared Sandbox infrastructure."
     ]
   },
   ec2: {
@@ -42,21 +43,23 @@ const providers = {
     ]
   },
   fastly: {
-    sourceType: "http-text",
-    sourceUrl: "https://www.fastlystatus.com/components.js",
+    sourceType: "browser",
+    sourceUrl:
+      "https://www.fastly.com/documentation/guides/getting-started/concepts/using-fastlys-global-pop-network/",
+    verificationUrl: "https://www.fastly.com/network-map",
     extraction: [
-      "Extract the three-letter codes found in parentheses in the JS payload.",
-      "Apply the current provider normalizations used in data/providers/fastly.js, such as LON->LGW and WDC->LEE.",
+      "Read the table of currently active POPs; status pages may still contain retired locations.",
+      "Normalize by city, preserving existing metro choices such as LON->LGW and WDC->IAD.",
+      "Private Qxx identifiers can collide with unrelated IATA airports; use the documented city and record any nearby-airport approximation or unresolved mapping.",
       "Deduplicate and sort the final uppercase IATA list."
     ]
   },
   imperva: {
-    sourceType: "browser",
-    sourceUrl: "https://status.imperva.com/",
-    captureSelector:
-      "body > div.layout-content.status.status-index.starter > div.container > div.components-section.font-regular",
+    sourceType: "http-json",
+    sourceUrl: "https://status.imperva.com/api/v2/components.json",
     extraction: [
-      "Extract the IATA code from each component label where the code appears in parentheses.",
+      "Follow direct children of North American PoPs, EMEA PoPs, LATAM PoPs and APAC PoPs; exclude Coming Soon.",
+      "Map the labeled city to its existing IATA metro convention, not the internal code in parentheses (for example Mumbai NAG->BOM, Tel Aviv MED->TLV, Vienna GRZ->VIE).",
       "Return the final set as sorted uppercase IATA codes."
     ]
   },
@@ -93,13 +96,11 @@ const providers = {
   },
   stackpath: {
     sourceType: "browser",
-    sourceUrl: "https://status.stackpath.com/",
-    captureSelector:
-      "body > div.layout-content.status.status-index.premium > div.container > div.components-section.font-regular > div.components-container.one-column",
+    sourceUrl:
+      "https://www.akamai.com/newsroom/press-release/akamai-acquires-stackpath-cdn-customers",
     extraction: [
-      "Extract the two-letter StackPath site labels from the status page.",
-      "Translate them using the historical mapping embedded in the legacy spotter workflow and data/providers/stackpath.js.",
-      "Return sorted uppercase IATA codes after dropping non-location labels like NA and EU."
+      "StackPath CDN is discontinued; the provider key is retained with an empty inventory.",
+      "See docs/provider-reviews/2026-09-20.md for retirement evidence; do not restore the historical site list from cached status data."
     ]
   },
   upcloud: {

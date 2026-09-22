@@ -2,18 +2,20 @@ const cloudsigma = {
   name: "CloudSigma",
   url: "https://www.cloudsigma.com",
   pops: [
-    "ADB", // IATA ADB
-    "CAI", // IATA CAI
+    "ADB", // Izmir (Turkey)
+    "CAI", // Cairo (Egypt)
     "CRK", // Clark (Philippines)
+    "CWL", // Cardiff (UK)
     "DUB", // Dublin (Ireland)
-    "DUS", // IATA DUS
+    "DUS", // Dusseldorf (Germany)
     "FRA", // Frankfurt (Germany)
     "GVA", // Geneva (Switzerland)
     "HNL", // Honolulu (US)
     "IAD", // Washington DC (US)
-    "LHR", // IATA LHR
+    "JHB", // Johor (Malaysia)
+    "LHR", // London (UK)
     "MNL", // Manila (Philippines)
-    "MTY", // IATA MTY
+    "MTY", // Monterrey (Mexico)
     "NRT", // Tokyo (Japan)
     "PER", // Perth (Australia)
     "RUH", // Riyadh (Saudi Arabia)

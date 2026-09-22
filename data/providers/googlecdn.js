@@ -1,5 +1,5 @@
 /**
- *  https://cloud.google.com/cdn/docs/locations
+ * https://cloud.google.com/cdn/docs/locations
  */
 const googlecdn = {
   name: "Google Cloud CDN",
@@ -8,6 +8,8 @@ const googlecdn = {
     "AMS",
     "ARN",
     "ATL",
+    "BER", // Berlin (Germany)
+    "BKK", // Bangkok (Thailand)
     "BOG",
     "BOM",
     "BRU",
@@ -15,11 +17,15 @@ const googlecdn = {
     "CBF",
     "CDG",
     "CGK",
+    "CHA", // Stevenson, Alabama via Chattanooga (US)
     "CHS",
+    "CMH", // Columbus (US)
     "DEL",
     "DEN",
     "DFW",
+    "DHR", // Den Helder (Netherlands)
     "DLS",
+    "DOH", // Doha (Qatar)
     "DUB",
     "EZE",
     "FJR",
@@ -29,8 +35,10 @@ const googlecdn = {
     "GRQ",
     "GRU",
     "HAM",
+    "HEL", // Helsinki (Finland)
     "HKG",
     "IAD",
+    "ICN", // Seoul (South Korea)
     "JFK",
     "JNB",
     "KIX",
@@ -45,16 +53,20 @@ const googlecdn = {
     "MAD",
     "MBA",
     "MCT",
+    "MEL", // Melbourne (Australia)
     "MIA",
+    "MNL", // Manila (Philippines)
     "MRN",
     "MRS",
     "MUC",
     "MXP",
     "NRT",
     "ORD",
+    "PHX", // Phoenix (US)
     "PRG",
     "QRO",
     "RMQ",
+    "RNO", // Reno (US)
     "SCL",
     "SEA",
     "SFO",
@@ -62,7 +74,9 @@ const googlecdn = {
     "SLC",
     "SOF",
     "SYD",
+    "TLV", // Tel Aviv (Israel)
     "TPE",
+    "TRN", // Turin (Italy)
     "TUL",
     "VNY",
     "WAW",

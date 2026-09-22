@@ -5,7 +5,9 @@ const backblaze = {
     "AMS", // Amsterdam (Netherlands)
     "IAD", // Reston / US East (US)
     "PHX", // Phoenix (US)
-    "SMF" // Sacramento (US)
+    "SCK", // Stockton (US)
+    "SMF", // Sacramento (US)
+    "YYZ" // Toronto (Canada)
   ]
 };
 

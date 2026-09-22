@@ -1,6 +1,7 @@
 /**
  * source: LeapSwitch website location pages and homepage location selector
  * https://leapswitch.com/
+ * https://leapswitch.com/south-bend-usa/
  */
 const leapswitch = {
   name: "LeapSwitch",
@@ -16,7 +17,8 @@ const leapswitch = {
     "LAX", // Los Angeles (US)
     "LIS", // Lisbon (Portugal)
     "MCO", // Orlando (US)
-    "PNQ" // Pune (India)
+    "PNQ", // Pune (India)
+    "SBN" // South Bend (US)
   ]
 };
 

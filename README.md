@@ -125,6 +125,12 @@ Provider networks change. If a location is missing or inaccurate, use the
 Requests for additional networks can use the
 [new provider template](https://github.com/adaptive/pops/issues/new?template=request-new-provider.md).
 
+Confirmed discontinued services retain their provider keys with empty `code`
+and `geo` arrays. The [September 2026 review](docs/provider-reviews/2026-09-20.md)
+records sources, changes, normalization decisions, and inventories that could
+only be partially verified. Adaptive Link's existing inventory is retained
+because no public city list is available.
+
 Selected provider inventories have source and normalization instructions in
 [`tools/providers/catalog.js`](tools/providers/catalog.js). The maintenance
 workflow is documented in

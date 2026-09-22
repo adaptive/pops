@@ -1,3 +1,8 @@
+/**
+ * source: UpCloud status and location documentation
+ * https://status.upcloud.com/
+ * https://upcloud.com/docs/getting-started/locations/
+ */
 const upcloud = {
   name: "UpCloud",
   url: "https://upcloud.com/",
@@ -11,9 +16,9 @@ const upcloud = {
     "LHR", // London (UK)
     "MAD", // Madrid (Spain)
     "ORD", // Chicago (US)
-    "OSL", // IATA OSL
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
+    "SVG", // Stavanger (Norway)
     "SYD", // Sydney (Australia)
     "WAW" // Warsaw (Poland)
   ]

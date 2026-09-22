@@ -202,6 +202,7 @@ const cloudflare = {
     "LLW", // IATA LLW
     "LOS", // Lagos (Nigeria)
     "LPB", // La Paz (Bolivia)
+    "LUH", // Ludhiana, India
     "LUN", // IATA LUN
     "LUX", // Luxembourg (Luxembourg)
     "LYA", // Luoyang (China)

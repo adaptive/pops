@@ -3,20 +3,25 @@ const alibaba = {
   url: "https://www.alibabacloud.com/",
   pops: [
     "BKK",
-    "BOM",
     "CAN",
+    "CDG", // Paris (France)
     "CGK",
     "CTU",
     "DXB",
+    "FOC", // Fuzhou (China; announced closure, still listed)
     "FRA",
+    "GRU", // Sao Paulo (Brazil)
     "HET",
     "HGH",
     "HKG",
+    "HUZ", // Heyuan via Huizhou (China)
     "IAD",
     "ICN",
+    "JHB", // Johor (Malaysia)
     "KUL",
     "LHR",
     "MNL",
+    "NKG", // Nanjing (China; announced closure, still listed)
     "NRT",
     "PEK",
     "QRO",
@@ -24,9 +29,11 @@ const alibaba = {
     "SHA",
     "SIN",
     "SJC",
-    "SYD",
     "SZX",
     "TAO",
+    "UCB", // Ulanqab (China)
+    "WUH", // Wuhan (China)
+    "ZHY", // Zhongwei (China)
     "ZQZ"
   ]
 };

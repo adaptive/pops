@@ -17,6 +17,9 @@ type Expect<Value extends true> = Value;
 PoPs.all satisfies AllPoPsEntry;
 PoPs.cloudflare satisfies ProviderPoPsEntry;
 PoPs.MAD satisfies LocationPoPsEntry;
+PoPs.SCK satisfies LocationPoPsEntry;
+PoPs.UCB satisfies LocationPoPsEntry;
+PoPs.packet satisfies ProviderPoPsEntry;
 
 PoPs.all.code satisfies IataCode[];
 PoPs.cloudflare.code satisfies IataCode[];

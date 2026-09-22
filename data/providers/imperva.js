@@ -1,3 +1,5 @@
+// Reviewed 2026-09-20: https://status.imperva.com/api/v2/components.json
+// Normalize geographic PoP groups by city; exclude the Coming Soon group.
 const imperva = {
   name: "Imperva",
   url: "https://www.imperva.com/",
@@ -42,6 +44,7 @@ const imperva = {
     "MAD", // Madrid (Spain)
     "MEL", // Melbourne (Australia)
     "MIA", // Miami (US)
+    "MNL", // Manila (Philippines)
     "MXP", // Milan (Italy)
     "NRT", // Tokyo (Japan)
     "ORD", // Chicago (US)
@@ -50,6 +53,7 @@ const imperva = {
     "SEA", // Seattle (US)
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)
+    "SYD", // Sydney (Australia)
     "TLV", // Tel Aviv (Israel)
     "TPE", // Taipei (Taiwan)
     "VIE", // Vienna (Austria)

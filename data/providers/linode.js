@@ -1,3 +1,7 @@
+/**
+ * source: Linode status page Regions group
+ * https://status.linode.com/
+ */
 const linode = {
   name: "Linode",
   url: "https://www.linode.com/",
@@ -17,17 +21,22 @@ const linode = {
     "GRU", // Sao Paulo (Brazil)
     "HAM", // IATA HAM
     "IAD", // Washington (US)
+    "IAH", // Houston (US)
     "ITM", // Osaka (Japan)
     "JNB", // IATA JNB
+    "KUL", // Kuala Lumpur (Malaysia)
     "LAX", // Los Angeles (US)
     "LHR", // London (UK)
     "MAA", // Chennai (India)
     "MAD", // Madrid (Spain)
     "MEL", // Melbourne (Australia)
     "MIA", // Miami (US)
+    "MRS", // Marseille (France)
     "MXP", // Milan (Italy)
     "NRT", // Tokyo (Japan)
     "ORD", // Chicago (US)
+    "QRO", // Queretaro (Mexico)
+    "SCL", // Santiago (Chile)
     "SEA", // Seattle (US)
     "SIN", // Singapore (Singapore)
     "SJC", // San Jose (US)

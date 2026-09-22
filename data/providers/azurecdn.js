@@ -5,77 +5,114 @@ const azurecdn = {
     "AKL",
     "AMS",
     "ARN",
+    "ATH", // Athens (Greece)
     "ATL",
-    "BAQ",
-    "BLR",
+    "BCN", // Barcelona (Spain)
+    "BER", // Berlin (Germany)
+    "BKK", // Bangkok (Thailand)
+    "BNA", // Nashville (US)
+    "BNE", // Brisbane (Australia)
+    "BOG", // Bogota (Colombia)
+    "BOM", // Mumbai (India)
     "BOS",
-    "BTH",
-    "BUR",
+    "BRU", // Brussels (Belgium)
+    "BUD", // Budapest (Hungary)
+    "CAI", // Cairo (Egypt)
     "CDG",
     "CGK",
+    "CLT", // Charlotte (US)
     "CPH",
-    "CPM",
-    "DCA",
+    "CPQ", // Campinas (Brazil)
+    "CPT", // Cape Town (South Africa)
+    "CVG", // Cincinnati (US)
+    "CWL", // Newport via Cardiff (UK)
+    "CYS", // Cheyenne (US)
     "DEL",
     "DEN",
     "DFW",
+    "DOH", // Doha (Qatar)
+    "DSM", // Des Moines (US)
+    "DTW", // Detroit (US)
+    "DUB", // Dublin (Ireland)
+    "DUS", // Dusseldorf (Germany)
+    "DXB", // Dubai (United Arab Emirates)
     "EWR",
     "EZE",
-    "FJR",
-    "FLL",
+    "FCO", // Rome (Italy)
     "FRA",
     "GIG",
     "GRU",
+    "GVA", // Geneva (Switzerland)
+    "GVX", // Gavle/Sandviken (Sweden)
     "HEL",
-    "HHP",
     "HKG",
     "HND",
+    "HNL", // Honolulu (US)
+    "HYD", // Hyderabad (India)
     "IAD",
+    "IAH", // Houston (US)
     "ICN",
-    "ITM",
+    "IST", // Istanbul (Turkey)
+    "JAX", // Jacksonville (US)
     "JFK",
+    "JGA", // Jamnagar (India)
     "JNB",
-    "KHH",
     "KIX",
+    "KUL", // Kuala Lumpur (Malaysia)
+    "LAD", // Luanda (Angola)
+    "LAS", // Las Vegas (US)
     "LAX",
-    "LCY",
-    "LGA",
     "LHR",
-    "LIM",
+    "LIS", // Lisbon (Portugal)
+    "LOS", // Lagos (Nigeria)
     "MAA",
     "MAD",
-    "MCT",
-    "MDE",
-    "MEB",
+    "MAN", // Manchester (UK)
     "MEL",
-    "MEX",
+    "MEM", // Memphis (US)
     "MIA",
+    "MNL", // Manila (Philippines)
     "MRS",
+    "MSP", // Minneapolis / Chaska (US)
+    "MUC", // Munich (Germany)
+    "MWH", // Quincy via Moses Lake (US)
     "MXP",
-    "NAG",
+    "NBO", // Nairobi (Kenya)
     "NRT",
     "ORD",
-    "ORY",
-    "OXR",
-    "PAE",
-    "PBC",
+    "OSL", // Oslo (Norway)
+    "OTP", // Bucharest (Romania)
+    "PAO", // Palo Alto (US)
+    "PDX", // Portland (US)
+    "PER", // Perth (Australia)
     "PHL",
+    "PHX", // Phoenix / Tempe (US)
     "PNQ",
-    "POX",
+    "PRG", // Prague (Czech Republic)
+    "PUS", // Busan (South Korea)
     "QRO",
-    "RHV",
-    "RIX",
-    "RTM",
+    "RBA", // Rabat (Morocco)
+    "RDU", // Boydton via Raleigh-Durham (US)
+    "SAT", // San Antonio (US)
     "SCL",
     "SEA",
+    "SGN", // Ho Chi Minh City (Vietnam)
     "SIN",
     "SJC",
+    "SLC", // Salt Lake City (US)
+    "SOF", // Sofia (Bulgaria)
+    "SVG", // Stavanger (Norway)
     "SYD",
-    "TIR",
-    "UIO",
+    "TLV", // Tel Aviv (Israel)
+    "TPE", // Taipei (Taiwan)
     "VIE",
-    "VNY",
-    "WAW"
+    "WAW",
+    "YQB", // Quebec City (Canada)
+    "YUL", // Montreal (Canada)
+    "YVR", // Vancouver (Canada)
+    "YYZ", // Toronto / Etobicoke (Canada)
+    "ZAG", // Zagreb (Croatia)
+    "ZRH" // Zurich (Switzerland)
   ]
 };
 

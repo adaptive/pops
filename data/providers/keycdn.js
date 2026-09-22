@@ -1,3 +1,4 @@
+// Reviewed 2026-09-20: https://status.keycdn.com/
 const keycdn = {
   name: "KeyCDN",
   url: "https://www.keycdn.com/",
@@ -32,7 +33,6 @@ const keycdn = {
     "LHR", // London (United Kingdom)
     "LIM", // Lima (Peru)
     "LIS", // Lisbon (Portugal)
-    "LOS", // Lagos (Nigeria)
     "MAD", // Madrid (Spain)
     "MEL", // Melbourne (Australia)
     "MEX", // Mexico City (Mexico)
@@ -42,6 +42,7 @@ const keycdn = {
     "ORD", // Chicago (US)
     "OSL", // Oslo (Norway)
     "OTP", // Bucharest (Romania)
+    "PER", // Perth (Australia)
     "SCL", // Santiago (Chile)
     "SEA", // Seattle (US)
     "SFO", // San Francisco (US)

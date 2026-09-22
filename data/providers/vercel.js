@@ -5,6 +5,7 @@ const vercel = {
     "ARN", // Stockholm (Sweden)
     "BOM", // Mumbai (India)
     "CDG", // Paris (France)
+    "CLE", // Cleveland (US)
     "CPT", // Cape Town (South Africa)
     "DUB", // Dublin (Ireland)
     "DXB", // IATA DXB

@@ -3,11 +3,11 @@ const hetzner = {
   url: "https://www.hetzner.com/cloud",
   pops: [
     "HEL", // Helsinki (Finland)
-    "HIO", // Portland (USA)
-    "IAD", // Washington (USA)
+    "HIO", // Hillsboro / Portland (US)
+    "HOQ", // Falkenstein / Hof (Germany)
+    "IAD", // Ashburn / Washington DC (US)
     "NUE", // Nuremberg (Germany)
-    "SIN", // Singapore (Singapore)
-    "ZPM" // Potsdam (Germany)
+    "SIN" // Singapore (Singapore)
   ]
 };
 
