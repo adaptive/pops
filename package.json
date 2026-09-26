@@ -78,7 +78,7 @@
   },
   "devDependencies": {
     "@adaptivelink/iata": "0.1.6",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "bun@1.4.0"
 }
